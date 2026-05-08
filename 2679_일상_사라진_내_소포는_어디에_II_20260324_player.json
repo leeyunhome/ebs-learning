@@ -1,0 +1,45 @@
+{
+  "audio": "extracted_20260324_173000_88a46b1d_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 11.08,
+      "text": "주세요. That's my package right there. Look at him. That's my package right there."
+    },
+    {
+      "start": 11.08,
+      "end": 16.6,
+      "text": "Look at him."
+    },
+    {
+      "start": 16.6,
+      "end": 32.0,
+      "text": "Look closely. That's the delivery man."
+    },
+    {
+      "start": 32.0,
+      "end": 45.32,
+      "text": "Oh, he left it at the wrong building."
+    },
+    {
+      "start": 45.32,
+      "end": 60.12,
+      "text": "I'll call the neighbor and pick up the package."
+    },
+    {
+      "start": 60.12,
+      "end": 62.92,
+      "text": "Yes, it's time for the delivery man to do it."
+    },
+    {
+      "start": 62.92,
+      "end": 65.72,
+      "text": "Everyone, don't forget this pattern. Let's meet him."
+    },
+    {
+      "start": 65.72,
+      "end": 69.84,
+      "text": "All right, all right. Look at someone or something."
+    }
+  ]
+}
