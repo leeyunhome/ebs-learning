@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pageTitle">학습 플레이어</title>
+<style>
+:root {
+  --bg: #0f172a; --panel: #1e293b; --panel-2: #334155; --text: #f1f5f9;
+  --muted: #94a3b8; --accent: #38bdf8; --border: #475569;
+}
+body { background: var(--bg); color: var(--text); font-family: sans-serif; padding: 16px; }
+.container { max-width: 1200px; margin: 0 auto; display: grid; gap: 16px; }
+@media (min-width: 900px) { .container { grid-template-columns: 360px 1fr; } }
+.controls { background: var(--panel); border-radius: 12px; padding: 20px; position: sticky; top: 16px; }
+.subtitles { background: var(--panel); border-radius: 12px; padding: 20px; }
+.line { padding: 10px; margin-bottom: 5px; background: var(--panel-2); cursor: pointer; border-radius: 6px; }
+.line.current { background: rgba(56, 189, 248, 0.2); border-left: 3px solid var(--accent); }
+</style>
+</head>
+<body>
+<div id="loader" style="text-align:center; padding:50px;">로딩 중...</div>
+<div class="container" id="main" style="display:none;">
+  <div class="controls">
+    <a href="index.html" style="color:var(--muted); text-decoration:none;">← 목록</a>
+    <h1 id="title"></h1>
+    <audio id="player" controls style="width:100%; margin-top:20px;"></audio>
+  </div>
+  <div class="subtitles" id="lines"></div>
+</div>
+<script>
+let SCRIPT = [];
+async function init() {
+  const id = new URLSearchParams(window.location.search).get('id');
+  if(!id) return;
+  const res = await fetch(`${id}_player.json`);
+  const data = await res.json();
+  SCRIPT = data.script || [];
+  document.getElementById('title').textContent = data.subtitle || id;
+  const player = document.getElementById('player');
+  player.src = data.mp3_url;
+  const linesEl = document.getElementById('lines');
+  SCRIPT.forEach((s, i) => {
+    const div = document.createElement('div');
+    div.className = 'line';
+    div.dataset.idx = i;
+    div.innerHTML = `<div>${s.start.toFixed(1)}s</div><div>${s.text}</div>`;
+    div.onclick = () => { player.currentTime = s.start; player.play(); };
+    linesEl.appendChild(div);
+  });
+  player.ontimeupdate = () => {
+    const t = player.currentTime;
+    const idx = SCRIPT.findIndex(s => t >= s.start && t < s.end);
+    document.querySelectorAll('.line').forEach(el => el.classList.toggle('current', el.dataset.idx == idx));
+  };
+  document.getElementById('loader').style.display='none';
+  document.getElementById('main').style.display='grid';
+}
+init();
+</script>
+</body>
+</html>
