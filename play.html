@@ -6,37 +6,37 @@
 <title id="pageTitle">학습 플레이어</title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 <style>
-:root {{
+:root {
   --bg: #0f172a; --panel: #1e293b; --accent: #38bdf8; --text: #f1f5f9; --muted: #94a3b8;
-}}
-* {{ box-sizing: border-box; -webkit-tap-highlight-color: transparent; }}
-body {{ background: var(--bg); color: var(--text); font-family: -apple-system, system-ui, sans-serif; margin: 0; padding: 0; line-height: 1.6; overflow-x: hidden; }}
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+body { background: var(--bg); color: var(--text); font-family: -apple-system, system-ui, sans-serif; margin: 0; padding: 0; line-height: 1.6; overflow-x: hidden; }
 
-.app {{ display: flex; flex-direction: column; height: 100vh; max-width: 800px; margin: 0 auto; }}
-header {{ padding: 16px; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 100; border-bottom: 1px solid rgba(255,255,255,0.1); }}
-.nav-top {{ display: flex; align-items: center; gap: 15px; margin-bottom: 12px; }}
-.back-btn {{ color: var(--muted); text-decoration: none; font-size: 28px; }}
-.title-area h1 {{ margin: 0; font-size: 22px; font-weight: bold; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }}
+.app { display: flex; flex-direction: column; height: 100vh; max-width: 800px; margin: 0 auto; }
+header { padding: 16px; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 100; border-bottom: 1px solid rgba(255,255,255,0.1); }
+.nav-top { display: flex; align-items: center; gap: 15px; margin-bottom: 12px; }
+.back-btn { color: var(--muted); text-decoration: none; font-size: 28px; }
+.title-area h1 { margin: 0; font-size: 22px; font-weight: bold; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 
-.player-container {{ background: var(--panel); padding: 16px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); }}
-audio {{ width: 100%; height: 54px; border-radius: 12px; }}
+.player-container { background: var(--panel); padding: 16px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); }
+audio { width: 100%; height: 54px; border-radius: 12px; }
 
-.controls-row {{ display: flex; align-items: center; justify-content: space-between; margin-top: 15px; gap: 10px; }}
-.btn-group {{ display: flex; gap: 6px; background: rgba(0,0,0,0.3); padding: 6px; border-radius: 12px; }}
-.ctrl-btn {{ background: none; border: none; color: var(--muted); padding: 10px 16px; border-radius: 10px; cursor: pointer; font-size: 18px; transition: 0.2s; display: flex; align-items: center; gap: 6px; }}
-.ctrl-btn.active {{ background: var(--accent); color: white; }}
-.speed-val {{ min-width: 60px; text-align: center; font-weight: bold; color: var(--accent); font-size: 20px; }}
+.controls-row { display: flex; align-items: center; justify-content: space-between; margin-top: 15px; gap: 10px; }
+.btn-group { display: flex; gap: 6px; background: rgba(0,0,0,0.3); padding: 6px; border-radius: 12px; }
+.ctrl-btn { background: none; border: none; color: var(--muted); padding: 10px 16px; border-radius: 10px; cursor: pointer; font-size: 18px; transition: 0.2s; display: flex; align-items: center; gap: 6px; }
+.ctrl-btn.active { background: var(--accent); color: white; }
+.speed-val { min-width: 60px; text-align: center; font-weight: bold; color: var(--accent); font-size: 20px; }
 
-.script-container {{ flex: 1; overflow-y: auto; padding: 16px; scroll-behavior: smooth; }}
-.line {{ padding: 20px; margin-bottom: 15px; background: rgba(255,255,255,0.04); border-radius: 16px; border: 1px solid rgba(255,255,255,0.06); transition: 0.3s; cursor: pointer; }}
-.line:active {{ transform: scale(0.97); background: rgba(255,255,255,0.1); }}
-.line.current {{ background: rgba(56, 189, 248, 0.2); border-color: var(--accent); box-shadow: 0 0 20px rgba(56, 189, 248, 0.1); }}
-.line .time {{ font-size: 14px; color: var(--accent); font-weight: bold; margin-bottom: 8px; }}
-.line .text {{ font-size: 22px; font-weight: 500; word-break: keep-all; line-height: 1.4; color: #fff; }}
+.script-container { flex: 1; overflow-y: auto; padding: 16px; scroll-behavior: smooth; }
+.line { padding: 20px; margin-bottom: 15px; background: rgba(255,255,255,0.04); border-radius: 16px; border: 1px solid rgba(255,255,255,0.06); transition: 0.3s; cursor: pointer; }
+.line:active { transform: scale(0.97); background: rgba(255,255,255,0.1); }
+.line.current { background: rgba(56, 189, 248, 0.2); border-color: var(--accent); box-shadow: 0 0 20px rgba(56, 189, 248, 0.1); }
+.line .time { font-size: 14px; color: var(--accent); font-weight: bold; margin-bottom: 8px; }
+.line .text { font-size: 22px; font-weight: 500; word-break: keep-all; line-height: 1.4; color: #fff; }
 
-#loader {{ position: fixed; inset: 0; background: var(--bg); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 1000; }}
-.spinner {{ width: 50px; height: 50px; border: 5px solid var(--panel); border-top-color: var(--accent); border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 20px; }}
-@keyframes spin {{ to {{ transform: rotate(360deg); }} }}
+#loader { position: fixed; inset: 0; background: var(--bg); display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 1000; }
+.spinner { width: 50px; height: 50px; border: 5px solid var(--panel); border-top-color: var(--accent); border-radius: 50%; animation: spin 1s linear infinite; margin-bottom: 20px; }
+@keyframes spin { to { transform: rotate(360deg); } }
 </style>
 </head>
 <body>
@@ -69,100 +69,98 @@ let isRepeat = false;
 let currentIdx = -1;
 const player = document.getElementById('player');
 const scriptList = document.getElementById('scriptList');
-async function init() {{
+async function init() {
   const params = new URLSearchParams(window.location.search);
   const rawId = params.get('id');
-  if(!rawId) {{
+  if(!rawId) {
     document.getElementById('loader').innerHTML = '<div>❌ 회차 ID가 없습니다.</div>';
     return;
-  }}
+  }
   
-  // URL에서 가져온 ID (이미 브라우저가 일부 디코딩했을 수 있음)
   const id = decodeURIComponent(rawId);
   console.log("Loading episode ID:", id);
   
-  try {{
-    // 캐시 방지를 위해 현재 시간을 파라미터로 추가
+  try {
     const cacheBuster = Date.now();
-    const res = await fetch(`${{id}}_player.json?v=${{cacheBuster}}`);
+    const res = await fetch(`${id}_player.json?v=${cacheBuster}`);
     
-    if (!res.ok) {{
-        throw new Error(`파일을 찾을 수 없습니다 (상태: ${{res.status}}). 아직 서버에 업로드 중일 수 있으니 1~2분 후 다시 시도해 주세요.`);
-    }}
+    if (!res.ok) {
+        throw new Error(`파일을 찾을 수 없습니다 (상태: ${res.status}).`);
+    }
     
     const data = await res.json();
     SCRIPT = data.script || [];
     document.getElementById('title').textContent = data.subtitle || id;
     player.src = data.mp3_url;
     
-    if (SCRIPT.length === 0) {{
+    if (SCRIPT.length === 0) {
         scriptList.innerHTML = '<div style="padding:20px; text-align:center; color:var(--muted);">스크립트 데이터가 없습니다.</div>';
-    }}
+    }
 
-    SCRIPT.forEach((s, i) => {{
+    SCRIPT.forEach((s, i) => {
       const div = document.createElement('div');
       div.className = 'line';
-      div.id = `line-${{i}}`;
-      div.innerHTML = `<div class="time">${{formatTime(s.start)}}</div><div class="text">${{s.text}}</div>`;
-      div.onclick = () => {{ seekTo(i); }};
+      div.id = `line-${i}`;
+      div.innerHTML = `<div class="time">${formatTime(s.start)}</div><div class="text">${s.text}</div>`;
+      div.onclick = () => { seekTo(i); };
       scriptList.appendChild(div);
-    }});
+    });
 
     document.getElementById('loader').style.display = 'none';
-  }} catch(e) {{
+  } catch(e) {
     console.error("Fetch error:", e);
     document.getElementById('loader').innerHTML = `
         <div style="padding:20px; text-align:center;">
             <div style="font-size:40px; margin-bottom:10px;">⚠️</div>
-            <div style="font-size:18px; margin-bottom:10px; color:var(--accent); font-weight:bold;">${{e.message}}</div>
-            <div style="font-size:13px; color:var(--muted); margin-bottom:20px;">ID: ${{id}}</div>
+            <div style="font-size:18px; margin-bottom:10px; color:var(--accent); font-weight:bold;">${e.message}</div>
+            <div style="font-size:13px; color:var(--muted); margin-bottom:20px;">ID: ${id}</div>
             <button onclick="location.reload()" style="background:var(--accent); color:white; border:none; padding:12px 24px; border-radius:10px; font-weight:bold; cursor:pointer;">페이지 새로고침</button>
         </div>
     `;
-  }}
-}}
-function formatTime(s) {{
+  }
+}
+function formatTime(s) {
   const m = Math.floor(s / 60);
   const sec = Math.floor(s % 60);
-  return `${{m}}분 ${{sec}}초`;
-}}
-function seekTo(idx) {{
+  return `${m}분 ${sec}초`;
+}
+function seekTo(idx) {
   if(idx < 0 || idx >= SCRIPT.length) return;
   player.currentTime = SCRIPT[idx].start;
   player.play();
   highlight(idx);
-}}
-function highlight(idx) {{
+}
+function highlight(idx) {
   if(currentIdx === idx) return;
-  const old = document.getElementById(`line-${{currentIdx}}`);
+  const old = document.getElementById(`line-${currentIdx}`);
   if(old) old.classList.remove('current');
-  const el = document.getElementById(`line-${{idx}}`);
-  if(el) {{
+  const el = document.getElementById(`line-${idx}`);
+  if(el) {
     el.classList.add('current');
     currentIdx = idx;
-    el.scrollIntoView({{ behavior: 'smooth', block: 'center' }});
-  }}
-}}
-player.ontimeupdate = () => {{
+    el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+player.ontimeupdate = () => {
   const t = player.currentTime;
   const idx = SCRIPT.findIndex(s => t >= s.start && t < s.end);
-  if(idx !== -1) {{
+  if(idx !== -1) {
     highlight(idx);
-    if(isRepeat && t >= SCRIPT[idx].end - 0.1) {{
+    if(isRepeat && t >= SCRIPT[idx].end - 0.1) {
       player.currentTime = SCRIPT[idx].start;
-    }}
-  }}
-}};
-function changeSpeed(delta) {{
+    }
+  }
+};
+function changeSpeed(delta) {
   let s = Math.round((player.playbackRate + delta) * 10) / 10;
   if(s < 0.5) s = 0.5; if(s > 2.0) s = 2.0;
   player.playbackRate = s;
   document.getElementById('speedDisp').textContent = s.toFixed(1) + "x";
-}}
-function toggleRepeat() {{
+}
+function toggleRepeat() {
   isRepeat = !isRepeat;
   document.getElementById('repeatBtn').classList.toggle('active', isRepeat);
-}}
+}
 init();
 </script>
 </body>
