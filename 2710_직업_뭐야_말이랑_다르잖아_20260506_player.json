@@ -1,0 +1,40 @@
+{
+  "audio": "extracted_20260506_090000_6fc01a88_mp3.mp3",
+  "script": [
+    {
+      "start": 3.0,
+      "end": 4.32,
+      "text": "Did you hear?"
+    },
+    {
+      "start": 4.32,
+      "end": 8.52,
+      "text": "The new intern is the CEO's daughter."
+    },
+    {
+      "start": 15.32,
+      "end": 19.68,
+      "text": "Well, I couldn't care less."
+    },
+    {
+      "start": 19.68,
+      "end": 22.12,
+      "text": "She's still an intern."
+    },
+    {
+      "start": 47.4,
+      "end": 48.4,
+      "text": "Hello Ms Beck."
+    },
+    {
+      "start": 48.4,
+      "end": 50.4,
+      "text": "It's an honour to work with you."
+    }
+  ],
+  "episode_num": 2710,
+  "category": "직업",
+  "subtitle": "뭐야 말이랑 다르잖아",
+  "date": "2026.05.06",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2710_20260506.mp3"
+}
