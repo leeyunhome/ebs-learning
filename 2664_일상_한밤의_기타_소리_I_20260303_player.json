@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260303_173000_9e65032b_mp3__dup20260509_185347.mp3",
+  "script": [
+    {
+      "start": 2.0,
+      "end": 7.0,
+      "text": "My neighbor plays the guitar at night."
+    },
+    {
+      "start": 13.0,
+      "end": 28.0,
+      "text": "What? How do you deal with that?"
+    },
+    {
+      "start": 28.0,
+      "end": 43.0,
+      "text": "I just put in my earplugs and try to fall asleep."
+    },
+    {
+      "start": 43.0,
+      "end": 55.0,
+      "text": "Just go and talk to him."
+    }
+  ],
+  "episode_num": 2664,
+  "category": "일상",
+  "subtitle": "한밤의 기타 소리 I",
+  "date": "2026.03.03",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2664_20260303.mp3"
+}
