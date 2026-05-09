@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260423_090000_7c5dcbf3_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 1.0,
+      "text": "Say it!"
+    },
+    {
+      "start": 3.64,
+      "end": 6.36,
+      "text": "I'll admit she's prettier than me."
+    },
+    {
+      "start": 15.6,
+      "end": 17.72,
+      "text": "Who are you talking about?"
+    },
+    {
+      "start": 27.36,
+      "end": 30.88,
+      "text": "The girl in the picture, isn't she your best friend?"
+    },
+    {
+      "start": 40.52,
+      "end": 43.28,
+      "text": "That's you when you had short hair."
+    }
+  ],
+  "episode_num": 2701,
+  "category": "관계",
+  "subtitle": "안경이 필요한 너",
+  "date": "2026.04.23",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2701_20260423.mp3"
+}

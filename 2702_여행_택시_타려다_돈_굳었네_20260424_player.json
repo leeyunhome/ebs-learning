@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260424_090000_cc046ec3_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.0,
+      "text": "Is there a bus that goes to my theatre?"
+    },
+    {
+      "start": 10.0,
+      "end": 25.0,
+      "text": "I believe bus number 16 goes there."
+    },
+    {
+      "start": 25.0,
+      "end": 38.0,
+      "text": "It should arrive pretty soon."
+    },
+    {
+      "start": 38.0,
+      "end": 50.0,
+      "text": "Thank you. I was going to take a cab."
+    }
+  ],
+  "episode_num": 2702,
+  "category": "여행",
+  "subtitle": "택시 타려다 돈 굳었네",
+  "date": "2026.04.24",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2702_20260424.mp3"
+}

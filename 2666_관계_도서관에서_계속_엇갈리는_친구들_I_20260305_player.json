@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260305_173000_ae6e5768_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 1.0,
+      "text": "the one."
+    },
+    {
+      "start": 2.0,
+      "end": 7.64,
+      "text": "Why didn't you show up at the library?"
+    },
+    {
+      "start": 14.3,
+      "end": 18.36,
+      "text": "I was waiting at the entrance."
+    },
+    {
+      "start": 27.36,
+      "end": 39.2,
+      "text": "Then why didn't you answer my calls?"
+    },
+    {
+      "start": 39.2,
+      "end": 47.88,
+      "text": "I told you my battery was almost dead."
+    }
+  ],
+  "episode_num": 2666,
+  "category": "관계",
+  "subtitle": "도서관에서 계속 엇갈리는 친구들 I",
+  "date": "2026.03.05",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2666_20260305.mp3"
+}

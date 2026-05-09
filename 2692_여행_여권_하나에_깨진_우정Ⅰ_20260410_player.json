@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260410_090000_f724d97e_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 4.0,
+      "text": "Where's my passport? I had it in my pocket."
+    },
+    {
+      "start": 13.0,
+      "end": 16.0,
+      "text": "Oh no, it must have slipped out."
+    },
+    {
+      "start": 21.0,
+      "end": 27.0,
+      "text": "I can't get on the plane without it."
+    },
+    {
+      "start": 38.0,
+      "end": 42.0,
+      "text": "Good luck dude, I'll be waiting in New York."
+    }
+  ],
+  "episode_num": 2692,
+  "category": "여행",
+  "subtitle": "여권 하나에 깨진 우정Ⅰ",
+  "date": "2026.04.10",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2692_20260410.mp3"
+}

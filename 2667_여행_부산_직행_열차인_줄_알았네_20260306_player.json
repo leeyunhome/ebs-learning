@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260306_173000_268270a4_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 8.0,
+      "text": "Does this train go to Busan?"
+    },
+    {
+      "start": 9.0,
+      "end": 20.0,
+      "text": "No, you have to transfer in Daegu first."
+    },
+    {
+      "start": 20.0,
+      "end": 36.0,
+      "text": "I almost got on the wrong train."
+    },
+    {
+      "start": 37.0,
+      "end": 49.0,
+      "text": "Wow, that was a close call."
+    }
+  ],
+  "episode_num": 2667,
+  "category": "여행",
+  "subtitle": "부산 직행 열차인 줄 알았네",
+  "date": "2026.03.06",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2667_20260306.mp3"
+}

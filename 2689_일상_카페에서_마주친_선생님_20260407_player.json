@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260407_090000_828323fc_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "I just bumped into my old teacher."
+    },
+    {
+      "start": 7.0,
+      "end": 14.0,
+      "text": "Did he recognize you right away?"
+    },
+    {
+      "start": 25.0,
+      "end": 35.0,
+      "text": "He called me by my nickname."
+    },
+    {
+      "start": 35.0,
+      "end": 50.0,
+      "text": "You must have been a really memorable kid."
+    }
+  ],
+  "episode_num": 2689,
+  "category": "일상",
+  "subtitle": "카페에서 마주친 선생님",
+  "date": "2026.04.07",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2689_20260407.mp3"
+}

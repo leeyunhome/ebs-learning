@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260430_090000_34f7e3cc_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 9.0,
+      "text": "It's pouring outside and I forgot my umbrella."
+    },
+    {
+      "start": 13.0,
+      "end": 24.0,
+      "text": "I'll walk you to the bus stop. We can share mine."
+    },
+    {
+      "start": 30.0,
+      "end": 40.0,
+      "text": "It's too small for two people."
+    },
+    {
+      "start": 41.0,
+      "end": 53.0,
+      "text": "Then you take it. I live nearby anyway."
+    }
+  ],
+  "episode_num": 2706,
+  "category": "관계",
+  "subtitle": "작은 우산은 로맨스의 시작",
+  "date": "2026.04.30",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2706_20260430.mp3"
+}

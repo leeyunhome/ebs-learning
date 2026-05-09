@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260420_090000_4b59d28f_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 9.0,
+      "text": "Dad, the soup tastes just like grandma's."
+    },
+    {
+      "start": 14.0,
+      "end": 23.0,
+      "text": "That's because I used her secret recipe."
+    },
+    {
+      "start": 23.0,
+      "end": 42.0,
+      "text": "No wonder she is the greatest cook in the world."
+    },
+    {
+      "start": 42.0,
+      "end": 57.0,
+      "text": "Try this kimchi. I used my own recipe."
+    }
+  ],
+  "episode_num": 2698,
+  "category": "가정",
+  "subtitle": "전설적인 할머니 레시피",
+  "date": "2026.04.20",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2698_20260420.mp3"
+}

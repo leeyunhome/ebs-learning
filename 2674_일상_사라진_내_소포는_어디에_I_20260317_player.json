@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260317_173000_4cbf0743_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.0,
+      "text": "I think someone stole my package."
+    },
+    {
+      "start": 9.0,
+      "end": 16.0,
+      "text": "How do you know it was stolen?"
+    },
+    {
+      "start": 22.0,
+      "end": 26.0,
+      "text": "The tracking says delivered, but it's not at my door."
+    },
+    {
+      "start": 26.0,
+      "end": 30.0,
+      "text": "Let's check the security camera first."
+    }
+  ],
+  "episode_num": 2674,
+  "category": "일상",
+  "subtitle": "사라진 내 소포는 어디에 I",
+  "date": "2026.03.17",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2674_20260317.mp3"
+}

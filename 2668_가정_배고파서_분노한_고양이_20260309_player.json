@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260309_173000_c6e06646_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 9.0,
+      "text": "Did you feed the cat this morning?"
+    },
+    {
+      "start": 9.0,
+      "end": 20.0,
+      "text": "I thought you did."
+    },
+    {
+      "start": 20.0,
+      "end": 33.0,
+      "text": "No wonder he was hangry."
+    },
+    {
+      "start": 33.0,
+      "end": 46.0,
+      "text": "Hurry before he eats our slippers."
+    }
+  ],
+  "episode_num": 2668,
+  "category": "가정",
+  "subtitle": "배고파서 분노한 고양이",
+  "date": "2026.03.09",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2668_20260309.mp3"
+}

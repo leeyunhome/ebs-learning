@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260319_173000_2708b9dc_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 4.06,
+      "text": "Please do!"
+    },
+    {
+      "start": 30.0,
+      "end": 38.0,
+      "text": "Is something bothering you? You can tell me."
+    },
+    {
+      "start": 42.0,
+      "end": 52.0,
+      "text": "I'm sorry. I don't feel like talking right now."
+    },
+    {
+      "start": 60.0,
+      "end": 61.52,
+      "text": "I'm Lee Byung-jak."
+    }
+  ],
+  "episode_num": 2676,
+  "category": "관계",
+  "subtitle": "이상하게 조용한 아이 I",
+  "date": "2026.03.19",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2676_20260319.mp3"
+}

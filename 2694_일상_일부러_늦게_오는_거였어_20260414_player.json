@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260414_090000_51336015_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 12.0,
+      "text": "Why is Lisa late every single time?"
+    },
+    {
+      "start": 12.0,
+      "end": 26.0,
+      "text": "She just enjoys making an entrance."
+    },
+    {
+      "start": 27.0,
+      "end": 36.0,
+      "text": "What is she a celeb?"
+    },
+    {
+      "start": 36.0,
+      "end": 53.0,
+      "text": "Well, she has like 20,000 followers on MyUgram."
+    }
+  ],
+  "episode_num": 2694,
+  "category": "일상",
+  "subtitle": "일부러 늦게 오는 거였어",
+  "date": "2026.04.14",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2694_20260414.mp3"
+}

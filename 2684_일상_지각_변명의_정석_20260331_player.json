@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260331_173000_3831854a_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 8.0,
+      "text": "How could you be late again?"
+    },
+    {
+      "start": 8.0,
+      "end": 24.0,
+      "text": "I was stuck in traffic. I'm not lying."
+    },
+    {
+      "start": 24.0,
+      "end": 34.0,
+      "text": "Stop making excuses."
+    },
+    {
+      "start": 34.0,
+      "end": 36.0,
+      "text": "Maybe I forgot to set the alarm and..."
+    }
+  ],
+  "episode_num": 2684,
+  "category": "일상",
+  "subtitle": "지각 변명의 정석",
+  "date": "2026.03.31",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2684_20260331.mp3"
+}

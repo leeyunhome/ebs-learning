@@ -1,0 +1,40 @@
+{
+  "audio": "extracted_20260427_090000_6901bc46_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.52,
+      "text": "I use my mom's recipe but it tastes different."
+    },
+    {
+      "start": 17.0,
+      "end": 22.6,
+      "text": "That's because you don't have that special touch."
+    },
+    {
+      "start": 33.88,
+      "end": 34.88,
+      "text": "Special touch?"
+    },
+    {
+      "start": 34.88,
+      "end": 38.44,
+      "text": "Is that an ingredient?"
+    },
+    {
+      "start": 45.72,
+      "end": 47.88,
+      "text": "It's hard to explain."
+    },
+    {
+      "start": 47.88,
+      "end": 51.4,
+      "text": "All moms have that."
+    }
+  ],
+  "episode_num": 2703,
+  "category": "가정",
+  "subtitle": "우리 모든 엄마들의 손맛",
+  "date": "2026.04.27",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2703_20260427.mp3"
+}

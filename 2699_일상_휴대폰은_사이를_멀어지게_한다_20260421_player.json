@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260421_090000_2dcfc398_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 11.44,
+      "text": "You've been scrolling for two hours."
+    },
+    {
+      "start": 11.44,
+      "end": 25.12,
+      "text": "I'm just catching up on the news."
+    },
+    {
+      "start": 25.12,
+      "end": 37.84,
+      "text": "Yeah, right. You're just watching funny videos."
+    },
+    {
+      "start": 37.84,
+      "end": 46.8,
+      "text": "You're always busy with your phone too."
+    }
+  ],
+  "episode_num": 2699,
+  "category": "일상",
+  "subtitle": "휴대폰은 사이를 멀어지게 한다",
+  "date": "2026.04.21",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2699_20260421.mp3"
+}

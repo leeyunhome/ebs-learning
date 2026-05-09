@@ -1,0 +1,85 @@
+{
+  "audio": "extracted_20260403_173000_e814c7e6_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 2.24,
+      "text": "Did you rent a car for our trip?"
+    },
+    {
+      "start": 2.96,
+      "end": 5.84,
+      "text": "Yes, but they gave us a manual car."
+    },
+    {
+      "start": 7.6,
+      "end": 9.76,
+      "text": "You don't know how to drive stick."
+    },
+    {
+      "start": 10.6,
+      "end": 13.36,
+      "text": "I guess it's time for a crash course."
+    },
+    {
+      "start": 15.6,
+      "end": 17.24,
+      "text": "All right, shall we solve the mission together?"
+    },
+    {
+      "start": 17.24,
+      "end": 18.8,
+      "text": "Great. Let's do it together."
+    },
+    {
+      "start": 18.8,
+      "end": 19.92,
+      "text": "Yes, let's do it!"
+    },
+    {
+      "start": 21.28,
+      "end": 23.48,
+      "text": "Did you rent a car for our trip?"
+    },
+    {
+      "start": 23.72,
+      "end": 26.8,
+      "text": "Yes, but they gave us a manual car."
+    },
+    {
+      "start": 27.76,
+      "end": 30.24,
+      "text": "You don't know how to drive stick."
+    },
+    {
+      "start": 30.6,
+      "end": 33.12,
+      "text": "I guess it's time for a crash course."
+    },
+    {
+      "start": 34.48,
+      "end": 35.76,
+      "text": "It'll be okay, right?"
+    },
+    {
+      "start": 35.76,
+      "end": 36.96,
+      "text": "Let's wrap it up."
+    },
+    {
+      "start": 39.96,
+      "end": 41.32,
+      "text": "Great job, you guys."
+    },
+    {
+      "start": 41.32,
+      "end": 42.04,
+      "text": "Wow."
+    }
+  ],
+  "episode_num": 2687,
+  "category": "여행",
+  "subtitle": "요즘에도 수동 차를 빌려주다니",
+  "date": "2026.04.03",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2687_20260403.mp3"
+}

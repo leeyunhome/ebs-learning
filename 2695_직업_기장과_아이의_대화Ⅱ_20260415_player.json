@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260415_090000_5e160109_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 3.5,
+      "text": "I get scared when there is a turbulence."
+    },
+    {
+      "start": 3.5,
+      "end": 5.5,
+      "text": "Turbulence is important, everyone."
+    },
+    {
+      "start": 5.5,
+      "end": 8.0,
+      "text": "Remember the mission and let's talk about the whole thing."
+    },
+    {
+      "start": 42.5,
+      "end": 47.5,
+      "text": "When that happens, imagine you're on a bumpy road."
+    },
+    {
+      "start": 52.5,
+      "end": 56.0,
+      "text": "Thank you for watching!"
+    }
+  ],
+  "episode_num": 2695,
+  "category": "직업",
+  "subtitle": "기장과 아이의 대화Ⅱ",
+  "date": "2026.04.15",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2695_20260415.mp3"
+}

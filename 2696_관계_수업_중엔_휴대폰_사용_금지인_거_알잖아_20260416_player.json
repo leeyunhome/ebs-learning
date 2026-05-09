@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260416_090000_3b476868_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 12.0,
+      "text": "You left me on rad for three hours."
+    },
+    {
+      "start": 12.0,
+      "end": 26.0,
+      "text": "I didn't mean it. I was in class."
+    },
+    {
+      "start": 26.0,
+      "end": 36.0,
+      "text": "Still, you could have texted me."
+    },
+    {
+      "start": 36.0,
+      "end": 50.0,
+      "text": "I couldn't. I was giving a presentation."
+    }
+  ],
+  "episode_num": 2696,
+  "category": "관계",
+  "subtitle": "수업 중엔 휴대폰 사용 금지인 거 알잖아",
+  "date": "2026.04.16",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2696_20260416.mp3"
+}

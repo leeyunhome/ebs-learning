@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260406_090000_891bf543_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 8.72,
+      "text": "Who finished the ice cream in the freezer?"
+    },
+    {
+      "start": 11.0,
+      "end": 19.28,
+      "text": "I'm pretty sure it was that."
+    },
+    {
+      "start": 20.28,
+      "end": 29.28,
+      "text": "Don't lie. You have chocolate around your mouth."
+    },
+    {
+      "start": 37.28,
+      "end": 48.28,
+      "text": "Fine, but didn't you eat my cookies too?"
+    },
+    {
+      "start": 49.28,
+      "end": 52.28,
+      "text": "You"
+    }
+  ],
+  "episode_num": 2688,
+  "category": "가정",
+  "subtitle": "남매의 기싸움Ⅰ",
+  "date": "2026.04.06",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2688_20260406.mp3"
+}

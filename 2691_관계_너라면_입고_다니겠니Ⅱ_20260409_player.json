@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260409_090000_9ecc4a0a_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.32,
+      "text": "I see how it is. I'm disappointed."
+    },
+    {
+      "start": 12.88,
+      "end": 23.48,
+      "text": "What if your shirt said I'm taken?"
+    },
+    {
+      "start": 23.48,
+      "end": 33.48,
+      "text": "I don't think you'd wear it."
+    },
+    {
+      "start": 33.48,
+      "end": 42.16,
+      "text": "Do you want to bat?"
+    }
+  ],
+  "episode_num": 2691,
+  "category": "관계",
+  "subtitle": "너라면 입고 다니겠니Ⅱ",
+  "date": "2026.04.09",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2691_20260409.mp3"
+}

@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260408_090000_b840000f_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 12.0,
+      "text": "You look so cool in the pilot uniform."
+    },
+    {
+      "start": 13.0,
+      "end": 30.0,
+      "text": "Thanks kid, I fly big planes in the sky."
+    },
+    {
+      "start": 30.0,
+      "end": 40.0,
+      "text": "Where do you sit on the plane?"
+    },
+    {
+      "start": 40.0,
+      "end": 55.0,
+      "text": "I sit in a special area called the cockpit."
+    }
+  ],
+  "episode_num": 2690,
+  "category": "직업",
+  "subtitle": "기장과 아이의 대화Ⅰ",
+  "date": "2026.04.08",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2690_20260408.mp3"
+}

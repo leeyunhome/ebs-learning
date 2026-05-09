@@ -1,0 +1,40 @@
+{
+  "audio": "extracted_20260304_173000_6283d112_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.18,
+      "text": "Ooo!"
+    },
+    {
+      "start": 5.18,
+      "end": 9.72,
+      "text": "The printer jammed again."
+    },
+    {
+      "start": 9.72,
+      "end": 10.56,
+      "text": "Ah!"
+    },
+    {
+      "start": 14.52,
+      "end": 25.62,
+      "text": "It's the third time this week again."
+    },
+    {
+      "start": 25.62,
+      "end": 45.98,
+      "text": "setting it. It usually works like a charm. It usually works like a charm."
+    },
+    {
+      "start": 45.98,
+      "end": 53.18,
+      "text": "I already did. I should call the help desk."
+    }
+  ],
+  "episode_num": 2665,
+  "category": "직업",
+  "subtitle": "프린터야 왜 자꾸 종이를 먹어",
+  "date": "2026.03.04",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2665_20260304.mp3"
+}

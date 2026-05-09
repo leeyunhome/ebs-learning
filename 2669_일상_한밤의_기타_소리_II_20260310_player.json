@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260310_173000_48236b17_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 2.7,
+      "text": "Let's listen to the whole song while remembering the mission."
+    },
+    {
+      "start": 2.7,
+      "end": 3.7,
+      "text": "Please."
+    },
+    {
+      "start": 30.0,
+      "end": 42.0,
+      "text": "Nah, it turns out he was just a guest."
+    },
+    {
+      "start": 42.0,
+      "end": 47.0,
+      "text": "I'm glad it didn't turn into a fight."
+    }
+  ],
+  "episode_num": 2669,
+  "category": "일상",
+  "subtitle": "한밤의 기타 소리 II",
+  "date": "2026.03.10",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2669_20260310.mp3"
+}

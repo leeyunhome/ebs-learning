@@ -1,0 +1,20 @@
+{
+  "audio": "extracted_20260401_173000_d4fbec31_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.0,
+      "text": "I work part-time as a mascot in a big costume."
+    },
+    {
+      "start": 17.0,
+      "end": 21.0,
+      "text": "It must be boiling hot inside that thing."
+    }
+  ],
+  "episode_num": 2685,
+  "category": "직업",
+  "subtitle": "인형 탈 알바의 고충",
+  "date": "2026.04.01",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2685_20260401.mp3"
+}

@@ -1,0 +1,65 @@
+{
+  "audio": "extracted_20260313_173000_8c5d59f7_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.64,
+      "text": "I booked a room under Mina Lee."
+    },
+    {
+      "start": 5.64,
+      "end": 9.0,
+      "text": "May I see your ID and credit card?"
+    },
+    {
+      "start": 9.0,
+      "end": 14.16,
+      "text": "Yes. Can I also request a late check out?"
+    },
+    {
+      "start": 14.16,
+      "end": 18.4,
+      "text": "Sure. I'll extend it until 2pm."
+    },
+    {
+      "start": 18.4,
+      "end": 20.44,
+      "text": "Mission, I'll solve it."
+    },
+    {
+      "start": 20.44,
+      "end": 21.92,
+      "text": "Yes, I'll solve it."
+    },
+    {
+      "start": 24.36,
+      "end": 27.52,
+      "text": "I booked a room under Mina Lee."
+    },
+    {
+      "start": 27.52,
+      "end": 30.24,
+      "text": "May I see your ID and credit card?"
+    },
+    {
+      "start": 30.24,
+      "end": 34.52,
+      "text": "Yes. Can I also request a late check out?"
+    },
+    {
+      "start": 34.52,
+      "end": 37.2,
+      "text": "Sure. I'll extend it until 2pm."
+    },
+    {
+      "start": 37.2,
+      "end": 38.2,
+      "text": "Oh, yeah."
+    }
+  ],
+  "episode_num": 2672,
+  "category": "여행",
+  "subtitle": "체크인하며 체크아웃도 물어보기",
+  "date": "2026.03.13",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2672_20260313.mp3"
+}

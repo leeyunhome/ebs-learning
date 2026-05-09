@@ -1,0 +1,125 @@
+{
+  "audio": "extracted_20260429_090000_2b59b44c_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 4.8,
+      "text": "Can I get a cheeseburger with no pickles?"
+    },
+    {
+      "start": 12.04,
+      "end": 16.84,
+      "text": "Sure. Do you want fries with that?"
+    },
+    {
+      "start": 21.48,
+      "end": 28.48,
+      "text": "Now, I'm good. I also want a large cola."
+    },
+    {
+      "start": 37.48,
+      "end": 43.48,
+      "text": "Okay. I'll call out your name when it's ready."
+    },
+    {
+      "start": 55.48,
+      "end": 57.48,
+      "text": "Now, it's time for the name-making."
+    },
+    {
+      "start": 57.48,
+      "end": 60.48,
+      "text": "Guys, don't forget this pattern. See?"
+    },
+    {
+      "start": 60.48,
+      "end": 63.48,
+      "text": "Alright. The first one is with no."
+    },
+    {
+      "start": 63.48,
+      "end": 65.48,
+      "text": "Let's go."
+    },
+    {
+      "start": 65.48,
+      "end": 68.48,
+      "text": "Can you get a cheeseburger with no pickles?"
+    },
+    {
+      "start": 74.48,
+      "end": 76.48,
+      "text": "No pickles. There you go."
+    },
+    {
+      "start": 76.48,
+      "end": 81.48,
+      "text": "Can you get a sandwich with no cheese?"
+    },
+    {
+      "start": 86.48,
+      "end": 88.48,
+      "text": "No cheese, right?"
+    },
+    {
+      "start": 88.48,
+      "end": 91.48,
+      "text": "I ordered a coffee with no sugar."
+    },
+    {
+      "start": 91.48,
+      "end": 93.48,
+      "text": "I ordered my coffee."
+    },
+    {
+      "start": 99.48,
+      "end": 101.48,
+      "text": "Let's read it."
+    },
+    {
+      "start": 102.48,
+      "end": 111.48,
+      "text": "Can I get a cheeseburger with no pickles?"
+    },
+    {
+      "start": 111.48,
+      "end": 118.48,
+      "text": "Can I get a sandwich with no cheese?"
+    },
+    {
+      "start": 118.48,
+      "end": 125.48,
+      "text": "I ordered my coffee with no sugar."
+    },
+    {
+      "start": 126.48,
+      "end": 129.48,
+      "text": "Okay. Next, let's do it with no."
+    },
+    {
+      "start": 130.48,
+      "end": 137.48,
+      "text": "I also want a large cola."
+    },
+    {
+      "start": 137.48,
+      "end": 138.48,
+      "text": "There you go."
+    },
+    {
+      "start": 138.48,
+      "end": 140.48,
+      "text": "Mayonnaise, please."
+    },
+    {
+      "start": 140.48,
+      "end": 143.48,
+      "text": "I also want more mayo."
+    }
+  ],
+  "episode_num": 2705,
+  "category": "직업",
+  "subtitle": "감자튀김은 양심상 뺐어",
+  "date": "2026.04.29",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2705_20260429.mp3"
+}

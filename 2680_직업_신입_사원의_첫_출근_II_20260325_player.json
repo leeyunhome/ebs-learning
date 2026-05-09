@@ -1,0 +1,20 @@
+{
+  "audio": "extracted_20260325_173000_33cfeea1_mp3.mp3",
+  "script": [
+    {
+      "start": 30.0,
+      "end": 44.0,
+      "text": "That's normal. Just make sure you learn from them."
+    },
+    {
+      "start": 44.0,
+      "end": 56.0,
+      "text": "I hope I get better every day."
+    }
+  ],
+  "episode_num": 2680,
+  "category": "직업",
+  "subtitle": "신입 사원의 첫 출근 II",
+  "date": "2026.03.25",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2680_20260325.mp3"
+}

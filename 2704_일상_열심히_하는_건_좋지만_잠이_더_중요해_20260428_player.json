@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260428_090000_168128ed_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.0,
+      "text": "Are you okay? Your eyes are half closed."
+    },
+    {
+      "start": 12.0,
+      "end": 24.0,
+      "text": "I stayed up all night studying for the exam."
+    },
+    {
+      "start": 30.0,
+      "end": 38.0,
+      "text": "Oh no, go to bed early tonight."
+    },
+    {
+      "start": 42.0,
+      "end": 53.0,
+      "text": "I can't. I have another exam tomorrow."
+    }
+  ],
+  "episode_num": 2704,
+  "category": "일상",
+  "subtitle": "열심히 하는 건 좋지만 잠이 더 중요해",
+  "date": "2026.04.28",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2704_20260428.mp3"
+}

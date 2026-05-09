@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260326_173000_69e7a6f7_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.0,
+      "text": "Are you upset with me or something?"
+    },
+    {
+      "start": 10.0,
+      "end": 25.0,
+      "text": "You promised you'd buy me a video game."
+    },
+    {
+      "start": 25.0,
+      "end": 38.0,
+      "text": "Then you broke that promise."
+    },
+    {
+      "start": 38.0,
+      "end": 43.0,
+      "text": "I'm sorry. I didn't mean to upset you."
+    },
+    {
+      "start": 43.0,
+      "end": 44.0,
+      "text": "I'm sorry."
+    }
+  ],
+  "episode_num": 2681,
+  "category": "관계",
+  "subtitle": "이상하게 조용한 아이 II",
+  "date": "2026.03.26",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2681_20260326.mp3"
+}

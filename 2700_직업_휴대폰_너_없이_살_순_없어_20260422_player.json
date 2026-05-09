@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260422_090000_fac67172_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 12.0,
+      "text": "I dropped my phone by accident and the screen cracked."
+    },
+    {
+      "start": 15.0,
+      "end": 29.0,
+      "text": "Hmm, this might take a couple of days."
+    },
+    {
+      "start": 29.0,
+      "end": 42.0,
+      "text": "Oh no, I can't go a day without my phone."
+    },
+    {
+      "start": 43.0,
+      "end": 55.0,
+      "text": "I can lend you a temporary phone."
+    },
+    {
+      "start": 55.0,
+      "end": 57.68,
+      "text": "Alright, Iburo Hanan, Iburo Hanan."
+    }
+  ],
+  "episode_num": 2700,
+  "category": "직업",
+  "subtitle": "휴대폰 너 없이 살 순 없어",
+  "date": "2026.04.22",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2700_20260422.mp3"
+}

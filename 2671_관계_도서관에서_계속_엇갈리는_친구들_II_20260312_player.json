@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260312_173000_f142fe52_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.0,
+      "text": "Are we meeting at the same place?"
+    },
+    {
+      "start": 10.0,
+      "end": 13.04,
+      "text": "Yes, the library at 6pm."
+    },
+    {
+      "start": 13.04,
+      "end": 15.84,
+      "text": "Don't be late."
+    },
+    {
+      "start": 27.0,
+      "end": 37.64,
+      "text": "Don't worry, I set three alarms."
+    },
+    {
+      "start": 37.64,
+      "end": 43.16,
+      "text": "If you don't show up, we're not friends anymore."
+    }
+  ],
+  "episode_num": 2671,
+  "category": "관계",
+  "subtitle": "도서관에서 계속 엇갈리는 친구들 II",
+  "date": "2026.03.12",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2671_20260312.mp3"
+}

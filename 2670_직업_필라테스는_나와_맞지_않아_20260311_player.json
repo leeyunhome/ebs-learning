@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260311_173000_cd0af891_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Breathe in and hold your breath. Now breathe out."
+    },
+    {
+      "start": 18.0,
+      "end": 36.0,
+      "text": "Easier said than done, my abs are on fire."
+    },
+    {
+      "start": 36.0,
+      "end": 46.0,
+      "text": "That means you're doing it right."
+    },
+    {
+      "start": 46.0,
+      "end": 58.0,
+      "text": "Help! I have a cramp in my leg."
+    }
+  ],
+  "episode_num": 2670,
+  "category": "직업",
+  "subtitle": "필라테스는 나와 맞지 않아",
+  "date": "2026.03.11",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2670_20260311.mp3"
+}
