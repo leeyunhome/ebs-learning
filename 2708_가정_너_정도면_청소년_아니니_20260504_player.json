@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260504_090000_93c061d7_mp3.mp3",
+  "script": [
+    {
+      "start": 3.0,
+      "end": 6.5,
+      "text": "Dad, where did you hide my children's day gift?"
+    },
+    {
+      "start": 17.0,
+      "end": 20.0,
+      "text": "You're not a child if you're over 14."
+    },
+    {
+      "start": 31.0,
+      "end": 34.0,
+      "text": "Well, I'm not an adult either."
+    },
+    {
+      "start": 41.0,
+      "end": 44.0,
+      "text": "OK then, I'll buy you a book."
+    }
+  ],
+  "episode_num": 2708,
+  "category": "가정",
+  "subtitle": "너 정도면 청소년 아니니",
+  "date": "2026.05.04",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2708_20260504.mp3"
+}
