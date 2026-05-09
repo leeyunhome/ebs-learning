@@ -70,23 +70,29 @@ let currentIdx = -1;
 const player = document.getElementById('player');
 const scriptList = document.getElementById('scriptList');
 async function init() {{
-  const id = new URLSearchParams(window.location.search).get('id');
-  if(!id) {{
+  const params = new URLSearchParams(window.location.search);
+  const rawId = params.get('id');
+  if(!rawId) {{
     document.getElementById('loader').innerHTML = '<div>❌ 회차 ID가 없습니다.</div>';
     return;
   }}
   
-  const decodedId = decodeURIComponent(id);
-  console.log("Loading episode:", decodedId);
+  // URL에서 가져온 ID (이미 브라우저가 일부 디코딩했을 수 있음)
+  const id = decodeURIComponent(rawId);
+  console.log("Loading episode ID:", id);
   
   try {{
-    const res = await fetch(`${{decodedId}}_player.json`);
+    // 캐시 방지를 위해 현재 시간을 파라미터로 추가
+    const cacheBuster = Date.now();
+    const res = await fetch(`${{id}}_player.json?v=${{cacheBuster}}`);
+    
     if (!res.ok) {{
-        throw new Error(`파일을 찾을 수 없습니다 (상태: ${{res.status}}). 아직 서버에 업로드 중일 수 있으니 잠시 후 다시 시도해 주세요.`);
+        throw new Error(`파일을 찾을 수 없습니다 (상태: ${{res.status}}). 아직 서버에 업로드 중일 수 있으니 1~2분 후 다시 시도해 주세요.`);
     }}
+    
     const data = await res.json();
     SCRIPT = data.script || [];
-    document.getElementById('title').textContent = data.subtitle || decodedId;
+    document.getElementById('title').textContent = data.subtitle || id;
     player.src = data.mp3_url;
     
     if (SCRIPT.length === 0) {{
@@ -104,12 +110,13 @@ async function init() {{
 
     document.getElementById('loader').style.display = 'none';
   }} catch(e) {{
-    console.error(e);
+    console.error("Fetch error:", e);
     document.getElementById('loader').innerHTML = `
         <div style="padding:20px; text-align:center;">
             <div style="font-size:40px; margin-bottom:10px;">⚠️</div>
-            <div style="font-size:18px; margin-bottom:10px; color:var(--accent);">${{e.message}}</div>
-            <button onclick="location.reload()" style="background:var(--accent); color:white; border:none; padding:10px 20px; border-radius:8px;">다시 시도</button>
+            <div style="font-size:18px; margin-bottom:10px; color:var(--accent); font-weight:bold;">${{e.message}}</div>
+            <div style="font-size:13px; color:var(--muted); margin-bottom:20px;">ID: ${{id}}</div>
+            <button onclick="location.reload()" style="background:var(--accent); color:white; border:none; padding:12px 24px; border-radius:10px; font-weight:bold; cursor:pointer;">페이지 새로고침</button>
         </div>
     `;
   }}
