@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260505_090000_97ebc816_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.0,
+      "text": "What should we eat for lunch?"
+    },
+    {
+      "start": 9.0,
+      "end": 17.0,
+      "text": "I'm kind of craving pizza."
+    },
+    {
+      "start": 17.0,
+      "end": 25.0,
+      "text": "How about a large pizza with extra cheese?"
+    },
+    {
+      "start": 35.0,
+      "end": 44.0,
+      "text": "You read my mind. Toss me my phone."
+    }
+  ],
+  "episode_num": 2709,
+  "category": "일상",
+  "subtitle": "피자는 치즈가 생명이다",
+  "date": "2026.05.05",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2709_20260505.mp3"
+}
