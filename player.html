@@ -71,13 +71,28 @@ const player = document.getElementById('player');
 const scriptList = document.getElementById('scriptList');
 async function init() {{
   const id = new URLSearchParams(window.location.search).get('id');
-  if(!id) return;
+  if(!id) {{
+    document.getElementById('loader').innerHTML = '<div>❌ 회차 ID가 없습니다.</div>';
+    return;
+  }}
+  
+  const decodedId = decodeURIComponent(id);
+  console.log("Loading episode:", decodedId);
+  
   try {{
-    const res = await fetch(`${{id}}_player.json`);
+    const res = await fetch(`${{decodedId}}_player.json`);
+    if (!res.ok) {{
+        throw new Error(`파일을 찾을 수 없습니다 (상태: ${{res.status}}). 아직 서버에 업로드 중일 수 있으니 잠시 후 다시 시도해 주세요.`);
+    }}
     const data = await res.json();
     SCRIPT = data.script || [];
-    document.getElementById('title').textContent = data.subtitle || id;
+    document.getElementById('title').textContent = data.subtitle || decodedId;
     player.src = data.mp3_url;
+    
+    if (SCRIPT.length === 0) {{
+        scriptList.innerHTML = '<div style="padding:20px; text-align:center; color:var(--muted);">스크립트 데이터가 없습니다.</div>';
+    }}
+
     SCRIPT.forEach((s, i) => {{
       const div = document.createElement('div');
       div.className = 'line';
@@ -86,8 +101,18 @@ async function init() {{
       div.onclick = () => {{ seekTo(i); }};
       scriptList.appendChild(div);
     }});
+
     document.getElementById('loader').style.display = 'none';
-  }} catch(e) {{ alert("데이터 로드 실패"); }}
+  }} catch(e) {{
+    console.error(e);
+    document.getElementById('loader').innerHTML = `
+        <div style="padding:20px; text-align:center;">
+            <div style="font-size:40px; margin-bottom:10px;">⚠️</div>
+            <div style="font-size:18px; margin-bottom:10px; color:var(--accent);">${{e.message}}</div>
+            <button onclick="location.reload()" style="background:var(--accent); color:white; border:none; padding:10px 20px; border-radius:8px;">다시 시도</button>
+        </div>
+    `;
+  }}
 }}
 function formatTime(s) {{
   const m = Math.floor(s / 60);
