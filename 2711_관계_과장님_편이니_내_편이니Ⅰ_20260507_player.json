@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260507_090000_f51c6bee_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 9.0,
+      "text": "Gosh, my boss stresses me out."
+    },
+    {
+      "start": 12.0,
+      "end": 19.0,
+      "text": "Go on, I'm all ears."
+    },
+    {
+      "start": 19.0,
+      "end": 28.0,
+      "text": "She says I should come in ten minutes early every morning."
+    },
+    {
+      "start": 39.0,
+      "end": 48.0,
+      "text": "Actually, that's not a bad idea."
+    }
+  ],
+  "episode_num": 2711,
+  "category": "관계",
+  "subtitle": "과장님 편이니 내 편이니Ⅰ",
+  "date": "2026.05.07",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2711_20260507.mp3"
+}
