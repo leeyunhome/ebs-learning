@@ -1,0 +1,16 @@
+================================================================================
+대화 스크립트: 20260324_173000_88a46b1d_mp3.mp3
+================================================================================
+원본 구간: 1391.16초 ~ 1461.00초 (원본 30분 mp3 기준)
+추출 MP3 길이: 69.84초 (1.16분)
+시간 기준: 추출 MP3 시작점(0초)
+================================================================================
+
+[  0.00s -  11.08s] 주세요. That's my package right there. Look at him. That's my package right there.
+[ 11.08s -  16.60s] Look at him.
+[ 16.60s -  32.00s] Look closely. That's the delivery man.
+[ 32.00s -  45.32s] Oh, he left it at the wrong building.
+[ 45.32s -  60.12s] I'll call the neighbor and pick up the package.
+[ 60.12s -  62.92s] Yes, it's time for the delivery man to do it.
+[ 62.92s -  65.72s] Everyone, don't forget this pattern. Let's meet him.
+[ 65.72s -  69.84s] All right, all right. Look at someone or something.

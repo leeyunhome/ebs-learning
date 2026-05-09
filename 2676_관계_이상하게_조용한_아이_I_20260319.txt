@@ -1,0 +1,19 @@
+================================================================================
+대화 스크립트: 20260319_173000_2708b9dc_mp3__dup20260507_162756.mp3
+================================================================================
+원본 구간: 1366.34초 ~ 1420.26초 (원본 30분 mp3 기준)
+추출 MP3 길이: 53.92초 (0.90분)
+시간 기준: 추출 MP3 시작점(0초)
+================================================================================
+
+[  0.00s -   1.00s] Alright.
+[  1.00s -   3.16s] Let's hear it from the whole team while you remember the mission.
+[  3.16s -   4.72s] Come on, let's hear it from the whole team.
+[  5.72s -  10.52s] Why are you so quiet tonight?
+[ 17.32s -  21.56s] I guess I'm just tired.
+[ 29.88s -  31.88s] Is something bothering you?
+[ 31.88s -  34.80s] You can tell me.
+[ 42.36s -  43.56s] I'm sorry.
+[ 43.56s -  47.92s] I don't feel like talking right now.
+
+(중복 제거: 6개, 한국어/종결문구 필터: 1개)
