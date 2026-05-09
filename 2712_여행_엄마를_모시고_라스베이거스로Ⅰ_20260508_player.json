@@ -1,0 +1,70 @@
+{
+  "audio": "extracted_20260508_090000_892028d3_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 15.76,
+      "text": "Let's take mom on a trip for Mother's Day."
+    },
+    {
+      "start": 15.76,
+      "end": 31.92,
+      "text": "How about a weekend getaway to Las Vegas?"
+    },
+    {
+      "start": 31.92,
+      "end": 42.68,
+      "text": "Nice! Let me look up some hotels."
+    },
+    {
+      "start": 42.68,
+      "end": 56.2,
+      "text": "Then I'll check out shows and restaurants."
+    },
+    {
+      "start": 56.2,
+      "end": 58.92,
+      "text": "This is the time for the adoption."
+    },
+    {
+      "start": 58.92,
+      "end": 60.76,
+      "text": "Don't forget this pattern!"
+    },
+    {
+      "start": 60.76,
+      "end": 61.4,
+      "text": "Would you like to see it?"
+    },
+    {
+      "start": 61.4,
+      "end": 62.44,
+      "text": "Alright, first one."
+    },
+    {
+      "start": 62.44,
+      "end": 64.68,
+      "text": "Take someone on a trip."
+    },
+    {
+      "start": 64.68,
+      "end": 65.16,
+      "text": "Yes."
+    },
+    {
+      "start": 65.16,
+      "end": 66.2,
+      "text": "Let's go."
+    },
+    {
+      "start": 66.2,
+      "end": 67.08,
+      "text": "Mother's Day."
+    }
+  ],
+  "episode_num": 2712,
+  "category": "여행",
+  "subtitle": "엄마를 모시고 라스베이거스로Ⅰ",
+  "date": "2026.05.08",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2712_20260508.mp3"
+}
