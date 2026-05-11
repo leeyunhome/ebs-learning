@@ -11,16 +11,30 @@
 }
 body { background: var(--bg); color: var(--text); font-family: -apple-system, system-ui, sans-serif; margin: 0; padding: 0; }
 .container { max-width: 900px; margin: 0 auto; padding: 24px; }
-header { display: flex; align-items: center; gap: 15px; margin-bottom: 30px; border-bottom: 2px solid rgba(255,255,255,0.1); padding-bottom: 24px; }
+header { display: flex; align-items: center; gap: 15px; margin-bottom: 20px; border-bottom: 2px solid rgba(255,255,255,0.1); padding-bottom: 24px; }
 header h1 { margin: 0; font-size: 32px; color: var(--accent); font-weight: 800; }
+.search-bar { margin-bottom: 24px; position: relative; }
+.search-bar input {
+  width: 100%; padding: 16px 20px 16px 50px;
+  background: var(--panel); border: 2px solid rgba(255,255,255,0.1);
+  border-radius: 16px; color: var(--text); font-size: 18px;
+  outline: none; box-sizing: border-box; transition: border-color 0.2s;
+}
+.search-bar input:focus { border-color: var(--accent); }
+.search-bar input::placeholder { color: var(--muted); }
+.search-icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--muted); font-size: 22px; pointer-events: none; }
+.no-results { text-align: center; padding: 40px; color: var(--muted); font-size: 18px; display: none; }
 .grid { display: grid; grid-template-columns: 1fr; gap: 20px; }
-.card { 
-  background: var(--panel); padding: 28px; border-radius: 24px; text-decoration: none; color: inherit; 
+.card {
+  background: var(--panel); padding: 28px; border-radius: 24px; text-decoration: none; color: inherit;
   border: 2px solid rgba(255,255,255,0.06); transition: 0.3s; display: flex; flex-direction: column; gap: 12px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 .card:active { transform: scale(0.98); background: #26354a; }
+.card .ep-top { display: flex; justify-content: space-between; align-items: center; }
 .card .ep-tag { font-size: 16px; color: var(--accent); font-weight: 800; letter-spacing: 1px; }
+.play-badge { font-size: 14px; color: var(--muted); font-weight: 600; display: none; }
+.play-badge.has-plays { display: inline; color: #4ade80; }
 .card h3 { margin: 0; font-size: 28px; line-height: 1.3; color: #fff; font-weight: bold; }
 .card .meta { font-size: 18px; color: var(--muted); display: flex; justify-content: space-between; margin-top: 10px; padding-top: 15px; border-top: 1px solid rgba(255,255,255,0.08); }
 @media (min-width: 700px) {
@@ -34,409 +48,651 @@ header h1 { margin: 0; font-size: 32px; color: var(--accent); font-weight: 800; 
     <i class="bi bi-headphones" style="font-size: 40px; color: var(--accent);"></i>
     <h1>EBS 왕초보 영어</h1>
   </header>
-  <div class="grid">
-    
-<a class="card" href="play.html?id=2713_가정_엄마를_모시고_라스베이거스로Ⅱ_20260511">
-  <div class="ep-tag">제 2713회</div>
+  <div class="search-bar">
+    <i class="bi bi-search search-icon"></i>
+    <input type="text" id="searchInput" placeholder="회차 번호나 제목으로 검색..." oninput="filterCards()">
+  </div>
+  <div class="grid" id="cardGrid">
+
+<a class="card" href="play.html?id=2713_가정_엄마를_모시고_라스베이거스로Ⅱ_20260511" data-stem="2713_가정_엄마를_모시고_라스베이거스로Ⅱ_20260511" data-ep="2713" data-title="엄마를 모시고 라스베이거스로Ⅱ" data-category="가정">
+  <div class="ep-top">
+    <div class="ep-tag">제 2713회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>엄마를 모시고 라스베이거스로Ⅱ</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.05.11</span>
     <span><i class="bi bi-clock"></i> 0분 50초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2712_여행_엄마를_모시고_라스베이거스로Ⅰ_20260508">
-  <div class="ep-tag">제 2712회</div>
+
+<a class="card" href="play.html?id=2712_여행_엄마를_모시고_라스베이거스로Ⅰ_20260508" data-stem="2712_여행_엄마를_모시고_라스베이거스로Ⅰ_20260508" data-ep="2712" data-title="엄마를 모시고 라스베이거스로Ⅰ" data-category="여행">
+  <div class="ep-top">
+    <div class="ep-tag">제 2712회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>엄마를 모시고 라스베이거스로Ⅰ</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.05.08</span>
     <span><i class="bi bi-clock"></i> 1분 07초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2711_관계_과장님_편이니_내_편이니Ⅰ_20260507">
-  <div class="ep-tag">제 2711회</div>
+
+<a class="card" href="play.html?id=2711_관계_과장님_편이니_내_편이니Ⅰ_20260507" data-stem="2711_관계_과장님_편이니_내_편이니Ⅰ_20260507" data-ep="2711" data-title="과장님 편이니 내 편이니Ⅰ" data-category="관계">
+  <div class="ep-top">
+    <div class="ep-tag">제 2711회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>과장님 편이니 내 편이니Ⅰ</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.05.07</span>
     <span><i class="bi bi-clock"></i> 0분 48초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2710_직업_뭐야_말이랑_다르잖아_20260506">
-  <div class="ep-tag">제 2710회</div>
+
+<a class="card" href="play.html?id=2710_직업_뭐야_말이랑_다르잖아_20260506" data-stem="2710_직업_뭐야_말이랑_다르잖아_20260506" data-ep="2710" data-title="뭐야 말이랑 다르잖아" data-category="직업">
+  <div class="ep-top">
+    <div class="ep-tag">제 2710회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>뭐야 말이랑 다르잖아</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.05.06</span>
     <span><i class="bi bi-clock"></i> 0분 50초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2709_일상_피자는_치즈가_생명이다_20260505">
-  <div class="ep-tag">제 2709회</div>
+
+<a class="card" href="play.html?id=2709_일상_피자는_치즈가_생명이다_20260505" data-stem="2709_일상_피자는_치즈가_생명이다_20260505" data-ep="2709" data-title="피자는 치즈가 생명이다" data-category="일상">
+  <div class="ep-top">
+    <div class="ep-tag">제 2709회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>피자는 치즈가 생명이다</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.05.05</span>
     <span><i class="bi bi-clock"></i> 0분 44초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2708_가정_너_정도면_청소년_아니니_20260504">
-  <div class="ep-tag">제 2708회</div>
+
+<a class="card" href="play.html?id=2708_가정_너_정도면_청소년_아니니_20260504" data-stem="2708_가정_너_정도면_청소년_아니니_20260504" data-ep="2708" data-title="너 정도면 청소년 아니니" data-category="가정">
+  <div class="ep-top">
+    <div class="ep-tag">제 2708회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>너 정도면 청소년 아니니</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.05.04</span>
     <span><i class="bi bi-clock"></i> 0분 44초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2707_여행_여행_가이드가_추천한_포토존_20260501">
-  <div class="ep-tag">제 2707회</div>
+
+<a class="card" href="play.html?id=2707_여행_여행_가이드가_추천한_포토존_20260501" data-stem="2707_여행_여행_가이드가_추천한_포토존_20260501" data-ep="2707" data-title="여행 가이드가 추천한 포토존" data-category="여행">
+  <div class="ep-top">
+    <div class="ep-tag">제 2707회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>여행 가이드가 추천한 포토존</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.05.01</span>
     <span><i class="bi bi-clock"></i> 0분 56초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2706_관계_작은_우산은_로맨스의_시작_20260430">
-  <div class="ep-tag">제 2706회</div>
+
+<a class="card" href="play.html?id=2706_관계_작은_우산은_로맨스의_시작_20260430" data-stem="2706_관계_작은_우산은_로맨스의_시작_20260430" data-ep="2706" data-title="작은 우산은 로맨스의 시작" data-category="관계">
+  <div class="ep-top">
+    <div class="ep-tag">제 2706회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>작은 우산은 로맨스의 시작</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.30</span>
     <span><i class="bi bi-clock"></i> 0분 53초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2705_직업_감자튀김은_양심상_뺐어_20260429">
-  <div class="ep-tag">제 2705회</div>
+
+<a class="card" href="play.html?id=2705_직업_감자튀김은_양심상_뺐어_20260429" data-stem="2705_직업_감자튀김은_양심상_뺐어_20260429" data-ep="2705" data-title="감자튀김은 양심상 뺐어" data-category="직업">
+  <div class="ep-top">
+    <div class="ep-tag">제 2705회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>감자튀김은 양심상 뺐어</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.29</span>
     <span><i class="bi bi-clock"></i> 2분 23초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2704_일상_열심히_하는_건_좋지만_잠이_더_중요해_20260428">
-  <div class="ep-tag">제 2704회</div>
+
+<a class="card" href="play.html?id=2704_일상_열심히_하는_건_좋지만_잠이_더_중요해_20260428" data-stem="2704_일상_열심히_하는_건_좋지만_잠이_더_중요해_20260428" data-ep="2704" data-title="열심히 하는 건 좋지만 잠이 더 중요해" data-category="일상">
+  <div class="ep-top">
+    <div class="ep-tag">제 2704회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>열심히 하는 건 좋지만 잠이 더 중요해</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.28</span>
     <span><i class="bi bi-clock"></i> 0분 53초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2703_가정_우리_모든_엄마들의_손맛_20260427">
-  <div class="ep-tag">제 2703회</div>
+
+<a class="card" href="play.html?id=2703_가정_우리_모든_엄마들의_손맛_20260427" data-stem="2703_가정_우리_모든_엄마들의_손맛_20260427" data-ep="2703" data-title="우리 모든 엄마들의 손맛" data-category="가정">
+  <div class="ep-top">
+    <div class="ep-tag">제 2703회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>우리 모든 엄마들의 손맛</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.27</span>
     <span><i class="bi bi-clock"></i> 0분 51초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2702_여행_택시_타려다_돈_굳었네_20260424">
-  <div class="ep-tag">제 2702회</div>
+
+<a class="card" href="play.html?id=2702_여행_택시_타려다_돈_굳었네_20260424" data-stem="2702_여행_택시_타려다_돈_굳었네_20260424" data-ep="2702" data-title="택시 타려다 돈 굳었네" data-category="여행">
+  <div class="ep-top">
+    <div class="ep-tag">제 2702회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>택시 타려다 돈 굳었네</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.24</span>
     <span><i class="bi bi-clock"></i> 0분 50초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2701_관계_안경이_필요한_너_20260423">
-  <div class="ep-tag">제 2701회</div>
+
+<a class="card" href="play.html?id=2701_관계_안경이_필요한_너_20260423" data-stem="2701_관계_안경이_필요한_너_20260423" data-ep="2701" data-title="안경이 필요한 너" data-category="관계">
+  <div class="ep-top">
+    <div class="ep-tag">제 2701회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>안경이 필요한 너</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.23</span>
     <span><i class="bi bi-clock"></i> 0분 43초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2700_직업_휴대폰_너_없이_살_순_없어_20260422">
-  <div class="ep-tag">제 2700회</div>
+
+<a class="card" href="play.html?id=2700_직업_휴대폰_너_없이_살_순_없어_20260422" data-stem="2700_직업_휴대폰_너_없이_살_순_없어_20260422" data-ep="2700" data-title="휴대폰 너 없이 살 순 없어" data-category="직업">
+  <div class="ep-top">
+    <div class="ep-tag">제 2700회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>휴대폰 너 없이 살 순 없어</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.22</span>
     <span><i class="bi bi-clock"></i> 0분 57초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2699_일상_휴대폰은_사이를_멀어지게_한다_20260421">
-  <div class="ep-tag">제 2699회</div>
+
+<a class="card" href="play.html?id=2699_일상_휴대폰은_사이를_멀어지게_한다_20260421" data-stem="2699_일상_휴대폰은_사이를_멀어지게_한다_20260421" data-ep="2699" data-title="휴대폰은 사이를 멀어지게 한다" data-category="일상">
+  <div class="ep-top">
+    <div class="ep-tag">제 2699회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>휴대폰은 사이를 멀어지게 한다</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.21</span>
     <span><i class="bi bi-clock"></i> 0분 46초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2698_가정_전설적인_할머니_레시피_20260420">
-  <div class="ep-tag">제 2698회</div>
+
+<a class="card" href="play.html?id=2698_가정_전설적인_할머니_레시피_20260420" data-stem="2698_가정_전설적인_할머니_레시피_20260420" data-ep="2698" data-title="전설적인 할머니 레시피" data-category="가정">
+  <div class="ep-top">
+    <div class="ep-tag">제 2698회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>전설적인 할머니 레시피</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.20</span>
     <span><i class="bi bi-clock"></i> 0분 57초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2696_관계_수업_중엔_휴대폰_사용_금지인_거_알잖아_20260416">
-  <div class="ep-tag">제 2696회</div>
+
+<a class="card" href="play.html?id=2696_관계_수업_중엔_휴대폰_사용_금지인_거_알잖아_20260416" data-stem="2696_관계_수업_중엔_휴대폰_사용_금지인_거_알잖아_20260416" data-ep="2696" data-title="수업 중엔 휴대폰 사용 금지인 거 알잖아" data-category="관계">
+  <div class="ep-top">
+    <div class="ep-tag">제 2696회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>수업 중엔 휴대폰 사용 금지인 거 알잖아</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.16</span>
     <span><i class="bi bi-clock"></i> 0분 50초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2695_직업_기장과_아이의_대화Ⅱ_20260415">
-  <div class="ep-tag">제 2695회</div>
+
+<a class="card" href="play.html?id=2695_직업_기장과_아이의_대화Ⅱ_20260415" data-stem="2695_직업_기장과_아이의_대화Ⅱ_20260415" data-ep="2695" data-title="기장과 아이의 대화Ⅱ" data-category="직업">
+  <div class="ep-top">
+    <div class="ep-tag">제 2695회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>기장과 아이의 대화Ⅱ</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.15</span>
     <span><i class="bi bi-clock"></i> 0분 56초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2694_일상_일부러_늦게_오는_거였어_20260414">
-  <div class="ep-tag">제 2694회</div>
+
+<a class="card" href="play.html?id=2694_일상_일부러_늦게_오는_거였어_20260414" data-stem="2694_일상_일부러_늦게_오는_거였어_20260414" data-ep="2694" data-title="일부러 늦게 오는 거였어" data-category="일상">
+  <div class="ep-top">
+    <div class="ep-tag">제 2694회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>일부러 늦게 오는 거였어</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.14</span>
     <span><i class="bi bi-clock"></i> 0분 53초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2693_가정_남매의_기싸움Ⅱ_20260413">
-  <div class="ep-tag">제 2693회</div>
+
+<a class="card" href="play.html?id=2693_가정_남매의_기싸움Ⅱ_20260413" data-stem="2693_가정_남매의_기싸움Ⅱ_20260413" data-ep="2693" data-title="남매의 기싸움Ⅱ" data-category="가정">
+  <div class="ep-top">
+    <div class="ep-tag">제 2693회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>남매의 기싸움Ⅱ</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.13</span>
     <span><i class="bi bi-clock"></i> 0분 54초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2692_여행_여권_하나에_깨진_우정Ⅰ_20260410">
-  <div class="ep-tag">제 2692회</div>
+
+<a class="card" href="play.html?id=2692_여행_여권_하나에_깨진_우정Ⅰ_20260410" data-stem="2692_여행_여권_하나에_깨진_우정Ⅰ_20260410" data-ep="2692" data-title="여권 하나에 깨진 우정Ⅰ" data-category="여행">
+  <div class="ep-top">
+    <div class="ep-tag">제 2692회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>여권 하나에 깨진 우정Ⅰ</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.10</span>
     <span><i class="bi bi-clock"></i> 0분 42초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2691_관계_너라면_입고_다니겠니Ⅱ_20260409">
-  <div class="ep-tag">제 2691회</div>
+
+<a class="card" href="play.html?id=2691_관계_너라면_입고_다니겠니Ⅱ_20260409" data-stem="2691_관계_너라면_입고_다니겠니Ⅱ_20260409" data-ep="2691" data-title="너라면 입고 다니겠니Ⅱ" data-category="관계">
+  <div class="ep-top">
+    <div class="ep-tag">제 2691회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>너라면 입고 다니겠니Ⅱ</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.09</span>
     <span><i class="bi bi-clock"></i> 0분 42초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2690_직업_기장과_아이의_대화Ⅰ_20260408">
-  <div class="ep-tag">제 2690회</div>
+
+<a class="card" href="play.html?id=2690_직업_기장과_아이의_대화Ⅰ_20260408" data-stem="2690_직업_기장과_아이의_대화Ⅰ_20260408" data-ep="2690" data-title="기장과 아이의 대화Ⅰ" data-category="직업">
+  <div class="ep-top">
+    <div class="ep-tag">제 2690회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>기장과 아이의 대화Ⅰ</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.08</span>
     <span><i class="bi bi-clock"></i> 0분 55초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2689_일상_카페에서_마주친_선생님_20260407">
-  <div class="ep-tag">제 2689회</div>
+
+<a class="card" href="play.html?id=2689_일상_카페에서_마주친_선생님_20260407" data-stem="2689_일상_카페에서_마주친_선생님_20260407" data-ep="2689" data-title="카페에서 마주친 선생님" data-category="일상">
+  <div class="ep-top">
+    <div class="ep-tag">제 2689회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>카페에서 마주친 선생님</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.07</span>
     <span><i class="bi bi-clock"></i> 0분 50초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2688_가정_남매의_기싸움Ⅰ_20260406">
-  <div class="ep-tag">제 2688회</div>
+
+<a class="card" href="play.html?id=2688_가정_남매의_기싸움Ⅰ_20260406" data-stem="2688_가정_남매의_기싸움Ⅰ_20260406" data-ep="2688" data-title="남매의 기싸움Ⅰ" data-category="가정">
+  <div class="ep-top">
+    <div class="ep-tag">제 2688회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>남매의 기싸움Ⅰ</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.06</span>
     <span><i class="bi bi-clock"></i> 0분 52초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2687_여행_요즘에도_수동_차를_빌려주다니_20260403">
-  <div class="ep-tag">제 2687회</div>
+
+<a class="card" href="play.html?id=2687_여행_요즘에도_수동_차를_빌려주다니_20260403" data-stem="2687_여행_요즘에도_수동_차를_빌려주다니_20260403" data-ep="2687" data-title="요즘에도 수동 차를 빌려주다니" data-category="여행">
+  <div class="ep-top">
+    <div class="ep-tag">제 2687회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>요즘에도 수동 차를 빌려주다니</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.03</span>
     <span><i class="bi bi-clock"></i> 0분 42초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2686_관계_너라면_입고_다니겠니Ⅰ_20260402">
-  <div class="ep-tag">제 2686회</div>
+
+<a class="card" href="play.html?id=2686_관계_너라면_입고_다니겠니Ⅰ_20260402" data-stem="2686_관계_너라면_입고_다니겠니Ⅰ_20260402" data-ep="2686" data-title="너라면 입고 다니겠니Ⅰ" data-category="관계">
+  <div class="ep-top">
+    <div class="ep-tag">제 2686회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>너라면 입고 다니겠니Ⅰ</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.02</span>
     <span><i class="bi bi-clock"></i> 0분 47초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2685_직업_인형_탈_알바의_고충_20260401">
-  <div class="ep-tag">제 2685회</div>
+
+<a class="card" href="play.html?id=2685_직업_인형_탈_알바의_고충_20260401" data-stem="2685_직업_인형_탈_알바의_고충_20260401" data-ep="2685" data-title="인형 탈 알바의 고충" data-category="직업">
+  <div class="ep-top">
+    <div class="ep-tag">제 2685회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>인형 탈 알바의 고충</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.04.01</span>
     <span><i class="bi bi-clock"></i> 0분 21초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2684_일상_지각_변명의_정석_20260331">
-  <div class="ep-tag">제 2684회</div>
+
+<a class="card" href="play.html?id=2684_일상_지각_변명의_정석_20260331" data-stem="2684_일상_지각_변명의_정석_20260331" data-ep="2684" data-title="지각 변명의 정석" data-category="일상">
+  <div class="ep-top">
+    <div class="ep-tag">제 2684회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>지각 변명의 정석</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.31</span>
     <span><i class="bi bi-clock"></i> 0분 36초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2683_가정_엄마의_깜짝_점검_II_20260330">
-  <div class="ep-tag">제 2683회</div>
+
+<a class="card" href="play.html?id=2683_가정_엄마의_깜짝_점검_II_20260330" data-stem="2683_가정_엄마의_깜짝_점검_II_20260330" data-ep="2683" data-title="엄마의 깜짝 점검 II" data-category="가정">
+  <div class="ep-top">
+    <div class="ep-tag">제 2683회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>엄마의 깜짝 점검 II</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.30</span>
     <span><i class="bi bi-clock"></i> 0분 51초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2682_여행_한_번이라도_발라_볼걸_20260327">
-  <div class="ep-tag">제 2682회</div>
+
+<a class="card" href="play.html?id=2682_여행_한_번이라도_발라_볼걸_20260327" data-stem="2682_여행_한_번이라도_발라_볼걸_20260327" data-ep="2682" data-title="한 번이라도 발라 볼걸" data-category="여행">
+  <div class="ep-top">
+    <div class="ep-tag">제 2682회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>한 번이라도 발라 볼걸</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.27</span>
     <span><i class="bi bi-clock"></i> 0분 48초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2681_관계_이상하게_조용한_아이_II_20260326">
-  <div class="ep-tag">제 2681회</div>
+
+<a class="card" href="play.html?id=2681_관계_이상하게_조용한_아이_II_20260326" data-stem="2681_관계_이상하게_조용한_아이_II_20260326" data-ep="2681" data-title="이상하게 조용한 아이 II" data-category="관계">
+  <div class="ep-top">
+    <div class="ep-tag">제 2681회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>이상하게 조용한 아이 II</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.26</span>
     <span><i class="bi bi-clock"></i> 0분 44초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2680_직업_신입_사원의_첫_출근_II_20260325">
-  <div class="ep-tag">제 2680회</div>
+
+<a class="card" href="play.html?id=2680_직업_신입_사원의_첫_출근_II_20260325" data-stem="2680_직업_신입_사원의_첫_출근_II_20260325" data-ep="2680" data-title="신입 사원의 첫 출근 II" data-category="직업">
+  <div class="ep-top">
+    <div class="ep-tag">제 2680회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>신입 사원의 첫 출근 II</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.25</span>
     <span><i class="bi bi-clock"></i> 0분 56초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2679_일상_사라진_내_소포는_어디에_II_20260324">
-  <div class="ep-tag">제 2679회</div>
+
+<a class="card" href="play.html?id=2679_일상_사라진_내_소포는_어디에_II_20260324" data-stem="2679_일상_사라진_내_소포는_어디에_II_20260324" data-ep="2679" data-title="사라진 내 소포는 어디에 II" data-category="일상">
+  <div class="ep-top">
+    <div class="ep-tag">제 2679회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>사라진 내 소포는 어디에 II</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.24</span>
     <span><i class="bi bi-clock"></i> 1분 09초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2678_가정_엄마의_깜짝_점검_I_20260323">
-  <div class="ep-tag">제 2678회</div>
+
+<a class="card" href="play.html?id=2678_가정_엄마의_깜짝_점검_I_20260323" data-stem="2678_가정_엄마의_깜짝_점검_I_20260323" data-ep="2678" data-title="엄마의 깜짝 점검 I" data-category="가정">
+  <div class="ep-top">
+    <div class="ep-tag">제 2678회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>엄마의 깜짝 점검 I</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.23</span>
     <span><i class="bi bi-clock"></i> 0분 47초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2677_여행_같은_곳을_계속_돌_뻔한_관광객_20260320">
-  <div class="ep-tag">제 2677회</div>
+
+<a class="card" href="play.html?id=2677_여행_같은_곳을_계속_돌_뻔한_관광객_20260320" data-stem="2677_여행_같은_곳을_계속_돌_뻔한_관광객_20260320" data-ep="2677" data-title="같은 곳을 계속 돌 뻔한 관광객" data-category="여행">
+  <div class="ep-top">
+    <div class="ep-tag">제 2677회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>같은 곳을 계속 돌 뻔한 관광객</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.20</span>
     <span><i class="bi bi-clock"></i> 0분 48초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2676_관계_이상하게_조용한_아이_I_20260319">
-  <div class="ep-tag">제 2676회</div>
+
+<a class="card" href="play.html?id=2676_관계_이상하게_조용한_아이_I_20260319" data-stem="2676_관계_이상하게_조용한_아이_I_20260319" data-ep="2676" data-title="이상하게 조용한 아이 I" data-category="관계">
+  <div class="ep-top">
+    <div class="ep-tag">제 2676회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>이상하게 조용한 아이 I</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.19</span>
     <span><i class="bi bi-clock"></i> 1분 01초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2675_직업_신입_사원의_첫_출근_I_20260318">
-  <div class="ep-tag">제 2675회</div>
+
+<a class="card" href="play.html?id=2675_직업_신입_사원의_첫_출근_I_20260318" data-stem="2675_직업_신입_사원의_첫_출근_I_20260318" data-ep="2675" data-title="신입 사원의 첫 출근 I" data-category="직업">
+  <div class="ep-top">
+    <div class="ep-tag">제 2675회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>신입 사원의 첫 출근 I</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.18</span>
     <span><i class="bi bi-clock"></i> 0분 56초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2674_일상_사라진_내_소포는_어디에_I_20260317">
-  <div class="ep-tag">제 2674회</div>
+
+<a class="card" href="play.html?id=2674_일상_사라진_내_소포는_어디에_I_20260317" data-stem="2674_일상_사라진_내_소포는_어디에_I_20260317" data-ep="2674" data-title="사라진 내 소포는 어디에 I" data-category="일상">
+  <div class="ep-top">
+    <div class="ep-tag">제 2674회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>사라진 내 소포는 어디에 I</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.17</span>
     <span><i class="bi bi-clock"></i> 0분 30초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2673_가정_축구에_소질_있는_아이_20260316">
-  <div class="ep-tag">제 2673회</div>
+
+<a class="card" href="play.html?id=2673_가정_축구에_소질_있는_아이_20260316" data-stem="2673_가정_축구에_소질_있는_아이_20260316" data-ep="2673" data-title="축구에 소질 있는 아이" data-category="가정">
+  <div class="ep-top">
+    <div class="ep-tag">제 2673회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>축구에 소질 있는 아이</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.16</span>
     <span><i class="bi bi-clock"></i> 2분 00초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2672_여행_체크인하며_체크아웃도_물어보기_20260313">
-  <div class="ep-tag">제 2672회</div>
+
+<a class="card" href="play.html?id=2672_여행_체크인하며_체크아웃도_물어보기_20260313" data-stem="2672_여행_체크인하며_체크아웃도_물어보기_20260313" data-ep="2672" data-title="체크인하며 체크아웃도 물어보기" data-category="여행">
+  <div class="ep-top">
+    <div class="ep-tag">제 2672회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>체크인하며 체크아웃도 물어보기</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.13</span>
     <span><i class="bi bi-clock"></i> 0분 38초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2671_관계_도서관에서_계속_엇갈리는_친구들_II_20260312">
-  <div class="ep-tag">제 2671회</div>
+
+<a class="card" href="play.html?id=2671_관계_도서관에서_계속_엇갈리는_친구들_II_20260312" data-stem="2671_관계_도서관에서_계속_엇갈리는_친구들_II_20260312" data-ep="2671" data-title="도서관에서 계속 엇갈리는 친구들 II" data-category="관계">
+  <div class="ep-top">
+    <div class="ep-tag">제 2671회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>도서관에서 계속 엇갈리는 친구들 II</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.12</span>
     <span><i class="bi bi-clock"></i> 0분 43초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2670_직업_필라테스는_나와_맞지_않아_20260311">
-  <div class="ep-tag">제 2670회</div>
+
+<a class="card" href="play.html?id=2670_직업_필라테스는_나와_맞지_않아_20260311" data-stem="2670_직업_필라테스는_나와_맞지_않아_20260311" data-ep="2670" data-title="필라테스는 나와 맞지 않아" data-category="직업">
+  <div class="ep-top">
+    <div class="ep-tag">제 2670회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>필라테스는 나와 맞지 않아</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.11</span>
     <span><i class="bi bi-clock"></i> 0분 58초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2669_일상_한밤의_기타_소리_II_20260310">
-  <div class="ep-tag">제 2669회</div>
+
+<a class="card" href="play.html?id=2669_일상_한밤의_기타_소리_II_20260310" data-stem="2669_일상_한밤의_기타_소리_II_20260310" data-ep="2669" data-title="한밤의 기타 소리 II" data-category="일상">
+  <div class="ep-top">
+    <div class="ep-tag">제 2669회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>한밤의 기타 소리 II</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.10</span>
     <span><i class="bi bi-clock"></i> 0분 47초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2668_가정_배고파서_분노한_고양이_20260309">
-  <div class="ep-tag">제 2668회</div>
+
+<a class="card" href="play.html?id=2668_가정_배고파서_분노한_고양이_20260309" data-stem="2668_가정_배고파서_분노한_고양이_20260309" data-ep="2668" data-title="배고파서 분노한 고양이" data-category="가정">
+  <div class="ep-top">
+    <div class="ep-tag">제 2668회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>배고파서 분노한 고양이</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.09</span>
     <span><i class="bi bi-clock"></i> 0분 46초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2667_여행_부산_직행_열차인_줄_알았네_20260306">
-  <div class="ep-tag">제 2667회</div>
+
+<a class="card" href="play.html?id=2667_여행_부산_직행_열차인_줄_알았네_20260306" data-stem="2667_여행_부산_직행_열차인_줄_알았네_20260306" data-ep="2667" data-title="부산 직행 열차인 줄 알았네" data-category="여행">
+  <div class="ep-top">
+    <div class="ep-tag">제 2667회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>부산 직행 열차인 줄 알았네</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.06</span>
     <span><i class="bi bi-clock"></i> 0분 49초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2666_관계_도서관에서_계속_엇갈리는_친구들_I_20260305">
-  <div class="ep-tag">제 2666회</div>
+
+<a class="card" href="play.html?id=2666_관계_도서관에서_계속_엇갈리는_친구들_I_20260305" data-stem="2666_관계_도서관에서_계속_엇갈리는_친구들_I_20260305" data-ep="2666" data-title="도서관에서 계속 엇갈리는 친구들 I" data-category="관계">
+  <div class="ep-top">
+    <div class="ep-tag">제 2666회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>도서관에서 계속 엇갈리는 친구들 I</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.05</span>
     <span><i class="bi bi-clock"></i> 0분 47초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2665_직업_프린터야_왜_자꾸_종이를_먹어_20260304">
-  <div class="ep-tag">제 2665회</div>
+
+<a class="card" href="play.html?id=2665_직업_프린터야_왜_자꾸_종이를_먹어_20260304" data-stem="2665_직업_프린터야_왜_자꾸_종이를_먹어_20260304" data-ep="2665" data-title="프린터야 왜 자꾸 종이를 먹어" data-category="직업">
+  <div class="ep-top">
+    <div class="ep-tag">제 2665회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>프린터야 왜 자꾸 종이를 먹어</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.04</span>
     <span><i class="bi bi-clock"></i> 0분 53초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2664_일상_한밤의_기타_소리_I_20260303">
-  <div class="ep-tag">제 2664회</div>
+
+<a class="card" href="play.html?id=2664_일상_한밤의_기타_소리_I_20260303" data-stem="2664_일상_한밤의_기타_소리_I_20260303" data-ep="2664" data-title="한밤의 기타 소리 I" data-category="일상">
+  <div class="ep-top">
+    <div class="ep-tag">제 2664회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>한밤의 기타 소리 I</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.03</span>
     <span><i class="bi bi-clock"></i> 0분 55초</span>
   </div>
 </a>
-<a class="card" href="play.html?id=2663_가정_리모컨은_왜_항상_사라지는가_20260302">
-  <div class="ep-tag">제 2663회</div>
+
+<a class="card" href="play.html?id=2663_가정_리모컨은_왜_항상_사라지는가_20260302" data-stem="2663_가정_리모컨은_왜_항상_사라지는가_20260302" data-ep="2663" data-title="리모컨은 왜 항상 사라지는가" data-category="가정">
+  <div class="ep-top">
+    <div class="ep-tag">제 2663회</div>
+    <span class="play-badge"></span>
+  </div>
   <h3>리모컨은 왜 항상 사라지는가</h3>
   <div class="meta">
     <span><i class="bi bi-calendar3"></i> 2026.03.02</span>
     <span><i class="bi bi-clock"></i> 0분 51초</span>
   </div>
 </a>
+
   </div>
+  <div class="no-results" id="noResults">검색 결과가 없습니다.</div>
 </div>
+<script>
+function filterCards() {
+  const q = document.getElementById('searchInput').value.trim().toLowerCase();
+  const cards = document.querySelectorAll('#cardGrid .card');
+  let visible = 0;
+  cards.forEach(function(card) {
+    const ep = (card.dataset.ep || '');
+    const title = (card.dataset.title || '').toLowerCase();
+    const category = (card.dataset.category || '').toLowerCase();
+    const match = !q || ep.includes(q) || title.includes(q) || category.includes(q);
+    card.style.display = match ? '' : 'none';
+    if(match) visible++;
+  });
+  document.getElementById('noResults').style.display = visible === 0 ? 'block' : 'none';
+}
+
+function loadPlayCounts() {
+  const cards = document.querySelectorAll('#cardGrid .card');
+  cards.forEach(function(card) {
+    const stem = card.dataset.stem;
+    if(!stem) return;
+    try {
+      const data = JSON.parse(localStorage.getItem('ebs_played_' + stem) || '{}');
+      const count = data.play_count || 0;
+      if(count > 0) {
+        const badge = card.querySelector('.play-badge');
+        if(badge) {
+          badge.textContent = count + '회';
+          badge.classList.add('has-plays');
+        }
+      }
+    } catch(e) {}
+  });
+}
+
+loadPlayCounts();
+</script>
 </body>
 </html>

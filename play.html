@@ -15,16 +15,19 @@ body { background: var(--bg); color: var(--text); font-family: -apple-system, sy
 .app { display: flex; flex-direction: column; height: 100vh; max-width: 800px; margin: 0 auto; }
 header { padding: 16px; background: rgba(15, 23, 42, 0.9); backdrop-filter: blur(10px); position: sticky; top: 0; z-index: 100; border-bottom: 1px solid rgba(255,255,255,0.1); }
 .nav-top { display: flex; align-items: center; gap: 15px; margin-bottom: 12px; }
-.back-btn { color: var(--muted); text-decoration: none; font-size: 28px; }
+.back-btn { color: var(--muted); text-decoration: none; font-size: 28px; flex-shrink: 0; }
+.title-area { flex: 1; min-width: 0; }
 .title-area h1 { margin: 0; font-size: 22px; font-weight: bold; color: var(--text); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.play-count-badge { font-size: 13px; color: #4ade80; font-weight: 600; margin-top: 2px; display: none; }
 
 .player-container { background: var(--panel); padding: 16px; border-radius: 16px; border: 1px solid rgba(255,255,255,0.1); }
 audio { width: 100%; height: 54px; border-radius: 12px; }
 
 .controls-row { display: flex; align-items: center; justify-content: space-between; margin-top: 15px; gap: 10px; }
 .btn-group { display: flex; gap: 6px; background: rgba(0,0,0,0.3); padding: 6px; border-radius: 12px; }
-.ctrl-btn { background: none; border: none; color: var(--muted); padding: 10px 16px; border-radius: 10px; cursor: pointer; font-size: 18px; transition: 0.2s; display: flex; align-items: center; gap: 6px; }
+.ctrl-btn { background: none; border: none; color: var(--muted); padding: 10px 14px; border-radius: 10px; cursor: pointer; font-size: 17px; transition: 0.2s; display: flex; align-items: center; gap: 5px; white-space: nowrap; }
 .ctrl-btn.active { background: var(--accent); color: white; }
+.ctrl-btn.repeat-full { background: #a855f7; color: white; }
 .speed-val { min-width: 60px; text-align: center; font-weight: bold; color: var(--accent); font-size: 20px; }
 
 .script-container { flex: 1; overflow-y: auto; padding: 16px; scroll-behavior: smooth; }
@@ -45,7 +48,10 @@ audio { width: 100%; height: 54px; border-radius: 12px; }
   <header>
     <div class="nav-top">
       <a href="index.html" class="back-btn"><i class="bi bi-chevron-left"></i></a>
-      <div class="title-area"><h1 id="title">로딩 중...</h1></div>
+      <div class="title-area">
+        <h1 id="title">로딩 중...</h1>
+        <div class="play-count-badge" id="playCountBadge"></div>
+      </div>
     </div>
     <div class="player-container">
       <audio id="player" controls controlsList="nodownload noplaybackrate"></audio>
@@ -57,6 +63,7 @@ audio { width: 100%; height: 54px; border-radius: 12px; }
         </div>
         <div class="btn-group">
           <button id="repeatBtn" class="ctrl-btn" onclick="toggleRepeat()"><i class="bi bi-repeat"></i> 반복</button>
+          <button id="autoNextBtn" class="ctrl-btn" onclick="toggleAutoNext()"><i class="bi bi-collection-play"></i> 연속</button>
         </div>
       </div>
     </div>
@@ -64,11 +71,15 @@ audio { width: 100%; height: 54px; border-radius: 12px; }
   <main class="script-container" id="scriptList"></main>
 </div>
 <script>
+const EPISODE_LIST = [{"stem": "2663_가정_리모컨은_왜_항상_사라지는가_20260302", "ep": 2663}, {"stem": "2664_일상_한밤의_기타_소리_I_20260303", "ep": 2664}, {"stem": "2665_직업_프린터야_왜_자꾸_종이를_먹어_20260304", "ep": 2665}, {"stem": "2666_관계_도서관에서_계속_엇갈리는_친구들_I_20260305", "ep": 2666}, {"stem": "2667_여행_부산_직행_열차인_줄_알았네_20260306", "ep": 2667}, {"stem": "2668_가정_배고파서_분노한_고양이_20260309", "ep": 2668}, {"stem": "2669_일상_한밤의_기타_소리_II_20260310", "ep": 2669}, {"stem": "2670_직업_필라테스는_나와_맞지_않아_20260311", "ep": 2670}, {"stem": "2671_관계_도서관에서_계속_엇갈리는_친구들_II_20260312", "ep": 2671}, {"stem": "2672_여행_체크인하며_체크아웃도_물어보기_20260313", "ep": 2672}, {"stem": "2673_가정_축구에_소질_있는_아이_20260316", "ep": 2673}, {"stem": "2674_일상_사라진_내_소포는_어디에_I_20260317", "ep": 2674}, {"stem": "2675_직업_신입_사원의_첫_출근_I_20260318", "ep": 2675}, {"stem": "2676_관계_이상하게_조용한_아이_I_20260319", "ep": 2676}, {"stem": "2677_여행_같은_곳을_계속_돌_뻔한_관광객_20260320", "ep": 2677}, {"stem": "2678_가정_엄마의_깜짝_점검_I_20260323", "ep": 2678}, {"stem": "2679_일상_사라진_내_소포는_어디에_II_20260324", "ep": 2679}, {"stem": "2680_직업_신입_사원의_첫_출근_II_20260325", "ep": 2680}, {"stem": "2681_관계_이상하게_조용한_아이_II_20260326", "ep": 2681}, {"stem": "2682_여행_한_번이라도_발라_볼걸_20260327", "ep": 2682}, {"stem": "2683_가정_엄마의_깜짝_점검_II_20260330", "ep": 2683}, {"stem": "2684_일상_지각_변명의_정석_20260331", "ep": 2684}, {"stem": "2685_직업_인형_탈_알바의_고충_20260401", "ep": 2685}, {"stem": "2686_관계_너라면_입고_다니겠니Ⅰ_20260402", "ep": 2686}, {"stem": "2687_여행_요즘에도_수동_차를_빌려주다니_20260403", "ep": 2687}, {"stem": "2688_가정_남매의_기싸움Ⅰ_20260406", "ep": 2688}, {"stem": "2689_일상_카페에서_마주친_선생님_20260407", "ep": 2689}, {"stem": "2690_직업_기장과_아이의_대화Ⅰ_20260408", "ep": 2690}, {"stem": "2691_관계_너라면_입고_다니겠니Ⅱ_20260409", "ep": 2691}, {"stem": "2692_여행_여권_하나에_깨진_우정Ⅰ_20260410", "ep": 2692}, {"stem": "2693_가정_남매의_기싸움Ⅱ_20260413", "ep": 2693}, {"stem": "2694_일상_일부러_늦게_오는_거였어_20260414", "ep": 2694}, {"stem": "2695_직업_기장과_아이의_대화Ⅱ_20260415", "ep": 2695}, {"stem": "2696_관계_수업_중엔_휴대폰_사용_금지인_거_알잖아_20260416", "ep": 2696}, {"stem": "2698_가정_전설적인_할머니_레시피_20260420", "ep": 2698}, {"stem": "2699_일상_휴대폰은_사이를_멀어지게_한다_20260421", "ep": 2699}, {"stem": "2700_직업_휴대폰_너_없이_살_순_없어_20260422", "ep": 2700}, {"stem": "2701_관계_안경이_필요한_너_20260423", "ep": 2701}, {"stem": "2702_여행_택시_타려다_돈_굳었네_20260424", "ep": 2702}, {"stem": "2703_가정_우리_모든_엄마들의_손맛_20260427", "ep": 2703}, {"stem": "2704_일상_열심히_하는_건_좋지만_잠이_더_중요해_20260428", "ep": 2704}, {"stem": "2705_직업_감자튀김은_양심상_뺐어_20260429", "ep": 2705}, {"stem": "2706_관계_작은_우산은_로맨스의_시작_20260430", "ep": 2706}, {"stem": "2707_여행_여행_가이드가_추천한_포토존_20260501", "ep": 2707}, {"stem": "2708_가정_너_정도면_청소년_아니니_20260504", "ep": 2708}, {"stem": "2709_일상_피자는_치즈가_생명이다_20260505", "ep": 2709}, {"stem": "2710_직업_뭐야_말이랑_다르잖아_20260506", "ep": 2710}, {"stem": "2711_관계_과장님_편이니_내_편이니Ⅰ_20260507", "ep": 2711}, {"stem": "2712_여행_엄마를_모시고_라스베이거스로Ⅰ_20260508", "ep": 2712}, {"stem": "2713_가정_엄마를_모시고_라스베이거스로Ⅱ_20260511", "ep": 2713}];
+
 let SCRIPT = [];
-let isRepeat = false;
+let repeatMode = 0; // 0=off, 1=구간반복, 2=전체반복
+let isAutoNext = false;
 let currentIdx = -1;
 const player = document.getElementById('player');
 const scriptList = document.getElementById('scriptList');
+
 async function init() {
   const params = new URLSearchParams(window.location.search);
   const rawId = params.get('id');
@@ -76,25 +87,30 @@ async function init() {
     document.getElementById('loader').innerHTML = '<div>❌ 회차 ID가 없습니다.</div>';
     return;
   }
-  
+
   const id = decodeURIComponent(rawId);
-  console.log("Loading episode ID:", id);
-  
+
   try {
-    const cacheBuster = Date.now();
-    const res = await fetch(`${id}_player.json?v=${cacheBuster}`);
-    
-    if (!res.ok) {
-        throw new Error(`파일을 찾을 수 없습니다 (상태: ${res.status}).`);
-    }
-    
+    const res = await fetch(`${id}_player.json?v=${Date.now()}`);
+    if (!res.ok) throw new Error(`파일을 찾을 수 없습니다 (상태: ${res.status})`);
+
     const data = await res.json();
     SCRIPT = data.script || [];
     document.getElementById('title').textContent = data.subtitle || id;
+    document.title = data.subtitle || id;
     player.src = data.mp3_url;
-    
+
+    const key = 'ebs_played_' + id;
+    const pdata = JSON.parse(localStorage.getItem(key) || '{}');
+    pdata.play_count = (pdata.play_count || 0) + 1;
+    pdata.last_played = new Date().toISOString();
+    localStorage.setItem(key, JSON.stringify(pdata));
+    const badge = document.getElementById('playCountBadge');
+    badge.textContent = pdata.play_count + '회 청취';
+    badge.style.display = 'block';
+
     if (SCRIPT.length === 0) {
-        scriptList.innerHTML = '<div style="padding:20px; text-align:center; color:var(--muted);">스크립트 데이터가 없습니다.</div>';
+      scriptList.innerHTML = '<div style="padding:20px;text-align:center;color:var(--muted);">스크립트 데이터가 없습니다.</div>';
     }
 
     SCRIPT.forEach((s, i) => {
@@ -102,34 +118,36 @@ async function init() {
       div.className = 'line';
       div.id = `line-${i}`;
       div.innerHTML = `<div class="time">${formatTime(s.start)}</div><div class="text">${s.text}</div>`;
-      div.onclick = () => { seekTo(i); };
+      div.onclick = () => seekTo(i);
       scriptList.appendChild(div);
     });
 
     document.getElementById('loader').style.display = 'none';
   } catch(e) {
-    console.error("Fetch error:", e);
+    console.error(e);
     document.getElementById('loader').innerHTML = `
-        <div style="padding:20px; text-align:center;">
-            <div style="font-size:40px; margin-bottom:10px;">⚠️</div>
-            <div style="font-size:18px; margin-bottom:10px; color:var(--accent); font-weight:bold;">${e.message}</div>
-            <div style="font-size:13px; color:var(--muted); margin-bottom:20px;">ID: ${id}</div>
-            <button onclick="location.reload()" style="background:var(--accent); color:white; border:none; padding:12px 24px; border-radius:10px; font-weight:bold; cursor:pointer;">페이지 새로고침</button>
-        </div>
-    `;
+      <div style="padding:20px;text-align:center;">
+        <div style="font-size:40px;margin-bottom:10px;">⚠️</div>
+        <div style="font-size:18px;margin-bottom:10px;color:var(--accent);font-weight:bold;">${e.message}</div>
+        <div style="font-size:13px;color:var(--muted);margin-bottom:20px;">ID: ${id}</div>
+        <button onclick="location.reload()" style="background:var(--accent);color:white;border:none;padding:12px 24px;border-radius:10px;font-weight:bold;cursor:pointer;">페이지 새로고침</button>
+      </div>`;
   }
 }
+
 function formatTime(s) {
   const m = Math.floor(s / 60);
   const sec = Math.floor(s % 60);
   return `${m}분 ${sec}초`;
 }
+
 function seekTo(idx) {
   if(idx < 0 || idx >= SCRIPT.length) return;
   player.currentTime = SCRIPT[idx].start;
   player.play();
   highlight(idx);
 }
+
 function highlight(idx) {
   if(currentIdx === idx) return;
   const old = document.getElementById(`line-${currentIdx}`);
@@ -141,26 +159,73 @@ function highlight(idx) {
     el.scrollIntoView({ behavior: 'smooth', block: 'center' });
   }
 }
+
 player.ontimeupdate = () => {
   const t = player.currentTime;
   const idx = SCRIPT.findIndex(s => t >= s.start && t < s.end);
   if(idx !== -1) {
     highlight(idx);
-    if(isRepeat && t >= SCRIPT[idx].end - 0.1) {
-      player.currentTime = SCRIPT[idx].start;
-    }
+  } else if(repeatMode === 1 && currentIdx >= 0 && SCRIPT[currentIdx] && t > SCRIPT[currentIdx].end) {
+    player.currentTime = SCRIPT[currentIdx].start;
   }
 };
+
+player.addEventListener('ended', () => {
+  if(repeatMode === 1 && currentIdx >= 0 && SCRIPT[currentIdx]) {
+    player.currentTime = SCRIPT[currentIdx].start;
+    player.play();
+    return;
+  }
+  if(repeatMode === 2) {
+    player.currentTime = 0;
+    player.play();
+    return;
+  }
+  if(isAutoNext) goNextEpisode();
+});
+
+function goNextEpisode() {
+  const params = new URLSearchParams(window.location.search);
+  const currentStem = decodeURIComponent(params.get('id') || '');
+  const idx = EPISODE_LIST.findIndex(e => e.stem === currentStem);
+  if(idx >= 0 && idx < EPISODE_LIST.length - 1) {
+    const next = EPISODE_LIST[idx + 1];
+    const loader = document.getElementById('loader');
+    loader.style.display = 'flex';
+    loader.innerHTML = '<div class="spinner"></div><div style="font-size:18px;">다음 회차 로딩 중...</div>';
+    window.location.href = 'play.html?id=' + encodeURIComponent(next.stem);
+  }
+}
+
 function changeSpeed(delta) {
   let s = Math.round((player.playbackRate + delta) * 10) / 10;
-  if(s < 0.5) s = 0.5; if(s > 2.0) s = 2.0;
+  if(s < 0.5) s = 0.5;
+  if(s > 2.0) s = 2.0;
   player.playbackRate = s;
-  document.getElementById('speedDisp').textContent = s.toFixed(1) + "x";
+  document.getElementById('speedDisp').textContent = s.toFixed(1) + 'x';
 }
+
 function toggleRepeat() {
-  isRepeat = !isRepeat;
-  document.getElementById('repeatBtn').classList.toggle('active', isRepeat);
+  repeatMode = (repeatMode + 1) % 3;
+  const btn = document.getElementById('repeatBtn');
+  if(repeatMode === 0) {
+    btn.classList.remove('active', 'repeat-full');
+    btn.innerHTML = '<i class="bi bi-repeat"></i> 반복';
+  } else if(repeatMode === 1) {
+    btn.classList.add('active');
+    btn.classList.remove('repeat-full');
+    btn.innerHTML = '<i class="bi bi-repeat-1"></i> 구간';
+  } else {
+    btn.classList.add('active', 'repeat-full');
+    btn.innerHTML = '<i class="bi bi-repeat"></i> 전체';
+  }
 }
+
+function toggleAutoNext() {
+  isAutoNext = !isAutoNext;
+  document.getElementById('autoNextBtn').classList.toggle('active', isAutoNext);
+}
+
 init();
 </script>
 </body>
