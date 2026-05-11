@@ -693,6 +693,10 @@ function loadPlayCounts() {
 }
 
 loadPlayCounts();
+
+document.querySelectorAll('.card').forEach(function(card) {
+  card.href = card.href + '&autoplay=1';
+});
 </script>
 </body>
 </html>
