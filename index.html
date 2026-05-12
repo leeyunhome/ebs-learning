@@ -696,6 +696,7 @@ loadPlayCounts();
 
 document.querySelectorAll('.card').forEach(function(card) {
   card.href = card.href + '&autoplay=1';
+  card.addEventListener('click', function() { sessionStorage.setItem('ebs_autoplay', '1'); });
 });
 </script>
 </body>
