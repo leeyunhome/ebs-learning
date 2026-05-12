@@ -1,0 +1,25 @@
+{
+  "audio": "extracted_20260512_090000_bbb4c674_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.18,
+      "text": "Nice! My favorite dish is on the menu today."
+    },
+    {
+      "start": 7.18,
+      "end": 11.6,
+      "text": "Are you talking about the spicy chicken?"
+    },
+    {
+      "start": 11.6,
+      "end": 15.44,
+      "text": "What else? Look, my mouth is watering."
+    },
+    {
+      "start": 15.44,
+      "end": 19.52,
+      "text": "Okay, you get in line. I'll go and get the trays."
+    }
+  ]
+}
