@@ -1,30 +1,45 @@
 {
-  "audio": "extracted_20260512_090000_bbb4c674_mp3.mp3",
+  "audio": "extracted_20260512_090000_bbb4c674_mp3__dup20260512_213708.mp3",
   "script": [
     {
       "start": 0,
-      "end": 7.18,
-      "text": "Nice! My favorite dish is on the menu today."
+      "end": 1.0,
+      "text": "There you go."
     },
     {
-      "start": 7.18,
-      "end": 11.6,
+      "start": 5.0,
+      "end": 7.4,
+      "text": "Nice."
+    },
+    {
+      "start": 7.4,
+      "end": 11.0,
+      "text": "My favorite dish is on the menu today."
+    },
+    {
+      "start": 21.56,
+      "end": 27.28,
       "text": "Are you talking about the spicy chicken?"
     },
     {
-      "start": 11.6,
-      "end": 15.44,
-      "text": "What else? Look, my mouth is watering."
+      "start": 36.48,
+      "end": 37.48,
+      "text": "What else?"
     },
     {
-      "start": 15.44,
-      "end": 19.52,
-      "text": "Okay, you get in line. I'll go and get the trays."
+      "start": 37.48,
+      "end": 43.52,
+      "text": "Look, my mouth is watering."
+    },
+    {
+      "start": 48.68,
+      "end": 52.8,
+      "text": "Okay, you get in line."
+    },
+    {
+      "start": 52.8,
+      "end": 55.76,
+      "text": "I'll go and get the trays."
     }
-  ],
-  "episode_num": 2714,
-  "category": "일상",
-  "subtitle": "오늘 학교 급식 딱 내 취향이야",
-  "date": "2026.05.12",
-  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2714_20260512.mp3"
+  ]
 }

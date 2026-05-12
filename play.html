@@ -91,7 +91,8 @@ if(new URLSearchParams(location.search).get('autoplay') === '1' || sessionStorag
 async function loadEpisode(id) {
   if(!id) return;
   currentStem = id;
-
+  
+  // Update URL without reload
   const newUrl = window.location.pathname + '?id=' + encodeURIComponent(id);
   window.history.replaceState({id}, '', newUrl);
 
@@ -103,15 +104,17 @@ async function loadEpisode(id) {
     SCRIPT = data.script || [];
     currentIdx = -1;
     scriptList.innerHTML = '';
-
+    
     const epNum = data.episode_num || id.split('_')[0];
     const titleText = epNum ? `${epNum}회 ${data.subtitle || id}` : (data.subtitle || id);
     document.getElementById('title').textContent = titleText;
     document.title = titleText;
     player.src = data.mp3_url;
-
+    
     if(player.autoplay) {
-      player.play().catch(() => {});
+      player.play().catch(() => {
+        console.log("Autoplay blocked, waiting for interaction");
+      });
     }
 
     const key = 'ebs_played_' + id;
