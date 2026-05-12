@@ -112,9 +112,7 @@ async function loadEpisode(id) {
     player.src = data.mp3_url;
     
     if(player.autoplay) {
-      player.play().catch(() => {
-        console.log("Autoplay blocked, waiting for interaction");
-      });
+      player.play().catch(() => showAutoplayHint());
     }
 
     const key = 'ebs_played_' + id;
@@ -174,6 +172,22 @@ async function preloadNext(stem) {
     if(res.ok) preloadedNext = { stem: next.stem, ...(await res.json()) };
   } catch(e) {}
 }
+
+function showAutoplayHint() {
+  const existing = document.getElementById('autoplay-hint');
+  if(existing) return;
+  const hint = document.createElement('div');
+  hint.id = 'autoplay-hint';
+  hint.style.cssText = 'position:fixed;bottom:32px;left:50%;transform:translateX(-50%);background:#38bdf8;color:#0f172a;padding:16px 32px;border-radius:40px;font-size:20px;font-weight:bold;z-index:999;cursor:pointer;box-shadow:0 4px 24px rgba(56,189,248,0.5);white-space:nowrap;';
+  hint.textContent = '▶ 탭하여 재생';
+  hint.onclick = function() { player.play(); hint.remove(); };
+  document.body.appendChild(hint);
+}
+
+player.addEventListener('play', function() {
+  const hint = document.getElementById('autoplay-hint');
+  if(hint) hint.remove();
+});
 
 function formatTime(s) {
   const m = Math.floor(s / 60);
