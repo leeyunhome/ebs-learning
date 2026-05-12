@@ -1,44 +1,39 @@
 {
-  "audio": "extracted_20260512_090000_bbb4c674_mp3__dup20260512_213708.mp3",
+  "audio": "extracted_20260512_090000_bbb4c674_mp3__dup20260512_230610.mp3",
   "script": [
     {
       "start": 0,
-      "end": 1.0,
-      "text": "There you go."
+      "end": 4.3,
+      "text": "Nice!"
     },
     {
-      "start": 5.0,
-      "end": 7.4,
-      "text": "Nice."
-    },
-    {
-      "start": 7.4,
-      "end": 11.0,
+      "start": 4.3,
+      "end": 8.4,
       "text": "My favorite dish is on the menu today."
     },
     {
-      "start": 21.56,
-      "end": 27.28,
+      "start": 18.46,
+      "end": 24.2,
       "text": "Are you talking about the spicy chicken?"
     },
     {
-      "start": 36.48,
-      "end": 37.48,
+      "start": 33.4,
+      "end": 34.4,
       "text": "What else?"
     },
     {
-      "start": 37.48,
-      "end": 43.52,
+      "start": 34.4,
+      "end": 40.44,
       "text": "Look, my mouth is watering."
     },
     {
-      "start": 48.68,
-      "end": 52.8,
+      "start": 45.6,
+      "end": 49.72,
       "text": "Okay, you get in line."
     },
     {
-      "start": 52.8,
-      "end": 55.76,
+      "start": 49.72,
+      "end": 52.68,
       "text": "I'll go and get the trays."
     }
   ]
