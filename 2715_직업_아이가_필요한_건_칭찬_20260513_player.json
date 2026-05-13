@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260513_090000_af57d592_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 4.0,
+      "text": "Alright,     .   ."
+    },
+    {
+      "start": 6.0,
+      "end": 8.0,
+      "text": "How's my child doing, Mrs. Jackson?"
+    },
+    {
+      "start": 17.0,
+      "end": 20.0,
+      "text": "He's getting along well with his new friends."
+    },
+    {
+      "start": 31.0,
+      "end": 35.0,
+      "text": "What a relief! I was a bit worried."
+    },
+    {
+      "start": 45.0,
+      "end": 47.0,
+      "text": "Give him plenty of compliments."
+    }
+  ],
+  "episode_num": 2715,
+  "category": "직업",
+  "subtitle": "아이가 필요한 건 칭찬",
+  "date": "2026.05.13",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2715_20260513.mp3"
+}
