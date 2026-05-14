@@ -1,25 +1,25 @@
 {
-  "audio": "extracted_20260514_090000_9afc2fce_mp3__dup20260514_205933.mp3",
+  "audio": "extracted_20260514_090000_9afc2fce_mp3__dup20260514_213954.mp3",
   "script": [
     {
       "start": 0,
-      "end": 5.96,
+      "end": 7.6,
       "text": "What do you mean it's not a bad idea?"
     },
     {
-      "start": 5.96,
-      "end": 10.36,
+      "start": 14.42,
+      "end": 19.0,
       "text": "You don't have to worry about being late."
     },
     {
-      "start": 10.36,
-      "end": 12.36,
+      "start": 28.6,
+      "end": 38.6,
       "text": "Are you on her side now?"
     },
     {
-      "start": 12.36,
-      "end": 15.04,
-      "text": "Well, I'm on nobody's side."
+      "start": 38.6,
+      "end": 48.6,
+      "text": "Well I'm on nobody's side."
     }
   ],
   "episode_num": 2716,
