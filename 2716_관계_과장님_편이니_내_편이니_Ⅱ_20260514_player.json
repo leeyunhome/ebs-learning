@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260514_090000_9afc2fce_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.96,
+      "text": "What do you mean it's not a bad idea?"
+    },
+    {
+      "start": 5.96,
+      "end": 10.36,
+      "text": "You don't have to worry about being late."
+    },
+    {
+      "start": 10.36,
+      "end": 12.36,
+      "text": "Are you on her side now?"
+    },
+    {
+      "start": 12.36,
+      "end": 15.04,
+      "text": "Well, I'm on nobody's side."
+    }
+  ],
+  "episode_num": 2716,
+  "category": "관계",
+  "subtitle": "과장님 편이니 내 편이니 Ⅱ",
+  "date": "2026.05.14",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2716_20260514.mp3"
+}
