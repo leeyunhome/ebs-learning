@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260515_090000_df5a996b_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 12.52,
+      "text": "What's the best way to get to Mayu department store?"
+    },
+    {
+      "start": 12.52,
+      "end": 24.6,
+      "text": "The train is your best bet."
+    },
+    {
+      "start": 24.6,
+      "end": 38.12,
+      "text": "The station is just two blocks away."
+    },
+    {
+      "start": 38.12,
+      "end": 49.6,
+      "text": "Thank you. I'm new to Virginia."
+    },
+    {
+      "start": 49.6,
+      "end": 52.6,
+      "text": "This is Lee Byung-jak's time to participate in the mouth."
+    }
+  ],
+  "episode_num": 2717,
+  "category": "여행",
+  "subtitle": "최적의 노선을 타고 가자",
+  "date": "2026.05.15",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2717_20260515.mp3"
+}
