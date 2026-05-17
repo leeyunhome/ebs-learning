@@ -1,5 +1,5 @@
 {
-  "audio": "extracted_20260515_090000_df5a996b_mp3.mp3",
+  "audio": "extracted_20260515_090000_df5a996b_mp3__dup20260517_203049.mp3",
   "script": [
     {
       "start": 0,
@@ -22,9 +22,9 @@
       "text": "Thank you. I'm new to Virginia."
     },
     {
-      "start": 49.6,
-      "end": 52.6,
-      "text": "This is Lee Byung-jak's time to participate in the mouth."
+      "start": 49.96,
+      "end": 52.4,
+      "text": "This is a part-time job."
     }
   ],
   "episode_num": 2717,
