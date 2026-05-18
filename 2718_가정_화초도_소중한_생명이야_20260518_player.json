@@ -1,0 +1,40 @@
+{
+  "audio": "extracted_20260518_090000_f8b716ed_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.24,
+      "text": "You are supposed to water this plant."
+    },
+    {
+      "start": 9.0,
+      "end": 13.48,
+      "text": "Oops, I forgot."
+    },
+    {
+      "start": 13.48,
+      "end": 15.52,
+      "text": "I'll do it now."
+    },
+    {
+      "start": 21.8,
+      "end": 23.6,
+      "text": "Oops!"
+    },
+    {
+      "start": 24.6,
+      "end": 30.6,
+      "text": "Oops, it can't survive without water."
+    },
+    {
+      "start": 38.6,
+      "end": 42.6,
+      "text": "I'll remember from now on, dad."
+    }
+  ],
+  "episode_num": 2718,
+  "category": "가정",
+  "subtitle": "화초도 소중한 생명이야",
+  "date": "2026.05.18",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2718_20260518.mp3"
+}
