@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260520_090000_bbab0a2f_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "How much is it to rent a bike?"
+    },
+    {
+      "start": 9.0,
+      "end": 20.0,
+      "text": "It's five dollars an hour. How many do you need?"
+    },
+    {
+      "start": 20.0,
+      "end": 36.0,
+      "text": "One for an adult and one for a 12 year old."
+    },
+    {
+      "start": 36.0,
+      "end": 46.0,
+      "text": "Please sign this form."
+    }
+  ],
+  "episode_num": 2720,
+  "category": "직업",
+  "subtitle": "성인과 중학생 자전거 대여하기",
+  "date": "2026.05.20",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2720_20260520.mp3"
+}
