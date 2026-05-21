@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260521_090000_315f09db_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 8.0,
+      "text": "Who is this handsome guy in your selfie?"
+    },
+    {
+      "start": 12.0,
+      "end": 21.0,
+      "text": "That's just a co-worker. Don't overthink it."
+    },
+    {
+      "start": 21.0,
+      "end": 34.0,
+      "text": "Why is he smiling at you?"
+    },
+    {
+      "start": 34.0,
+      "end": 45.0,
+      "text": "Maybe I had something on my face."
+    }
+  ],
+  "episode_num": 2721,
+  "category": "관계",
+  "subtitle": "우리 엄마의 사랑의 참견 I",
+  "date": "2026.05.21",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2721_20260521.mp3"
+}
