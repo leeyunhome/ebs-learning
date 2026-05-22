@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260522_090000_890bac77_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Can I take this stroller to the gate?"
+    },
+    {
+      "start": 11.0,
+      "end": 17.0,
+      "text": "Yes, just leave it with our staff there."
+    },
+    {
+      "start": 23.0,
+      "end": 32.0,
+      "text": "You can pick it up after you get off the plane."
+    },
+    {
+      "start": 44.0,
+      "end": 50.0,
+      "text": "How convenient, thank you."
+    },
+    {
+      "start": 53.0,
+      "end": 54.0,
+      "text": "Yeah."
+    }
+  ],
+  "episode_num": 2722,
+  "category": "여행",
+  "subtitle": "공항과 유모차 I",
+  "date": "2026.05.22",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2722_20260522.mp3"
+}
