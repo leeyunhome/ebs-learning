@@ -4,22 +4,22 @@
     {
       "start": 0,
       "end": 6.0,
-      "text": "I think someone stole my package. 주세요"
+      "text": "I think someone stole my package. 누군가가 내 패키지를 훔친 것 같아요."
     },
     {
       "start": 9.0,
       "end": 16.0,
-      "text": "How do you know it was stolen?"
+      "text": "How do you know it was stolen? 도난당했는지 어떻게 알 수 있나요?"
     },
     {
       "start": 22.0,
       "end": 26.0,
-      "text": "The tracking says delivered, but it's not at my door."
+      "text": "The tracking says delivered, but it's not at my door. 추적에는 배달되었다고 표시되어 있지만 집 앞에는 없습니다."
     },
     {
       "start": 26.0,
       "end": 30.0,
-      "text": "Let's check the security camera first."
+      "text": "Let's check the security camera first. 먼저 보안 카메라부터 확인해 볼까요?"
     }
   ],
   "episode_num": 2674,

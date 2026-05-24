@@ -4,22 +4,22 @@
     {
       "start": 0,
       "end": 10.0,
-      "text": "Is there a bus that goes to my theatre? 전체 대화 주세요."
+      "text": "Is there a bus that goes to my theatre? 우리 극장까지 가는 버스가 있나요?"
     },
     {
       "start": 10.0,
       "end": 25.0,
-      "text": "I believe bus number 16 goes there."
+      "text": "I believe bus number 16 goes there. 16번 버스가 거기로 가는 것 같아요."
     },
     {
       "start": 25.0,
       "end": 38.0,
-      "text": "It should arrive pretty soon."
+      "text": "It should arrive pretty soon. 곧 도착할 거에요."
     },
     {
       "start": 38.0,
       "end": 50.0,
-      "text": "Thank you. I was going to take a cab. 네, 집에서 소리 내서 해보는 이병작 타임입니다."
+      "text": "Thank you. I was going to take a cab. 감사합니다. 나는 택시를 타려고 했어요."
     }
   ],
   "episode_num": 2702,

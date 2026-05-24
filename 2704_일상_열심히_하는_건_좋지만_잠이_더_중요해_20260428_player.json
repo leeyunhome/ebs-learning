@@ -4,22 +4,22 @@
     {
       "start": 0,
       "end": 10.0,
-      "text": "Are you okay? Your eyes are half closed. 저는 오늘 밤에 수업을 하고 있어요."
+      "text": "Are you okay? Your eyes are half closed. 괜찮으세요? 눈은 반쯤 감겨 있습니다."
     },
     {
       "start": 12.0,
       "end": 24.0,
-      "text": "I stayed up all night studying for the exam."
+      "text": "I stayed up all night studying for the exam. 나는 시험 공부를 위해 밤새도록 잤다."
     },
     {
       "start": 30.0,
       "end": 38.0,
-      "text": "Oh no, go to bed early tonight. 오, 안 돼. 오늘 일찍 잠자리에 들어. 안 돼. 오늘 일찍 잠자리에 들어."
+      "text": "Oh no, go to bed early tonight. 아뇨, 오늘 밤은 일찍 자세요."
     },
     {
       "start": 42.0,
       "end": 53.0,
-      "text": "I can't. I have another exam tomorrow."
+      "text": "I can't. I have another exam tomorrow. 나는 할 수 없다. 내일 또 시험이 있어요."
     }
   ],
   "episode_num": 2704,

@@ -4,22 +4,22 @@
     {
       "start": 0,
       "end": 8.0,
-      "text": "Does this train go to Busan? 전체 대화 주세요"
+      "text": "Does this train go to Busan? 이 기차가 부산으로 가나요?"
     },
     {
       "start": 9.0,
       "end": 20.0,
-      "text": "No, you have to transfer in Daegu first."
+      "text": "No, you have to transfer in Daegu first. 아니요, 먼저 대구에서 환승해야 합니다."
     },
     {
       "start": 20.0,
       "end": 36.0,
-      "text": "I almost got on the wrong train."
+      "text": "I almost got on the wrong train. 기차를 잘못 탈 뻔했어요."
     },
     {
       "start": 37.0,
       "end": 49.0,
-      "text": "Wow, that was a close call."
+      "text": "Wow, that was a close call. 와, 아슬아슬한 상황이었어."
     }
   ],
   "episode_num": 2667,

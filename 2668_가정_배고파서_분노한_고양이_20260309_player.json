@@ -4,22 +4,22 @@
     {
       "start": 0,
       "end": 9.0,
-      "text": "Did you feed the cat this morning?"
+      "text": "Did you feed the cat this morning? 오늘 아침에 고양이에게 밥을 주셨나요?"
     },
     {
       "start": 9.0,
       "end": 20.0,
-      "text": "I thought you did."
+      "text": "I thought you did. 나는 당신이 그랬다고 생각했습니다."
     },
     {
       "start": 20.0,
       "end": 33.0,
-      "text": "No wonder he was hangry."
+      "text": "No wonder he was hangry. 그가 배고픈 것도 당연합니다."
     },
     {
       "start": 33.0,
       "end": 46.0,
-      "text": "Hurry before he eats our slippers. 입으로 하는 입영적 타임입니다."
+      "text": "Hurry before he eats our slippers. 그 사람이 우리 슬리퍼를 먹기 전에 서둘러요."
     }
   ],
   "episode_num": 2668,

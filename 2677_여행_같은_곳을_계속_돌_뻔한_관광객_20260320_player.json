@@ -4,22 +4,22 @@
     {
       "start": 0,
       "end": 10.0,
-      "text": "Excuse me, how do I get to the palace? 주세요"
+      "text": "Excuse me, how do I get to the palace? 죄송한데 궁전에는 어떻게 가나요?"
     },
     {
       "start": 12.0,
       "end": 24.0,
-      "text": "Walk straight for two blocks, then turn left at the cafe."
+      "text": "Walk straight for two blocks, then turn left at the cafe. 두 블록 정도 직진한 후 카페에서 좌회전하세요."
     },
     {
       "start": 30.0,
       "end": 42.0,
-      "text": "Thanks, I thought I was walking in circles."
+      "text": "Thanks, I thought I was walking in circles. 고마워요, 나는 원을 그리며 걷고 있다고 생각했습니다."
     },
     {
       "start": 43.0,
       "end": 48.0,
-      "text": "I know, this area is like a maze."
+      "text": "I know, this area is like a maze. 알아요, 이 동네는 미로 같아요."
     }
   ],
   "episode_num": 2677,

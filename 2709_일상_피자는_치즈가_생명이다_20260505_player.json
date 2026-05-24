@@ -4,22 +4,22 @@
     {
       "start": 0,
       "end": 6.0,
-      "text": "What should we eat for lunch? 전체 대화 주세요."
+      "text": "What should we eat for lunch? 우리 점심으로 무엇을 먹어야 할까요?"
     },
     {
       "start": 9.0,
       "end": 17.0,
-      "text": "I'm kind of craving pizza."
+      "text": "I'm kind of craving pizza. 피자가 좀 땡기는 편이에요."
     },
     {
       "start": 17.0,
       "end": 25.0,
-      "text": "How about a large pizza with extra cheese?"
+      "text": "How about a large pizza with extra cheese? 치즈를 듬뿍 넣은 라지 피자는 어때요?"
     },
     {
       "start": 35.0,
       "end": 44.0,
-      "text": "You read my mind. Toss me my phone."
+      "text": "You read my mind. Toss me my phone. 당신은 내 마음을 읽었습니다. 내 전화기를 던져주세요."
     }
   ],
   "episode_num": 2709,
