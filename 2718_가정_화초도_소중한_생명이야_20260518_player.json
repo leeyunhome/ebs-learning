@@ -4,32 +4,32 @@
     {
       "start": 0,
       "end": 5.24,
-      "text": "You are supposed to water this plant. Alright, very very nice. 자, 그럼 미션 기억하시면서 전체 대화 듣겠습니다. 전체 대화 주세요."
+      "text": "You are supposed to water this plant. Alright, very very nice. 이 식물에 물을 주어야 합니다. 좋아, 아주 아주 좋아."
     },
     {
       "start": 9.0,
       "end": 13.48,
-      "text": "Oops, I forgot."
+      "text": "Oops, I forgot. 이런, 깜빡했어요."
     },
     {
       "start": 13.48,
       "end": 15.52,
-      "text": "I'll do it now."
+      "text": "I'll do it now. 지금 할게요."
     },
     {
       "start": 21.8,
       "end": 23.6,
-      "text": "Oops!"
+      "text": "Oops! 이런!"
     },
     {
       "start": 24.6,
       "end": 30.6,
-      "text": "Oops, it can't survive without water."
+      "text": "Oops, it can't survive without water. 아, 물이 없으면 못 살아요."
     },
     {
       "start": 38.6,
       "end": 42.6,
-      "text": "I'll remember from now on, dad."
+      "text": "I'll remember from now on, dad. 이제부터 기억할게요, 아빠."
     }
   ],
   "episode_num": 2718,

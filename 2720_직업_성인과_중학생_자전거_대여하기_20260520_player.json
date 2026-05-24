@@ -4,22 +4,22 @@
     {
       "start": 0,
       "end": 7.0,
-      "text": "How much is it to rent a bike?"
+      "text": "How much is it to rent a bike? 자전거를 빌리는 데 얼마입니까?"
     },
     {
       "start": 9.0,
       "end": 20.0,
-      "text": "It's five dollars an hour. How many do you need?"
+      "text": "It's five dollars an hour. How many do you need? 시간당 5달러입니다. 얼마나 필요합니까?"
     },
     {
       "start": 20.0,
       "end": 36.0,
-      "text": "One for an adult and one for a 12 year old."
+      "text": "One for an adult and one for a 12 year old. 하나는 성인용, 하나는 12세용입니다."
     },
     {
       "start": 36.0,
       "end": 46.0,
-      "text": "Please sign this form."
+      "text": "Please sign this form. 이 양식에 서명해 주십시오."
     }
   ],
   "episode_num": 2720,
