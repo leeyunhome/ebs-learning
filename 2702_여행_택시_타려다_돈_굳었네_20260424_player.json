@@ -4,7 +4,7 @@
     {
       "start": 0,
       "end": 10.0,
-      "text": "Is there a bus that goes to my theatre?"
+      "text": "Is there a bus that goes to my theatre? 전체 대화 주세요."
     },
     {
       "start": 10.0,
@@ -19,7 +19,7 @@
     {
       "start": 38.0,
       "end": 50.0,
-      "text": "Thank you. I was going to take a cab."
+      "text": "Thank you. I was going to take a cab. 네, 집에서 소리 내서 해보는 이병작 타임입니다."
     }
   ],
   "episode_num": 2702,
