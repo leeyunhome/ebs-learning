@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260525_090000_c4e47613_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 9.0,
+      "text": "Dad, I can't decide on my major."
+    },
+    {
+      "start": 13.0,
+      "end": 25.0,
+      "text": "I love art, but everyone says it's not practical."
+    },
+    {
+      "start": 25.0,
+      "end": 36.0,
+      "text": "You should follow your heart."
+    },
+    {
+      "start": 41.0,
+      "end": 51.0,
+      "text": "I majored in math, but now I'm a movie director."
+    }
+  ],
+  "episode_num": 2723,
+  "category": "가정",
+  "subtitle": "전공을 고민하는 딸",
+  "date": "2026.05.25",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2723_20260525.mp3"
+}
