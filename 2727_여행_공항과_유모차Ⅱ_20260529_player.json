@@ -1,0 +1,115 @@
+{
+  "audio": "extracted_20260529_090000_7af75ccc_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "Can I take this stroller on the plane? 이 유모차를 비행기에 가지고 탈 수 있나요?"
+    },
+    {
+      "start": 14.0,
+      "end": 19.0,
+      "text": "It's a foldable stroller. It falls like this. 접이식 유모차입니다. 이렇게 넘어집니다."
+    },
+    {
+      "start": 24.0,
+      "end": 31.0,
+      "text": "It should fit in the overhead bin. 머리 위 선반에 들어가야 합니다."
+    },
+    {
+      "start": 42.0,
+      "end": 45.0,
+      "text": "You don't have to check it. 확인할 필요는 없습니다."
+    },
+    {
+      "start": 49.0,
+      "end": 55.0,
+      "text": "All right, ladies and gentlemen, 좋습니다, 신사숙녀 여러분,"
+    },
+    {
+      "start": 62.0,
+      "end": 64.0,
+      "text": "Take something on the plane. 비행기에 뭔가를 가지고 가세요."
+    },
+    {
+      "start": 64.0,
+      "end": 68.0,
+      "text": "stroller         . 유모차 ."
+    },
+    {
+      "start": 74.0,
+      "end": 77.0,
+      "text": "take  ?  . 가져가다  ?  ."
+    },
+    {
+      "start": 77.0,
+      "end": 80.0,
+      "text": "You can take it on the plane. 비행기에 가져갈 수 있습니다."
+    },
+    {
+      "start": 83.0,
+      "end": 84.0,
+      "text": "Like this. 이와 같이."
+    },
+    {
+      "start": 93.0,
+      "end": 94.0,
+      "text": "On the plane? 비행기에서?"
+    },
+    {
+      "start": 94.0,
+      "end": 95.0,
+      "text": "There you go. 됐어요."
+    },
+    {
+      "start": 100.0,
+      "end": 103.0,
+      "text": "Can I take this lighter on the plane? 이 라이터를 비행기에 가지고 탈 수 있나요?"
+    },
+    {
+      "start": 110.0,
+      "end": 116.0,
+      "text": "Can I take this stroller on the plane? 이 유모차를 비행기에 가지고 탈 수 있나요?"
+    },
+    {
+      "start": 124.0,
+      "end": 129.0,
+      "text": "Oh, . 오, ."
+    },
+    {
+      "start": 142.0,
+      "end": 143.0,
+      "text": "I like that. 나는 그것을 좋아한다."
+    },
+    {
+      "start": 151.0,
+      "end": 154.0,
+      "text": "It falls like this. 이렇게 넘어집니다."
+    },
+    {
+      "start": 159.0,
+      "end": 161.0,
+      "text": "Oh, she fell down like this. 아, 이렇게 쓰러졌구나."
+    },
+    {
+      "start": 164.0,
+      "end": 165.0,
+      "text": "Fall down  . 넘어져라."
+    },
+    {
+      "start": 177.0,
+      "end": 179.0,
+      "text": "Move your arms like this. 팔을 이렇게 움직여 보세요."
+    },
+    {
+      "start": 179.0,
+      "end": 180.0,
+      "text": "Oh, like this. 아, 이렇게요."
+    }
+  ],
+  "episode_num": 2727,
+  "category": "여행",
+  "subtitle": "공항과 유모차Ⅱ",
+  "date": "2026.05.29",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2727_20260529.mp3"
+}
