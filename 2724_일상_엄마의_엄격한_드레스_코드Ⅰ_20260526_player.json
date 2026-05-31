@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260526_090000_c8376a4c_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "I'm off to school, mom. 나 학교 가요, 엄마."
+    },
+    {
+      "start": 9.0,
+      "end": 16.0,
+      "text": "No, you're not wearing that to school. 아니, 학교에 그걸 입고 가는 게 아니잖아."
+    },
+    {
+      "start": 22.0,
+      "end": 29.0,
+      "text": "Why not? This is my favorite dress. 왜 안 돼? 이것은 내가 가장 좋아하는 드레스입니다."
+    },
+    {
+      "start": 30.0,
+      "end": 37.0,
+      "text": "No, young lady. Go and get changed. 아니, 아가씨. 가서 갈아입으세요."
+    }
+  ],
+  "episode_num": 2724,
+  "category": "일상",
+  "subtitle": "엄마의 엄격한 드레스 코드Ⅰ",
+  "date": "2026.05.26",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2724_20260526.mp3"
+}
