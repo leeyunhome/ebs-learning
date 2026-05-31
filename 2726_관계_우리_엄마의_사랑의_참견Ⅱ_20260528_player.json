@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260528_090000_6b075156_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.0,
+      "text": "So, is he single? He looks thoughtful."
+    },
+    {
+      "start": 14.0,
+      "end": 22.0,
+      "text": "Why don't you just come and meet him yourself?"
+    },
+    {
+      "start": 22.0,
+      "end": 32.0,
+      "text": "Can I really? I'm free next week."
+    },
+    {
+      "start": 40.0,
+      "end": 44.0,
+      "text": "Of course not. We barely make eye contact."
+    },
+    {
+      "start": 52.0,
+      "end": 54.0,
+      "text": "I'm free next week."
+    }
+  ],
+  "episode_num": 2726,
+  "category": "관계",
+  "subtitle": "우리 엄마의 사랑의 참견Ⅱ",
+  "date": "2026.05.28",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2726_20260528.mp3"
+}
