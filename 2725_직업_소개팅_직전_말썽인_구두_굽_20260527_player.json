@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260527_090000_61574200_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "One of the heels broke off completely."
+    },
+    {
+      "start": 15.0,
+      "end": 20.0,
+      "text": "Let me see. It's an easy fix."
+    },
+    {
+      "start": 30.0,
+      "end": 38.0,
+      "text": "What a relief. Will it take a long time?"
+    },
+    {
+      "start": 42.0,
+      "end": 50.92,
+      "text": "I can fix it in no time. Have a seat."
+    }
+  ],
+  "episode_num": 2725,
+  "category": "직업",
+  "subtitle": "소개팅 직전 말썽인 구두 굽",
+  "date": "2026.05.27",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2725_20260527.mp3"
+}
