@@ -1,0 +1,55 @@
+{
+  "audio": "extracted_20260601_090000_5d2d1985_mp3__dup20260601_180118.mp3",
+  "script": [
+    {
+      "start": 0.92,
+      "end": 5.22,
+      "text": "Honey, why is my shirt so stinky? Is it me? 여보, 내 셔츠는 왜 이렇게 냄새가 나나요? 나인가요?"
+    },
+    {
+      "start": 16.72,
+      "end": 18.5,
+      "text": "It's because of the rain. 비 때문이에요."
+    },
+    {
+      "start": 21.74,
+      "end": 30.46,
+      "text": "My pants smell musty, too. 바지에서도 퀴퀴한 냄새가 나요."
+    },
+    {
+      "start": 38.84,
+      "end": 41.82,
+      "text": "Take them off. I'll wash them again. 그것들을 벗어라. 다시 세탁할게요."
+    },
+    {
+      "start": 51.74,
+      "end": 51.8,
+      "text": "Take it off. 그것을 벗으십시오."
+    },
+    {
+      "start": 59.8,
+      "end": 51.8,
+      "text": "Please Please open your waist. 제발 허리를 펴주세요."
+    },
+    {
+      "start": 63.82,
+      "end": 51.8,
+      "text": "Hold my hand. 내 손을 잡아요."
+    },
+    {
+      "start": 75.2,
+      "end": 51.8,
+      "text": "Hold the arms up. 팔을 들어 올리세요."
+    },
+    {
+      "start": 78.12,
+      "end": 51.8,
+      "text": "Hold on. 기다리다."
+    }
+  ],
+  "episode_num": 2728,
+  "category": "가정",
+  "subtitle": "장마철 빨래는 최강의 난이도Ⅰ",
+  "date": "2026.06.01",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2728_20260601.mp3"
+}
