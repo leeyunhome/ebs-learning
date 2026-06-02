@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260602_090000_a88ae7db_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "I'm not a baby. You can't just say no. 나는 아기가 아니다. 그냥 거절할 수는 없습니다."
+    },
+    {
+      "start": 13.0,
+      "end": 20.0,
+      "text": "To me, you are still a baby. 나에게 당신은 아직 아기입니다."
+    },
+    {
+      "start": 26.0,
+      "end": 29.0,
+      "text": "But I have nothing else to wear. 그런데 더 이상 입을 게 없어요."
+    },
+    {
+      "start": 30.0,
+      "end": 40.0,
+      "text": "Come on, your closet is full of clothes. 자, 옷장에 옷이 가득해요."
+    }
+  ],
+  "episode_num": 2729,
+  "category": "일상",
+  "subtitle": "엄마의 엄격한 드레스 코드Ⅱ",
+  "date": "2026.06.02",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2729_20260602.mp3"
+}
