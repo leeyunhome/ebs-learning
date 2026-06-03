@@ -1,0 +1,70 @@
+{
+  "audio": "extracted_20260603_090000_e0584e70_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.1,
+      "text": "Okay, but you owe me some good rest. 좋아요, 하지만 당신은 나에게 충분한 휴식을 주어야 합니다."
+    },
+    {
+      "start": 7.28,
+      "end": 8.16,
+      "text": "All right, very nice. 좋아요, 아주 좋아요."
+    },
+    {
+      "start": 8.4,
+      "end": 10.18,
+      "text": "Mission   . 임무 ."
+    },
+    {
+      "start": 11.22,
+      "end": 15.86,
+      "text": "We have one more interview to go. 인터뷰가 한 번 더 남았습니다."
+    },
+    {
+      "start": 23.9,
+      "end": 25.7,
+      "text": "Can we just do it later? 그냥 나중에 해도 될까요?"
+    },
+    {
+      "start": 26.18,
+      "end": 27.18,
+      "text": "I'm exhausted. 나는 지쳤다."
+    },
+    {
+      "start": 39.24,
+      "end": 41.02,
+      "text": "We cannot miss this. 우리는 이것을 놓칠 수 없습니다."
+    },
+    {
+      "start": 41.4,
+      "end": 42.84,
+      "text": "It's with Mayu magazine. 마유매거진과 함께합니다."
+    },
+    {
+      "start": 72.8,
+      "end": 73.36,
+      "text": "All right. 괜찮은."
+    },
+    {
+      "start": 73.36,
+      "end": 73.38,
+      "text": "We know them already. 우리는 이미 그들을 알고 있습니다."
+    },
+    {
+      "start": 90.52,
+      "end": 73.38,
+      "text": "We know them. 우리는 그들을 알고 있습니다."
+    },
+    {
+      "start": 90.94,
+      "end": 73.38,
+      "text": "Okay, thanks. 알았어, 고마워."
+    }
+  ],
+  "episode_num": 2730,
+  "category": "직업",
+  "subtitle": "연예인과 매니저",
+  "date": "2026.06.03",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2730_20260603.mp3"
+}
