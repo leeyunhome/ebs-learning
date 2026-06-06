@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260604_090000_3288cc5c_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "I'm done booking everything for our trip in July. 7월 여행 예약을 모두 마쳤어요."
+    },
+    {
+      "start": 15.0,
+      "end": 24.0,
+      "text": "Wait, I thought we agreed on August. 잠깐, 우리가 8월에 합의한 줄 알았는데."
+    },
+    {
+      "start": 30.0,
+      "end": 42.0,
+      "text": "Oh no, clearly we were not on the same page. 아뇨, 분명히 우리는 같은 입장이 아니었습니다."
+    },
+    {
+      "start": 46.0,
+      "end": 54.0,
+      "text": "Let's fix this before prices go up. 가격이 오르기 전에 이 문제를 해결합시다."
+    }
+  ],
+  "episode_num": 2731,
+  "category": "관계",
+  "subtitle": "휴가 일정 충돌Ⅰ",
+  "date": "2026.06.04",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2731_20260604.mp3"
+}
