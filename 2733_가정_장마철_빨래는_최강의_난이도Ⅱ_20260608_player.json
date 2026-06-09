@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260608_090000_baa03b7b_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.22,
+      "text": "Let's not do the laundry when it rains. 비가 오면 빨래를 하지 맙시다."
+    },
+    {
+      "start": 11.12,
+      "end": 17.24,
+      "text": "Yeah, we should've just waited. 응, 그냥 기다렸어야 했는데."
+    },
+    {
+      "start": 26.54,
+      "end": 38.3,
+      "text": "My socks stink like a wet mop. 내 양말에서는 젖은 걸레처럼 냄새가 난다."
+    },
+    {
+      "start": 38.3,
+      "end": 41.66,
+      "text": "Oh, that's not the humidity. 아, 습도가 아니군요."
+    },
+    {
+      "start": 41.66,
+      "end": 49.62,
+      "text": "That's just your feet. 그것은 바로 당신의 발입니다."
+    }
+  ],
+  "episode_num": 2733,
+  "category": "가정",
+  "subtitle": "장마철 빨래는 최강의 난이도Ⅱ",
+  "date": "2026.06.08",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2733_20260608.mp3"
+}
