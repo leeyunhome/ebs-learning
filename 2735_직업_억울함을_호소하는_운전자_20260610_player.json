@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260610_090000_ade446be_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Why did you pull me over, officer? 왜 저를 세웠나요, 경관님?"
+    },
+    {
+      "start": 11.0,
+      "end": 15.0,
+      "text": "First of all, your brake lights are out. 우선 브레이크등이 나갔습니다."
+    },
+    {
+      "start": 24.0,
+      "end": 28.0,
+      "text": "And you were not wearing your seatbelt. 그리고 당신은 안전벨트를 착용하지 않았습니다."
+    },
+    {
+      "start": 38.0,
+      "end": 41.0,
+      "text": "No, I was wearing it the whole time. 아니요, 내내 입고 있었어요."
+    }
+  ],
+  "episode_num": 2735,
+  "category": "직업",
+  "subtitle": "억울함을 호소하는 운전자",
+  "date": "2026.06.10",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2735_20260610.mp3"
+}
