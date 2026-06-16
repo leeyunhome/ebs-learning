@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260616_090000_88606e14_mp3.mp3",
+  "script": [
+    {
+      "start": 1.0,
+      "end": 4.0,
+      "text": "My umbrella is gone from the stand again. 내 우산이 또 스탠드에서 사라졌어요."
+    },
+    {
+      "start": 14.0,
+      "end": 16.0,
+      "text": "Maybe someone borrowed it. 누군가 빌렸을 수도 있습니다."
+    },
+    {
+      "start": 20.0,
+      "end": 29.0,
+      "text": "It's the third time this month. 이번 달에만 세 번째다."
+    },
+    {
+      "start": 38.0,
+      "end": 41.0,
+      "text": "Calm down. The rain is easing up. 진정하다. 비가 잦아들고 있습니다."
+    }
+  ],
+  "episode_num": 2739,
+  "category": "일상",
+  "subtitle": "우산에 발이 달린 건가Ⅰ",
+  "date": "2026.06.16",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2739_20260616.mp3"
+}
