@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260612_090000_c7847a25_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "I'm upset because it's a brand new suitcase. 새 가방이라 속상해요."
+    },
+    {
+      "start": 13.0,
+      "end": 20.0,
+      "text": "I'm sorry to hear that. Please fill out this form. 그 말을 들으니 안타깝습니다. 이 양식을 작성해주세요."
+    },
+    {
+      "start": 30.0,
+      "end": 38.0,
+      "text": "They should give you some compensation. 그들은 당신에게 약간의 보상을 주어야 합니다."
+    },
+    {
+      "start": 42.0,
+      "end": 47.0,
+      "text": "I hope so. 그러기를 바랍니다."
+    }
+  ],
+  "episode_num": 2737,
+  "category": "여행",
+  "subtitle": "",
+  "date": "2026.06.12",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2737_20260612.mp3"
+}
