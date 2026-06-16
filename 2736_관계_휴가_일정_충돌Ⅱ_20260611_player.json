@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260611_090000_cd78f1d2_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.66,
+      "text": "were you able to change the plane tic 비행기 틱 바꿀 수 있었어?"
+    },
+    {
+      "start": 6.66,
+      "end": 18.44,
+      "text": "tickets yeah but they charged me an extra fee yeah but they charged me an 티켓 네 그런데 추가 요금이 부과됐어요 네 그런데 추가 요금이 부과됐어요"
+    },
+    {
+      "start": 18.44,
+      "end": 32.18,
+      "text": "extra fee what about the hotel did you have to pay what about the hotel did you 추가 비용 호텔은 어떻게 됩니까? 지불해야 했던 호텔은 무엇이었나요?"
+    },
+    {
+      "start": 32.18,
+      "end": 44.44,
+      "text": "have to pay no but now we have a smaller room no but now we have a smaller room 돈을 내야 하는데 지금은 방이 더 작습니다. 아니요, 하지만 이제 방이 더 작습니다"
+    },
+    {
+      "start": 48.44,
+      "end": 50.78,
+      "text": "all right 괜찮은"
+    }
+  ],
+  "episode_num": 2736,
+  "category": "관계",
+  "subtitle": "휴가 일정 충돌Ⅱ",
+  "date": "2026.06.11",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2736_20260611.mp3"
+}
