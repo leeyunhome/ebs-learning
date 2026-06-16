@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260615_090000_ae30629a_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Why is the air conditioner set to 19 degrees? 에어컨은 왜 19도로 맞춰져 있나요?"
+    },
+    {
+      "start": 15.0,
+      "end": 19.0,
+      "text": "Because it's too hot to breathe. 숨쉬기엔 너무 더우니까."
+    },
+    {
+      "start": 27.0,
+      "end": 32.0,
+      "text": "It's not so bad. Just turn on the fan. 그렇게 나쁘지는 않습니다. 선풍기를 켜시면 됩니다."
+    },
+    {
+      "start": 40.0,
+      "end": 46.0,
+      "text": "Mom, it's like 35 degrees outside. 엄마, 바깥 기온이 35도 정도 돼요."
+    }
+  ],
+  "episode_num": 2738,
+  "category": "가정",
+  "subtitle": "엄마와 에어컨 전쟁Ⅰ",
+  "date": "2026.06.15",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2738_20260615.mp3"
+}
