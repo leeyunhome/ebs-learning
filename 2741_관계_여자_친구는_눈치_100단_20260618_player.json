@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260618_090000_d6ad198d_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 13.72,
+      "text": "did you just smile at her did you just smile at her huh no she just looked 방금 그 사람한테 미소 지었나요? 그냥 그 사람 보고 웃었나요? 아니 그 사람은 그냥 쳐다보더군요."
+    },
+    {
+      "start": 13.72,
+      "end": 30.58,
+      "text": "familiar huh no she just looked familiar why are you stuttering are you feeling 낯익은가 아니 그 사람 그냥 낯익어 보이던데 왜 말을 더듬는 거야?"
+    },
+    {
+      "start": 30.58,
+      "end": 43.72,
+      "text": "guilty why are you stuttering are you feeling guilty nonsense I was just 유죄 왜 말을 더듬는 거야 죄책감을 느끼는 거야 말도 안돼 난 그냥"
+    },
+    {
+      "start": 43.72,
+      "end": 50.14,
+      "text": "clearing my throat nonsense I was just clearing my throat 목을 가다듬는 중이야 말도 안돼 난 그냥 목을 가다듬고 있었을 뿐이야"
+    }
+  ],
+  "episode_num": 2741,
+  "category": "관계",
+  "subtitle": "여자 친구는 눈치 100단",
+  "date": "2026.06.18",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2741_20260618.mp3"
+}
