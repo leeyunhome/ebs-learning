@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260619_090000_e3eee74c_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 11.36,
+      "text": "did you book the hotel for our vacation 우리 휴가에 호텔 예약했어?"
+    },
+    {
+      "start": 11.36,
+      "end": 19.32,
+      "text": "yeah but the ocean view rooms were sold 응 근데 오션뷰 방은 다 팔렸어"
+    },
+    {
+      "start": 19.32,
+      "end": 31.74,
+      "text": "out you should have booked it earlier you should have booked it earlier 그러니까 더 일찍 예약했어야 했어 더 일찍 예약했어야 했는데"
+    },
+    {
+      "start": 31.74,
+      "end": 44.52,
+      "text": "calm down we still have a parking lot view 진정하세요 아직 주차장이 보이는군요"
+    }
+  ],
+  "episode_num": 2742,
+  "category": "여행",
+  "subtitle": "오션뷰와는 많이 다른 객실",
+  "date": "2026.06.19",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2742_20260619.mp3"
+}
