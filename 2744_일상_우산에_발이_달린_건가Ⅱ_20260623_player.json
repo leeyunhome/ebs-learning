@@ -1,0 +1,65 @@
+{
+  "audio": "extracted_20260623_090000_fb090057_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "By the way, what color was your umbrella? 그런데, 당신의 우산은 무슨 색깔이었나요?"
+    },
+    {
+      "start": 12.0,
+      "end": 18.0,
+      "text": "It was hot pink. I even put my name on it. 핫핑크였어요. 심지어 내 이름도 넣었다."
+    },
+    {
+      "start": 23.0,
+      "end": 33.0,
+      "text": "Who carries around a hot pink umbrella? 핫핑크 우산을 들고 다니는 사람은 누구일까요?"
+    },
+    {
+      "start": 41.0,
+      "end": 45.0,
+      "text": "Hey, would you respect my taste? 야, 내 취향을 존중해줄래?"
+    },
+    {
+      "start": 53.0,
+      "end": 53.14,
+      "text": "Wait. 기다리다."
+    },
+    {
+      "start": 56.0,
+      "end": 53.14,
+      "text": "No one has a cold. 감기에 걸린 사람은 없습니다."
+    },
+    {
+      "start": 61.0,
+      "end": 53.14,
+      "text": "I'm scared. 나는 무서워요."
+    },
+    {
+      "start": 65.0,
+      "end": 53.14,
+      "text": "I'm not even sure I've eaten the other one. 다른 하나는 먹어본 적이 있는지도 모르겠네요."
+    },
+    {
+      "start": 68.0,
+      "end": 53.14,
+      "text": "I have the other one. 나는 다른 하나를 가지고 있습니다."
+    },
+    {
+      "start": 70.0,
+      "end": 53.14,
+      "text": "I'm not sure I've seen the other one. 다른 하나는 본 적이 있는지 잘 모르겠습니다."
+    },
+    {
+      "start": 72.0,
+      "end": 53.14,
+      "text": "Go, go, go. 가, 가, 가."
+    }
+  ],
+  "episode_num": 2744,
+  "category": "일상",
+  "subtitle": "우산에 발이 달린 건가Ⅱ",
+  "date": "2026.06.23",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2744_20260623.mp3"
+}
