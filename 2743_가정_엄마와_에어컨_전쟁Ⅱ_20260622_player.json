@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260622_090000_4e3c528a_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "How about going to the library, then? 그럼 도서관에 가는 게 어때요?"
+    },
+    {
+      "start": 11.0,
+      "end": 18.0,
+      "text": "But the midterm exams are already over. 그런데 중간고사가 벌써 끝났어요."
+    },
+    {
+      "start": 24.0,
+      "end": 28.0,
+      "text": "Are you just going to keep complaining? 계속 불평만 할 건가요?"
+    },
+    {
+      "start": 35.0,
+      "end": 39.0,
+      "text": "Fine. Ugh, it feels like a sauna in here. 괜찮은. 윽, 여기 사우나 같은 느낌이네."
+    }
+  ],
+  "episode_num": 2743,
+  "category": "가정",
+  "subtitle": "엄마와 에어컨 전쟁Ⅱ",
+  "date": "2026.06.22",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2743_20260622.mp3"
+}
