@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260702_090000_a0911f22_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.18,
+      "text": "you're coming to my wedding right yo 너 내 결혼식에 오는구나 yo"
+    },
+    {
+      "start": 10.18,
+      "end": 25.0,
+      "text": "going to but I can't I was going to but I can't but we've been friends for 30 가는데 할 수 없어 하려고 했는데 할 수 없지만 우리는 30년 동안 친구로 지냈어요"
+    },
+    {
+      "start": 25.0,
+      "end": 37.6,
+      "text": "years but we've been friends for 30 years please don't be upset I have a good 몇 년이 지났지만 우리는 30년 동안 친구였습니다. 화내지 마세요. 잘 지냈어요."
+    },
+    {
+      "start": 37.6,
+      "end": 45.52,
+      "text": "reason please don't be upset I have a good reason 제발 화내지 마세요. 그럴만한 이유가 있어요"
+    }
+  ],
+  "episode_num": 2751,
+  "category": "관계",
+  "subtitle": "이해는 하는데 섭섭하네 I",
+  "date": "2026.07.02",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2751_20260702.mp3"
+}

@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260629_090000_99a42d5c_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 9.0,
+      "text": "Grandma, why are your hands wrinkly? 할머니, 손이 왜 시들어요?"
+    },
+    {
+      "start": 13.0,
+      "end": 25.0,
+      "text": "Because they have worked hard for many years, pumpkin. 수년 동안 열심히 일했기 때문입니다, 호박."
+    },
+    {
+      "start": 25.0,
+      "end": 40.0,
+      "text": "I will work hard and buy you pretty gloves. 열심히 일해서 예쁜 장갑 사드릴께요."
+    },
+    {
+      "start": 43.0,
+      "end": 48.0,
+      "text": "They'll be the prettiest gloves. 가장 예쁜 장갑이 될 거예요."
+    }
+  ],
+  "episode_num": 2748,
+  "category": "가정",
+  "subtitle": "할머니와 손녀의 장갑 이야기",
+  "date": "2026.06.29",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2748_20260629.mp3"
+}

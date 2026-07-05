@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260625_090000_95bb9d94_mp3__dup20260705_192151.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Noreban was fun, wasn't it? 노레반 재미있지 않나요?"
+    },
+    {
+      "start": 7.0,
+      "end": 14.0,
+      "text": "You're quite the singer. I'm impressed. 당신은 정말 가수예요. 나는 감동했다."
+    },
+    {
+      "start": 14.0,
+      "end": 29.0,
+      "text": "I'm sorry I sang five songs in a row. 다섯곡을 연속으로 불러서 미안해요."
+    },
+    {
+      "start": 38.0,
+      "end": 46.88,
+      "text": "That's okay. I'm not much of a singer anyway. 괜찮습니다. 어쨌든 나는 별로 가수가 아니다."
+    }
+  ],
+  "episode_num": 2746,
+  "category": "관계",
+  "subtitle": "",
+  "date": "2026.06.25",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2746_20260625.mp3"
+}

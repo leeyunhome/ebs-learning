@@ -1,0 +1,40 @@
+{
+  "audio": "extracted_20260626_090000_3b93cf72_mp3__dup20260705_192420.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 8.4,
+      "text": "I just tried to withdraw cash, but it never came out. 방금 현금을 인출하려고 했으나 나오지 않았습니다."
+    },
+    {
+      "start": 17.52,
+      "end": 29.28,
+      "text": "Could you check the balance? 잔액을 확인해 주시겠어요?"
+    },
+    {
+      "start": 29.28,
+      "end": 31.0,
+      "text": "Give me a sec. 잠시만 기다려주세요."
+    },
+    {
+      "start": 31.0,
+      "end": 36.04,
+      "text": "It's showing $300 less. 300달러 적게 표시됩니다."
+    },
+    {
+      "start": 45.2,
+      "end": 46.4,
+      "text": "I see. 알겠어요."
+    },
+    {
+      "start": 46.4,
+      "end": 50.16,
+      "text": "May I have your phone number first? 먼저 전화번호를 알려주시겠어요?"
+    }
+  ],
+  "episode_num": 2747,
+  "category": "여행",
+  "subtitle": "ATM기는 현금을 돌려주지 않는다",
+  "date": "2026.06.26",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2747_20260626.mp3"
+}

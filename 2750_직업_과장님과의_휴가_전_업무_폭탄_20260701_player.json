@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260701_090000_5aaa04f5_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "My boss just gave me three new tasks. 방금 상사가 나에게 세 가지 새로운 임무를 주었습니다."
+    },
+    {
+      "start": 12.0,
+      "end": 17.0,
+      "text": "But you're going on vacation in three days. 그런데 당신은 3일 후에 휴가를 갈 거예요."
+    },
+    {
+      "start": 22.0,
+      "end": 32.0,
+      "text": "She was like, finish it before you leave. 그녀는 떠나기 전에 끝내라고 했어요."
+    },
+    {
+      "start": 40.0,
+      "end": 45.0,
+      "text": "That's cruel. I'm glad she's not my boss. 잔인해요. 그 사람이 내 상사가 아니어서 다행이에요."
+    }
+  ],
+  "episode_num": 2750,
+  "category": "직업",
+  "subtitle": "과장님과의 휴가 전 업무 폭탄",
+  "date": "2026.07.01",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2750_20260701.mp3"
+}

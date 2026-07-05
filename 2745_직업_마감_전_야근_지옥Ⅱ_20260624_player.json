@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260624_090000_2e528064_mp3__dup20260705_191905.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.34,
+      "text": "your boss should give you a promotion 당신의 상사가 당신에게 승진을 시켜야 할 것입니다"
+    },
+    {
+      "start": 7.34,
+      "end": 19.16,
+      "text": "I hope he knows I'm working hard 그 사람이 내가 열심히 일하고 있다는 걸 알았으면 좋겠어"
+    },
+    {
+      "start": 19.16,
+      "end": 29.24,
+      "text": "you definitely deserve it and a bonus 당신은 확실히 그럴 자격이 있고 보너스도 있어요"
+    },
+    {
+      "start": 35.18,
+      "end": 50.72,
+      "text": "hold on my daughter's calling hey baby 내 딸 전화 좀 기다려봐 자기야"
+    },
+    {
+      "start": 50.72,
+      "end": 57.08,
+      "text": "all right 괜찮은"
+    }
+  ],
+  "episode_num": 2745,
+  "category": "직업",
+  "subtitle": "마감 전 야근 지옥Ⅱ",
+  "date": "2026.06.24",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2745_20260624.mp3"
+}

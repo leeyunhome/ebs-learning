@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260703_090000_263d3f38_mp3.mp3",
+  "script": [
+    {
+      "start": 3.0,
+      "end": 6.0,
+      "text": "We are now heading to the river for the fireworks show. 우리는 지금 불꽃놀이를 보기 위해 강으로 향하고 있습니다."
+    },
+    {
+      "start": 17.0,
+      "end": 20.0,
+      "text": "You mean the famous 4th of July fireworks? 그 유명한 7월 4일 불꽃놀이를 말씀하시는 건가요?"
+    },
+    {
+      "start": 30.0,
+      "end": 35.0,
+      "text": "Yes, the place will be packed with people. 응, 그 곳은 사람들로 가득 차 있을 거야."
+    },
+    {
+      "start": 44.0,
+      "end": 46.0,
+      "text": "I'd better not forget my camera. 카메라를 잊지 않는 게 좋을 것 같아요."
+    }
+  ],
+  "episode_num": 2752,
+  "category": "여행",
+  "subtitle": "독립기념일 불꽃놀이 투어",
+  "date": "2026.07.03",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2752_20260703.mp3"
+}
