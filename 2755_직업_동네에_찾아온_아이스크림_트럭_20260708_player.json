@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260708_090000_ebcd7998_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 15.7,
+      "text": "Wow, I haven't seen an ice cream truck in years. 와, 몇 년 동안 아이스크림 트럭을 본 적이 없어요."
+    },
+    {
+      "start": 15.7,
+      "end": 19.48,
+      "text": "Would you like a cone? 콘을 원하시나요?"
+    },
+    {
+      "start": 22.76,
+      "end": 41.44,
+      "text": "Sure, can I have two scoops of mint chocolate chip? 물론이죠, 민트초코칩 두 스쿱만 주시겠어요?"
+    },
+    {
+      "start": 41.44,
+      "end": 49.96,
+      "text": "I'll give you three scoops, it's on the house. 세 스쿱 드릴게요. 집에 있어요."
+    }
+  ],
+  "episode_num": 2755,
+  "category": "직업",
+  "subtitle": "동네에 찾아온 아이스크림 트럭",
+  "date": "2026.07.08",
+  "mp3_url": "https://hudcmammriqxlmxtwoxg.supabase.co/storage/v1/object/public/episodes/episodes/2755_20260708.mp3"
+}
