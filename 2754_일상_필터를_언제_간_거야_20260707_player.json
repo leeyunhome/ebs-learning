@@ -1,0 +1,20 @@
+{
+  "audio": "extracted_20260707_090000_fa2a5ef1_mp3__dup20260712_123518.mp3",
+  "script": [
+    {
+      "start": 30.0,
+      "end": 35.4,
+      "text": "I replaced it two years ago. 2년전에 교체했어요."
+    },
+    {
+      "start": 39.4,
+      "end": 47.8,
+      "text": "Are you kidding me? No wonder it smells funky. 농담하는 거야? 펑키한 냄새가 나는 것도 당연합니다."
+    }
+  ],
+  "episode_num": 2754,
+  "category": "일상",
+  "subtitle": "필터를 언제 간 거야",
+  "date": "2026.07.07",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2754_일상_필터를_언제_간_거야_20260707.mp3"
+}

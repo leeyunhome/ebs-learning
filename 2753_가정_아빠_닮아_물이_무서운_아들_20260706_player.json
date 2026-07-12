@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260706_090000_d6a0c5e6_mp3__dup20260712_123233.mp3",
+  "script": [
+    {
+      "start": 1.0,
+      "end": 7.0,
+      "text": "We should teach Mayu how to swim. 우리는 마유에게 수영하는 법을 가르쳐야 해요."
+    },
+    {
+      "start": 12.0,
+      "end": 18.0,
+      "text": "He's so scared of water. 그 사람은 물을 너무 무서워해요."
+    },
+    {
+      "start": 21.0,
+      "end": 29.0,
+      "text": "Wow, he totally takes after me. 와, 그 사람 완전 나를 닮아가는구나."
+    },
+    {
+      "start": 30.0,
+      "end": 40.0,
+      "text": "I was terrified of water when I was his age. 나는 그의 나이였을 때 물을 무서워했습니다."
+    }
+  ],
+  "episode_num": 2753,
+  "category": "가정",
+  "subtitle": "아빠 닮아 물이 무서운 아들",
+  "date": "2026.07.06",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2753_가정_아빠_닮아_물이_무서운_아들_20260706.mp3"
+}
