@@ -2,13 +2,23 @@
   "audio": "extracted_20260707_090000_fa2a5ef1_mp3__dup20260712_123518.mp3",
   "script": [
     {
-      "start": 30.0,
-      "end": 35.4,
+      "start": 1.0,
+      "end": 10.18,
+      "text": "The AC smells weird when I turn it on. 에어컨을 켜면 이상한 냄새가 나요."
+    },
+    {
+      "start": 10.18,
+      "end": 23.0,
+      "text": "When was the last time you changed the filter? 마지막으로 필터를 교체한 게 언제였나요?"
+    },
+    {
+      "start": 23.0,
+      "end": 35.2,
       "text": "I replaced it two years ago. 2년전에 교체했어요."
     },
     {
-      "start": 39.4,
-      "end": 47.8,
+      "start": 35.2,
+      "end": 47.82,
       "text": "Are you kidding me? No wonder it smells funky. 농담하는 거야? 펑키한 냄새가 나는 것도 당연합니다."
     }
   ],
