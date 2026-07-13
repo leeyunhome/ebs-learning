@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260710_090000_8b8fa27c_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 8.0,
+      "text": "Why do you need three suitcases for a week? 일주일 동안 여행가방 세 개가 필요한 이유는 무엇입니까?"
+    },
+    {
+      "start": 12.0,
+      "end": 21.0,
+      "text": "We're going to New York and I need clothes. 우리는 뉴욕에 갈 예정인데 옷이 필요해요."
+    },
+    {
+      "start": 27.0,
+      "end": 30.0,
+      "text": "Better safe than sorry, right? 후회하는 것보다 안전한 것이 낫지 않나요?"
+    },
+    {
+      "start": 40.0,
+      "end": 42.0,
+      "text": "Can't you just buy them there? 그냥 거기서 사면 안 돼요?"
+    }
+  ],
+  "episode_num": 2757,
+  "category": "여행",
+  "subtitle": "여행 아니라 이민인 줄 알았어",
+  "date": "2026.07.10",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2757_여행_여행_아니라_이민인_줄_알았어_20260710.mp3"
+}

@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260713_090000_c4b426ce_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "Son, are you saving your allowance every week? 아들아, 매주 용돈을 저축하고 있니?"
+    },
+    {
+      "start": 13.0,
+      "end": 18.0,
+      "text": "No, I spend most of it on games. 아니요, 대부분의 돈을 게임에 사용합니다."
+    },
+    {
+      "start": 23.0,
+      "end": 34.0,
+      "text": "Oh dear, a penny saved is a penny earned. 아, 아껴둔 1페니는 1페니를 버는 셈이구나."
+    },
+    {
+      "start": 42.0,
+      "end": 48.0,
+      "text": "I know, but it's not easy to save money. 알아요. 하지만 돈을 모으는 게 쉽지 않아요."
+    }
+  ],
+  "episode_num": 2758,
+  "category": "가정",
+  "subtitle": "중학생 아들을 위한 저축 팁Ⅰ",
+  "date": "2026.07.13",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2758_가정_중학생_아들을_위한_저축_팁Ⅰ_20260713.mp3"
+}
