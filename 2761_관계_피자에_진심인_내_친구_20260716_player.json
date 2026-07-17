@@ -1,0 +1,50 @@
+{
+  "audio": "extracted_20260716_090000_d0795ffd_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.14,
+      "text": "Pineapple on pizza is the best thing ever 피자에 파인애플이 제일 맛있어"
+    },
+    {
+      "start": 5.14,
+      "end": 9.46,
+      "text": "No way, it completely ruins the flavor 안돼, 맛이 완전히 망가져"
+    },
+    {
+      "start": 9.46,
+      "end": 13.78,
+      "text": "I guess we'll have to agree to disagree 내 생각엔 우리가 동의하지 않으면 동의해야 할 것 같아"
+    },
+    {
+      "start": 13.78,
+      "end": 17.8,
+      "text": "Pizza can never be sweet, period 피자는 결코 달콤할 수 없어요"
+    },
+    {
+      "start": 17.8,
+      "end": 21.18,
+      "text": "ね、ミッション ? 네, 미션?"
+    },
+    {
+      "start": 21.44,
+      "end": 22.58,
+      "text": "するぎろけ、ミッション 스루ぎろけ, 밋션"
+    },
+    {
+      "start": 40.4,
+      "end": 40.8,
+      "text": "Huh? 뭐?"
+    },
+    {
+      "start": 44.08,
+      "end": 44.84,
+      "text": "Yes! 예!"
+    }
+  ],
+  "episode_num": 2761,
+  "category": "관계",
+  "subtitle": "피자에 진심인 내 친구",
+  "date": "2026.07.16",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2761_관계_피자에_진심인_내_친구_20260716.mp3"
+}

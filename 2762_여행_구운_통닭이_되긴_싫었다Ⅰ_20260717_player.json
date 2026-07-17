@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260717_090000_3f76bf22_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 8.0,
+      "text": "Look at you, you're like a rose chicken. 당신을보세요, 당신은 장미 닭과 같습니다."
+    },
+    {
+      "start": 8.0,
+      "end": 21.0,
+      "text": "Thanks, I should have put on some sunscreen. 고마워요, 자외선 차단제를 발랐어야 했는데."
+    },
+    {
+      "start": 21.0,
+      "end": 36.0,
+      "text": "Didn't I warn you like 100 times? 내가 100번이나 경고하지 않았나요?"
+    },
+    {
+      "start": 36.0,
+      "end": 50.0,
+      "text": "I know. Hey, don't touch it, it burns. 알아요. 이봐요, 만지지 마세요, 불타거든요."
+    },
+    {
+      "start": 50.0,
+      "end": 56.92,
+      "text": "Next. 다음."
+    }
+  ],
+  "episode_num": 2762,
+  "category": "여행",
+  "subtitle": "구운 통닭이 되긴 싫었다Ⅰ",
+  "date": "2026.07.17",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2762_여행_구운_통닭이_되긴_싫었다Ⅰ_20260717.mp3"
+}

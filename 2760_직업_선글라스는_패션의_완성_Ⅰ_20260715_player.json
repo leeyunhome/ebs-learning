@@ -1,0 +1,45 @@
+{
+  "audio": "extracted_20260715_090000_73aa9987_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Can I try on these sunglasses? 이 선글라스를 써봐도 될까요?"
+    },
+    {
+      "start": 11.0,
+      "end": 20.0,
+      "text": "You certainly can, they just came in. 당신은 확실히 할 수 있습니다, 그들은 방금 들어왔습니다."
+    },
+    {
+      "start": 25.0,
+      "end": 29.0,
+      "text": "I like the style, but do you have them in white? 스타일은 맘에 드는데 흰색도 있나요?"
+    },
+    {
+      "start": 40.0,
+      "end": 44.0,
+      "text": "We might have a pair, I'll go and check. 한 쌍이 있을 수도 있으니 가서 확인해 보겠습니다."
+    },
+    {
+      "start": 48.0,
+      "end": 48.16,
+      "text": "I live in white. 나는 흰색에 산다."
+    },
+    {
+      "start": 49.0,
+      "end": 48.16,
+      "text": "I'll go. 나는 갈 것이다."
+    },
+    {
+      "start": 54.0,
+      "end": 48.16,
+      "text": "Over there and go. 저기로 가서 가세요."
+    }
+  ],
+  "episode_num": 2760,
+  "category": "직업",
+  "subtitle": "선글라스는 패션의 완성 Ⅰ",
+  "date": "2026.07.15",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2760_직업_선글라스는_패션의_완성_Ⅰ_20260715.mp3"
+}

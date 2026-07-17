@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260714_090000_d6cea61b_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "I got a part-time job at a nail salon. 네일샵에서 아르바이트를 했어요."
+    },
+    {
+      "start": 13.0,
+      "end": 18.0,
+      "text": "Awesome, will I get a manicure for free? 좋아요. 매니큐어를 무료로 받을 수 있나요?"
+    },
+    {
+      "start": 23.0,
+      "end": 33.0,
+      "text": "Sure, but only if you tip generously. 물론이죠. 하지만 팁을 아낌없이 주는 경우에만 가능합니다."
+    },
+    {
+      "start": 42.0,
+      "end": 49.0,
+      "text": "Then, I'll go when you're not working. 그럼, 당신 일 없을 때 내가 갈게요."
+    }
+  ],
+  "episode_num": 2759,
+  "category": "일상",
+  "subtitle": "서비스직은 팁이 중요해",
+  "date": "2026.07.14",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2759_일상_서비스직은_팁이_중요해_20260714.mp3"
+}
