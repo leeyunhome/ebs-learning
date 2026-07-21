@@ -2,29 +2,24 @@
   "audio": "extracted_20260720_090000_3d498f97_mp3.mp3",
   "script": [
     {
-      "start": 0,
-      "end": 10.5,
-      "text": "you need a plan set aside 10% of your allowance you need a plan set aside 10% 수당의 10%를 따로 떼어 놓은 계획이 필요합니다 10%를 따로 떼어 놓은 계획이 필요합니다"
+      "start": 0.53,
+      "end": 11.97,
+      "text": "You need a plan. Set aside 10% of your allowance. 계획이 필요합니다. 용돈의 10%를 따로 떼어놓으세요."
     },
     {
-      "start": 10.5,
-      "end": 24.48,
-      "text": "of your allowance ten percent that sounds difficult ten percent that sounds 용돈 중 10%는 어려울 것 같고 10%는 어려울 것 같습니다"
+      "start": 11.97,
+      "end": 25.37,
+      "text": "10%? That sounds difficult. 10%? 어려운 것 같네요."
     },
     {
-      "start": 24.48,
-      "end": 38.84,
-      "text": "difficult trust me you'll be happy ten years later trust me you'll be happy ten 어렵다 나를 믿으라 10년 뒤에는 행복할 것이다 나를 믿으라 10년 후에는 행복할 것이다"
+      "start": 25.37,
+      "end": 39.79,
+      "text": "Trust me, you'll be happy 10 years later. 나를 믿으세요. 10년 후에도 당신은 행복할 것입니다."
     },
     {
-      "start": 38.84,
-      "end": 51.36,
-      "text": "years later okay I'll go and open a savings account okay I'll go and open a 몇 년 후 알았어 가서 저축 계좌를 만들게 알았어 가서 개설할게"
-    },
-    {
-      "start": 51.36,
-      "end": 52.22,
-      "text": "savings account 저축 계좌"
+      "start": 39.79,
+      "end": 49.23,
+      "text": "Okay, I'll go and open a savings account. 알았어, 가서 저축 계좌를 개설할게."
     }
   ],
   "episode_num": 2763,
