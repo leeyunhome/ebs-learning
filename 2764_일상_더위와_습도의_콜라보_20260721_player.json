@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260721_090000_7b1737df_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 4.0,
+      "text": "I feel like my brain is melting. 뇌가 녹는 듯한 느낌이 듭니다."
+    },
+    {
+      "start": 11.0,
+      "end": 17.0,
+      "text": "Tell me about it. My shirt is sticking to my back. 그것에 대해 말해주세요. 내 셔츠가 등에 붙어 있어요."
+    },
+    {
+      "start": 23.0,
+      "end": 32.0,
+      "text": "I hate it when the weather is humid. 날씨가 습하면 싫어요."
+    },
+    {
+      "start": 40.0,
+      "end": 43.0,
+      "text": "I couldn't agree more. 나는 더 이상 동의할 수 없었다."
+    }
+  ],
+  "episode_num": 2764,
+  "category": "일상",
+  "subtitle": "더위와 습도의 콜라보",
+  "date": "2026.07.21",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2764_일상_더위와_습도의_콜라보_20260721.mp3"
+}
