@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260722_090000_1f15afc3_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Today's your lucky day. We have one pair left. 오늘은 당신의 행운의 날입니다. 한 쌍 남았습니다."
+    },
+    {
+      "start": 15.0,
+      "end": 19.0,
+      "text": "Do I look too dorky in these? 이거 내가 너무 이상해 보이나요?"
+    },
+    {
+      "start": 28.0,
+      "end": 32.0,
+      "text": "Actually, they look very sharp on you. 사실, 그들은 당신을 매우 날카롭게 보입니다."
+    },
+    {
+      "start": 39.0,
+      "end": 48.0,
+      "text": "I trust your judgment. I'll take them. 나는 당신의 판단을 믿습니다. 내가 가져갈게."
+    }
+  ],
+  "episode_num": 2765,
+  "category": "직업",
+  "subtitle": "선글라스는 패션의 완성Ⅱ",
+  "date": "2026.07.22",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2765_직업_선글라스는_패션의_완성Ⅱ_20260722.mp3"
+}
