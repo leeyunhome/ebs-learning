@@ -1,5 +1,5 @@
 {
-  "audio": "extracted_20260723_090000_bc2c8f25_mp3.mp3",
+  "audio": "extracted_20260723_090000_bc2c8f25_mp3__dup20260726_144657.mp3",
   "script": [
     {
       "start": 0,
@@ -20,11 +20,6 @@
       "start": 41.46,
       "end": 49.74,
       "text": "I'd rather share than be lonely. 외롭기보다는 나누는 것이 낫습니다."
-    },
-    {
-      "start": 49.74,
-      "end": 49.78,
-      "text": "I love you. 사랑해요."
     }
   ],
   "episode_num": 2766,
