@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260724_090000_0df96cde_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "Oh, no, my sunburn is peeling already. 아뇨, 햇볕 화상이 벌써 벗겨지고 있어요."
+    },
+    {
+      "start": 13.0,
+      "end": 17.0,
+      "text": "You shouldn't have ignored my warning. 내 경고를 무시하지 말았어야 했어요."
+    },
+    {
+      "start": 26.0,
+      "end": 29.0,
+      "text": "Here, put on some aloe. 여기, 알로에를 바르세요."
+    },
+    {
+      "start": 30.0,
+      "end": 43.0,
+      "text": "Gosh, I'm really turning into rose chicken. 맙소사, 나 진짜 로즈치킨으로 변해가고 있어."
+    }
+  ],
+  "episode_num": 2767,
+  "category": "여행",
+  "subtitle": "구운 통닭이 되긴 싫었다 Ⅱ",
+  "date": "2026.07.24",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2767_여행_구운_통닭이_되긴_싫었다_Ⅱ_20260724.mp3"
+}

@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260723_090000_bc2c8f25_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.64,
+      "text": "You're an only child, right? I envy you. 당신은 외동아들이에요, 그렇죠? 나는 당신이 부러워요."
+    },
+    {
+      "start": 13.1,
+      "end": 19.18,
+      "text": "Well, I wish I had a sister. 글쎄, 나도 여동생이 있었으면 좋았을 텐데."
+    },
+    {
+      "start": 27.12,
+      "end": 41.46,
+      "text": "Trust me, sharing everything with my sister is a nightmare. 저를 믿으세요. 제 여동생과 모든 것을 공유하는 것은 악몽입니다."
+    },
+    {
+      "start": 41.46,
+      "end": 49.74,
+      "text": "I'd rather share than be lonely. 외롭기보다는 나누는 것이 낫습니다."
+    },
+    {
+      "start": 49.74,
+      "end": 49.78,
+      "text": "I love you. 사랑해요."
+    }
+  ],
+  "episode_num": 2766,
+  "category": "관계",
+  "subtitle": "외동의 고충은 무엇일까",
+  "date": "2026.07.23",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2766_관계_외동의_고충은_무엇일까_20260723.mp3"
+}
