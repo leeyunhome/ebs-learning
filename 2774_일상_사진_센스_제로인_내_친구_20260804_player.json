@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260804_090000_3d309373_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.72,
+      "text": "Wow, you are terrible at taking photos 와, 사진 찍는 거 진짜 이상하다"
+    },
+    {
+      "start": 14.94,
+      "end": 22.92,
+      "text": "What? You wanted the horse in the picture 무엇? 당신은 그림 속의 말을 원했어요"
+    },
+    {
+      "start": 30.0,
+      "end": 40.96,
+      "text": "You cut off my legs and where is my arm? 당신은 내 다리를 자르고 내 팔은 어디에 있습니까?"
+    },
+    {
+      "start": 49.38,
+      "end": 54.02,
+      "text": "At least you look slimmer 적어도 더 날씬해 보이네"
+    },
+    {
+      "start": 61.98,
+      "end": 62.72,
+      "text": "Alright you guys 알았어 너희들"
+    }
+  ],
+  "episode_num": 2774,
+  "category": "일상",
+  "subtitle": "사진 센스 제로인 내 친구",
+  "date": "2026.08.04",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2774_일상_사진_센스_제로인_내_친구_20260804.mp3"
+}
