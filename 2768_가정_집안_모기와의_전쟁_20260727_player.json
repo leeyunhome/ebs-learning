@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260727_090000_676436f6_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.0,
+      "text": "Honey, the mosquitos kept buzzing in my ear. 여보, 모기가 내 귀에서 계속 윙윙거렸어요."
+    },
+    {
+      "start": 14.0,
+      "end": 21.0,
+      "text": "Didn't you close the window? 창문 안 닫았어?"
+    },
+    {
+      "start": 25.0,
+      "end": 29.0,
+      "text": "I did, but I think a few sneaked in. 그랬는데 몇 명이 몰래 들어간 것 같아요."
+    },
+    {
+      "start": 30.0,
+      "end": 42.0,
+      "text": "That's it. It's time to buy an electric flyswatter. 그게 다야. 이제 전기 파리채를 구입할 시간입니다."
+    }
+  ],
+  "episode_num": 2768,
+  "category": "가정",
+  "subtitle": "집안 모기와의 전쟁",
+  "date": "2026.07.27",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2768_가정_집안_모기와의_전쟁_20260727.mp3"
+}
