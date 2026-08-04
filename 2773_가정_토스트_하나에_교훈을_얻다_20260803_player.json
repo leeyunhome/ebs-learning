@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260803_090000_d25536af_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 9.0,
+      "text": "Dad, I burned the toast again. 아빠, 제가 또 토스트를 태웠어요."
+    },
+    {
+      "start": 12.0,
+      "end": 21.0,
+      "text": "Just keep trying, practice makes perfect. 계속 노력하면 연습이 완벽해집니다."
+    },
+    {
+      "start": 21.0,
+      "end": 32.0,
+      "text": "That's easy for you to say, you're a good cook. 당신은 훌륭한 요리사라고 말하기 쉽습니다."
+    },
+    {
+      "start": 39.0,
+      "end": 46.0,
+      "text": "Well, Rome wasn't built in a day. 글쎄요, 로마는 하루아침에 이루어지지 않았습니다."
+    }
+  ],
+  "episode_num": 2773,
+  "category": "가정",
+  "subtitle": "토스트 하나에 교훈을 얻다",
+  "date": "2026.08.03",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2773_가정_토스트_하나에_교훈을_얻다_20260803.mp3"
+}
