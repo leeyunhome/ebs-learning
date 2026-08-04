@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260731_090000_909f78c3_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Thirty dollars? It was only a five-minute drive. 30달러? 차로 단 5분 거리였습니다."
+    },
+    {
+      "start": 13.0,
+      "end": 19.0,
+      "text": "Ma'am, I'm not trying to rip you off. 부인, 저는 당신을 헐뜯으려는 것이 아닙니다."
+    },
+    {
+      "start": 26.0,
+      "end": 33.0,
+      "text": "Look, the meter says thirty dollars. 보세요, 미터기에 30달러가 적혀 있어요."
+    },
+    {
+      "start": 41.0,
+      "end": 46.0,
+      "text": "I'm willing to pay fifteen dollars, but that's it. 나는 15달러를 지불할 의향이 있지만 그게 전부입니다."
+    }
+  ],
+  "episode_num": 2772,
+  "category": "여행",
+  "subtitle": "여행 중 바가지 택시 요금 대처하기",
+  "date": "2026.07.31",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2772_여행_여행_중_바가지_택시_요금_대처하기_20260731.mp3"
+}
