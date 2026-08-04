@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260728_090000_78ff346f_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "There are so many mosquitoes inside the tent. 텐트 안에 모기가 너무 많아요."
+    },
+    {
+      "start": 13.0,
+      "end": 18.0,
+      "text": "I don't mind donating a little blood. 헌혈을 조금 해도 상관없어요."
+    },
+    {
+      "start": 22.0,
+      "end": 36.0,
+      "text": "But why are mosquito bites so itchy? 그런데 모기에 물리면 왜 그렇게 가렵나요?"
+    },
+    {
+      "start": 40.0,
+      "end": 46.0,
+      "text": "No! A mosquito just bit me between my toes. 아니요! 모기가 발가락 사이를 물었습니다."
+    }
+  ],
+  "episode_num": 2769,
+  "category": "일상",
+  "subtitle": "캠핑장 모기와의 전쟁",
+  "date": "2026.07.28",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2769_일상_캠핑장_모기와의_전쟁_20260728.mp3"
+}
