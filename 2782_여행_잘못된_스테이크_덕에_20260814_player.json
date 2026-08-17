@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260814_090000_575f8495_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.0,
+      "text": "I ordered mine well done, but this is too rare. 잘 되었다고 주문했는데 이런 경우는 너무 드뭅니다."
+    },
+    {
+      "start": 17.0,
+      "end": 20.0,
+      "text": "Could you cook it a bit longer? 좀 더 오래 끓여주시겠어요?"
+    },
+    {
+      "start": 23.0,
+      "end": 34.0,
+      "text": "I'm terribly sorry. I'll tell the chef right away. 정말 죄송합니다. 바로 셰프님께 말씀드릴께요."
+    },
+    {
+      "start": 44.0,
+      "end": 50.0,
+      "text": "And don't worry about the bill. It's on us. 그리고 청구서에 대해 걱정하지 마십시오. 그것은 우리에게 달려 있습니다."
+    }
+  ],
+  "episode_num": 2782,
+  "category": "여행",
+  "subtitle": "잘못된 스테이크 덕에",
+  "date": "2026.08.14",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2782_여행_잘못된_스테이크_덕에_20260814.mp3"
+}
