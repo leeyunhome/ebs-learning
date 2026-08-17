@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260810_090000_62252551_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "My grandson drew this. Can you believe it? 내 손자가 이것을 그렸습니다. 믿을 수 있나요?"
+    },
+    {
+      "start": 14.0,
+      "end": 19.0,
+      "text": "He's really talented for his age. 그는 나이에 비해 정말 재능이 있다."
+    },
+    {
+      "start": 27.0,
+      "end": 37.0,
+      "text": "You must be proud of him. 당신은 그를 자랑스러워해야합니다."
+    },
+    {
+      "start": 37.0,
+      "end": 44.0,
+      "text": "I am. His dream is to be an artist like Bob Ross. 그래요. 그의 꿈은 밥 로스 같은 예술가가 되는 것이다."
+    }
+  ],
+  "episode_num": 2778,
+  "category": "가정",
+  "subtitle": "손주 자랑은 영원한 무죄",
+  "date": "2026.08.10",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2778_가정_손주_자랑은_영원한_무죄_20260810.mp3"
+}
