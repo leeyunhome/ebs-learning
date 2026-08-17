@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260817_090000_8fa0c63f_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 8.0,
+      "text": "Did you buy a game console without asking me? 나한테 묻지도 않고 게임기를 샀나요?"
+    },
+    {
+      "start": 12.0,
+      "end": 18.0,
+      "text": "It wasn't me. Mayu begged for it. 내가 아니었어요. 마유는 그것을 간청했다."
+    },
+    {
+      "start": 23.0,
+      "end": 31.0,
+      "text": "He doesn't even like playing video games. 그는 비디오 게임을 좋아하지도 않습니다."
+    },
+    {
+      "start": 39.0,
+      "end": 45.0,
+      "text": "Trust me, ma'am. He is like a pro gamer. 저를 믿으세요, 부인. 프로게이머 같죠."
+    }
+  ],
+  "episode_num": 2783,
+  "category": "가정",
+  "subtitle": "아들의 실력을 핑계 삼은 아빠",
+  "date": "2026.08.17",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2783_가정_아들의_실력을_핑계_삼은_아빠_20260817.mp3"
+}
