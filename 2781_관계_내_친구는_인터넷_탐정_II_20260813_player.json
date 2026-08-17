@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260813_090000_be618133_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 4.38,
+      "text": "What kind of man wears a cardigan in summer? 여름에 가디건을 입는 남자는 어떤 남자일까요?"
+    },
+    {
+      "start": 5.66,
+      "end": 8.3,
+      "text": "Maybe it was chilly inside the theater. 아마도 극장 안은 추웠을 겁니다."
+    },
+    {
+      "start": 9.98,
+      "end": 12.72,
+      "text": "Anyway, why do you care so much? 어쨌든, 왜 그렇게 신경쓰나요?"
+    },
+    {
+      "start": 13.78,
+      "end": 16.32,
+      "text": "Well, I have a crush on him. 글쎄요, 저는 그 사람에게 반했어요."
+    },
+    {
+      "start": 18.32,
+      "end": 19.4,
+      "text": "We should have a crush on him. 우리는 그 사람을 좋아해야 해요."
+    }
+  ],
+  "episode_num": 2781,
+  "category": "관계",
+  "subtitle": "내 친구는 인터넷 탐정 II",
+  "date": "2026.08.13",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2781_관계_내_친구는_인터넷_탐정_II_20260813.mp3"
+}
