@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260805_090000_1e96a591_mp3.mp3",
+  "script": [
+    {
+      "start": 2.0,
+      "end": 7.0,
+      "text": "I'd love to go and see your play. 나는 가서 당신의 연극을 보고 싶습니다."
+    },
+    {
+      "start": 14.0,
+      "end": 19.0,
+      "text": "I can hook you up with free tickets. 무료 티켓을 연결해 드릴 수 있어요."
+    },
+    {
+      "start": 25.0,
+      "end": 32.0,
+      "text": "Just promise you won't laugh. 웃지 않겠다고 약속하세요."
+    },
+    {
+      "start": 40.0,
+      "end": 44.0,
+      "text": "I have a feeling I'll be your biggest fan. 나는 당신의 열렬한 팬이 될 것 같은 느낌이 듭니다."
+    }
+  ],
+  "episode_num": 2775,
+  "category": "직업",
+  "subtitle": "연극인의 삶 II",
+  "date": "2026.08.05",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2775_직업_연극인의_삶_II_20260805.mp3"
+}
