@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260806_090000_ea4772a1_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "He definitely went to the movies with a girl. 그 사람은 분명 여자랑 영화 보러 갔을 거야."
+    },
+    {
+      "start": 13.0,
+      "end": 21.0,
+      "text": "How do you know he was with a girl? 그가 여자와 함께 있었다는 것을 어떻게 알 수 있나요?"
+    },
+    {
+      "start": 21.0,
+      "end": 34.0,
+      "text": "Do you see this cardigan in the picture? 사진에 이 가디건 보이시나요?"
+    },
+    {
+      "start": 37.0,
+      "end": 44.0,
+      "text": "It looks like a guise to me. 제가 보기엔 그럴 듯한데요."
+    }
+  ],
+  "episode_num": 2776,
+  "category": "관계",
+  "subtitle": "내 친구는 인터넷 탐정 I",
+  "date": "2026.08.06",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2776_관계_내_친구는_인터넷_탐정_I_20260806.mp3"
+}
