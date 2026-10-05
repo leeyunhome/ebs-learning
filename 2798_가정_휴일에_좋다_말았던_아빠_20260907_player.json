@@ -1,0 +1,40 @@
+{
+  "audio": "extracted_20260907_090000_0196dac5_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "Why is the house so quiet today?"
+    },
+    {
+      "start": 12.0,
+      "end": 19.0,
+      "text": "Mom finally took Mayu to the mall."
+    },
+    {
+      "start": 19.0,
+      "end": 30.0,
+      "text": "Wait, what time are they coming back?"
+    },
+    {
+      "start": 35.0,
+      "end": 42.0,
+      "text": "They're coming back in 10 minutes."
+    },
+    {
+      "start": 60.0,
+      "end": 64.0,
+      "text": ",   take, , to  ."
+    },
+    {
+      "start": 79.0,
+      "end": 80.0,
+      "text": "Something like that."
+    }
+  ],
+  "episode_num": 2798,
+  "category": "가정",
+  "subtitle": "휴일에 좋다 말았던 아빠",
+  "date": "2026.09.07",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2798_가정_휴일에_좋다_말았던_아빠_20260907.mp3"
+}
