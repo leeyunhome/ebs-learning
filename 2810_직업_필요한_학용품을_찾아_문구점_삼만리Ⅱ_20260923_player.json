@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260923_090000_0819a3d3_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "Where can I find the sticky notes?"
+    },
+    {
+      "start": 11.0,
+      "end": 25.0,
+      "text": "They're right behind you next to the pens."
+    },
+    {
+      "start": 25.0,
+      "end": 28.0,
+      "text": "Do you have smaller ones than these?"
+    },
+    {
+      "start": 34.0,
+      "end": 39.0,
+      "text": "The mini ones are on the bottom shelf."
+    }
+  ],
+  "episode_num": 2810,
+  "category": "직업",
+  "subtitle": "필요한 학용품을 찾아 문구점 삼만리Ⅱ",
+  "date": "2026.09.23",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2810_직업_필요한_학용품을_찾아_문구점_삼만리Ⅱ_20260923.mp3"
+}
