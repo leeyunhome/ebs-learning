@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260925_090000_14782094_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 2.52,
+      "text": "Are dogs allowed in this restaurant?"
+    },
+    {
+      "start": 10.4,
+      "end": 14.22,
+      "text": "Sure, we have a separate area for dog owners."
+    },
+    {
+      "start": 26.02,
+      "end": 28.24,
+      "text": "You can sit on the porch."
+    },
+    {
+      "start": 37.34,
+      "end": 41.16,
+      "text": "Great! To be honest, I was a little worried."
+    }
+  ],
+  "episode_num": 2812,
+  "category": "여행",
+  "subtitle": "여행 중 반려견과 식당에 간다면",
+  "date": "2026.09.25",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2812_여행_여행_중_반려견과_식당에_간다면_20260925.mp3"
+}
