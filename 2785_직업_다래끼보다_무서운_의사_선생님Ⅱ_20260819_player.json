@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260819_090000_98cdad6a_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.0,
+      "text": "I'm going to drain your stye."
+    },
+    {
+      "start": 10.0,
+      "end": 21.0,
+      "text": "Are you saying you're going to squeeze it and pop it?"
+    },
+    {
+      "start": 21.0,
+      "end": 34.0,
+      "text": "Yes, it'll be over before you know it."
+    },
+    {
+      "start": 34.0,
+      "end": 39.0,
+      "text": "Wait, I'm not ready."
+    },
+    {
+      "start": 39.0,
+      "end": 44.0,
+      "text": "Ah, that hurts."
+    }
+  ],
+  "episode_num": 2785,
+  "category": "직업",
+  "subtitle": "다래끼보다 무서운 의사 선생님Ⅱ",
+  "date": "2026.08.19",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2785_직업_다래끼보다_무서운_의사_선생님Ⅱ_20260819.mp3"
+}
