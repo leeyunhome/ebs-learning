@@ -1,0 +1,45 @@
+{
+  "audio": "extracted_20260824_090000_556cbf3e_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.0,
+      "text": "The electricity bill was so high last month."
+    },
+    {
+      "start": 13.0,
+      "end": 28.0,
+      "text": "It's the AC, but I can't stand the heat."
+    },
+    {
+      "start": 28.0,
+      "end": 43.0,
+      "text": "Can't we at least turn it off at night?"
+    },
+    {
+      "start": 43.0,
+      "end": 55.0,
+      "text": "I can't fall asleep when it's humid."
+    },
+    {
+      "start": 55.0,
+      "end": 55.82,
+      "text": "Of course we will see."
+    },
+    {
+      "start": 64.0,
+      "end": 55.82,
+      "text": "We can't do that."
+    },
+    {
+      "start": 67.0,
+      "end": 55.82,
+      "text": "The electricity bill is so high."
+    }
+  ],
+  "episode_num": 2788,
+  "category": "가정",
+  "subtitle": "남편 몸에는 열이 많아",
+  "date": "2026.08.24",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2788_가정_남편_몸에는_열이_많아_20260824.mp3"
+}
