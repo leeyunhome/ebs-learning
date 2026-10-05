@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260901_090000_1091aae9_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 8.0,
+      "text": "I overslept and missed the bus."
+    },
+    {
+      "start": 11.0,
+      "end": 21.0,
+      "text": "Same. I hit snooze five times."
+    },
+    {
+      "start": 21.0,
+      "end": 30.0,
+      "text": "I didn't want to be late for school."
+    },
+    {
+      "start": 37.0,
+      "end": 42.0,
+      "text": "You should go to bed early tonight."
+    }
+  ],
+  "episode_num": 2794,
+  "category": "일상",
+  "subtitle": "학교에 지각하긴 정말 싫어",
+  "date": "2026.09.01",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2794_일상_학교에_지각하긴_정말_싫어_20260901.mp3"
+}
