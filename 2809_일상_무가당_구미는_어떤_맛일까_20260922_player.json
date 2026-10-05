@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260922_090000_5f090ac8_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.56,
+      "text": "did you try the new sugar-free gummies"
+    },
+    {
+      "start": 10.56,
+      "end": 13.68,
+      "text": "Not yet, they're sold out everywhere"
+    },
+    {
+      "start": 25.0,
+      "end": 28.0,
+      "text": "I tried one, but I couldn't tell the difference"
+    },
+    {
+      "start": 36.0,
+      "end": 38.0,
+      "text": "I hope they're still sweet"
+    }
+  ],
+  "episode_num": 2809,
+  "category": "일상",
+  "subtitle": "무가당 구미는 어떤 맛일까",
+  "date": "2026.09.22",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2809_일상_무가당_구미는_어떤_맛일까_20260922.mp3"
+}
