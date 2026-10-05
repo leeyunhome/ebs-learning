@@ -1,0 +1,20 @@
+{
+  "audio": "extracted_20260821_090000_6fab1e81_mp3.mp3",
+  "script": [
+    {
+      "start": 30.0,
+      "end": 35.0,
+      "text": "Actually, he's staying with me in room 821."
+    },
+    {
+      "start": 44.0,
+      "end": 49.0,
+      "text": "OK, let me know if you need a walker, too."
+    }
+  ],
+  "episode_num": 2787,
+  "category": "여행",
+  "subtitle": "호텔에서 휠체어 빌리기",
+  "date": "2026.08.21",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2787_여행_호텔에서_휠체어_빌리기_20260821.mp3"
+}
