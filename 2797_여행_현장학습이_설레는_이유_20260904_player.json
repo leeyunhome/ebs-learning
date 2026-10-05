@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260904_090000_3f3a17b5_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "I can't wait for our field trip."
+    },
+    {
+      "start": 11.0,
+      "end": 18.0,
+      "text": "We're going to Mayuland, right?"
+    },
+    {
+      "start": 24.0,
+      "end": 29.0,
+      "text": "Yeah, I'm not into physics, but field trips are fun."
+    },
+    {
+      "start": 39.0,
+      "end": 43.0,
+      "text": "I hope Mr. Herbs doesn't give a pop quiz."
+    }
+  ],
+  "episode_num": 2797,
+  "category": "여행",
+  "subtitle": "현장학습이 설레는 이유",
+  "date": "2026.09.04",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2797_여행_현장학습이_설레는_이유_20260904.mp3"
+}
