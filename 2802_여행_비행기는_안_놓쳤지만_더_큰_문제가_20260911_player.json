@@ -1,0 +1,25 @@
+{
+  "audio": "extracted_20260911_090000_a37ce264_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Thank God we didn't miss the plane."
+    },
+    {
+      "start": 12.0,
+      "end": 19.0,
+      "text": "I know, we ran like the wind."
+    },
+    {
+      "start": 25.0,
+      "end": 27.42,
+      "text": "My heart sank when they called."
+    }
+  ],
+  "episode_num": 2802,
+  "category": "여행",
+  "subtitle": "비행기는 안 놓쳤지만 더 큰 문제가",
+  "date": "2026.09.11",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2802_여행_비행기는_안_놓쳤지만_더_큰_문제가_20260911.mp3"
+}
