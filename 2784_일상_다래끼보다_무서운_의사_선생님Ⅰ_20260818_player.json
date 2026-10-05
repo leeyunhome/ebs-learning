@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260818_090000_fe280ab4_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.5,
+      "text": "what happened to your eye it's all s"
+    },
+    {
+      "start": 7.5,
+      "end": 22.24,
+      "text": "all swollen I had a bad stye on my eyelid I had a bad stye on my eyelid"
+    },
+    {
+      "start": 22.24,
+      "end": 34.24,
+      "text": "ouch! did you go and see a doctor?"
+    },
+    {
+      "start": 38.24,
+      "end": 43.24,
+      "text": "Yeah, when he tried to pop it I almost passed out"
+    },
+    {
+      "start": 49.24,
+      "end": 55.2,
+      "text": "Yeah!"
+    }
+  ],
+  "episode_num": 2784,
+  "category": "일상",
+  "subtitle": "다래끼보다 무서운 의사 선생님Ⅰ",
+  "date": "2026.08.18",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2784_일상_다래끼보다_무서운_의사_선생님Ⅰ_20260818.mp3"
+}
