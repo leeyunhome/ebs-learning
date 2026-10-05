@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260902_090000_a619c6a7_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 11.76,
+      "text": "Where should I put this bed?"
+    },
+    {
+      "start": 11.76,
+      "end": 16.12,
+      "text": "Please put it next to the window."
+    },
+    {
+      "start": 21.18,
+      "end": 36.38,
+      "text": "Wow, it's heavier than I thought."
+    },
+    {
+      "start": 36.38,
+      "end": 38.16,
+      "text": "I brought you a drink."
+    },
+    {
+      "start": 38.16,
+      "end": 40.96,
+      "text": "Here you go."
+    }
+  ],
+  "episode_num": 2795,
+  "category": "직업",
+  "subtitle": "이사 기사님의 고충Ⅰ",
+  "date": "2026.09.02",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2795_직업_이사_기사님의_고충Ⅰ_20260902.mp3"
+}
