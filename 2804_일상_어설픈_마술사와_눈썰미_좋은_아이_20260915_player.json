@@ -1,0 +1,20 @@
+{
+  "audio": "extracted_20260915_090000_85537fed_mp3.mp3",
+  "script": [
+    {
+      "start": 31.0,
+      "end": 38.0,
+      "text": "Sir, I saw you drop it."
+    },
+    {
+      "start": 43.0,
+      "end": 49.0,
+      "text": "I was just testing you. Good eye, kiddo."
+    }
+  ],
+  "episode_num": 2804,
+  "category": "일상",
+  "subtitle": "어설픈 마술사와 눈썰미 좋은 아이",
+  "date": "2026.09.15",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2804_일상_어설픈_마술사와_눈썰미_좋은_아이_20260915.mp3"
+}
