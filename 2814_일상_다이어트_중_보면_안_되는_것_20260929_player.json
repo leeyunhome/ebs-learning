@@ -1,0 +1,25 @@
+{
+  "audio": "extracted_20260929_090000_28bd9215_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "These cooking videos make me hungry."
+    },
+    {
+      "start": 11.0,
+      "end": 16.0,
+      "text": "I agree, but they're so satisfying."
+    },
+    {
+      "start": 16.0,
+      "end": 17.72,
+      "text": "I agree."
+    }
+  ],
+  "episode_num": 2814,
+  "category": "일상",
+  "subtitle": "다이어트 중 보면 안 되는 것",
+  "date": "2026.09.29",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2814_일상_다이어트_중_보면_안_되는_것_20260929.mp3"
+}
