@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261001_090000_536fa03d_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "Do you want to talk about it?"
+    },
+    {
+      "start": 8.0,
+      "end": 13.0,
+      "text": "Do you remember Jenny back in sixth grade?"
+    },
+    {
+      "start": 23.0,
+      "end": 29.0,
+      "text": "I still like her but she doesn't like me back."
+    },
+    {
+      "start": 39.0,
+      "end": 43.0,
+      "text": "Be brave, have some confidence."
+    }
+  ],
+  "episode_num": 2816,
+  "category": "관계",
+  "subtitle": "갑자기 잠수를 탄 친구Ⅱ",
+  "date": "2026.10.01",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2816_관계_갑자기_잠수를_탄_친구Ⅱ_20261001.mp3"
+}
