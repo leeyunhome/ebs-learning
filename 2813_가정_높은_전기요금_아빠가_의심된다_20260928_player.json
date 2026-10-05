@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260928_090000_4f6e0b48_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "Did you see the electricity bill this month?"
+    },
+    {
+      "start": 13.0,
+      "end": 21.0,
+      "text": "It's much higher than last month."
+    },
+    {
+      "start": 25.0,
+      "end": 28.0,
+      "text": "I think I know why."
+    },
+    {
+      "start": 35.0,
+      "end": 39.0,
+      "text": "Dad always leaves the TV on."
+    }
+  ],
+  "episode_num": 2813,
+  "category": "가정",
+  "subtitle": "높은 전기요금 아빠가 의심된다",
+  "date": "2026.09.28",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2813_가정_높은_전기요금_아빠가_의심된다_20260928.mp3"
+}
