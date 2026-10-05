@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260903_090000_1385a9dc_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Mayu and Josh got into a fight."
+    },
+    {
+      "start": 11.0,
+      "end": 19.0,
+      "text": "I was there. I broke up the fight."
+    },
+    {
+      "start": 19.0,
+      "end": 30.0,
+      "text": "What was the problem?"
+    },
+    {
+      "start": 33.0,
+      "end": 35.1,
+      "text": "They were fighting over a cookie."
+    }
+  ],
+  "episode_num": 2796,
+  "category": "관계",
+  "subtitle": "쿠키 하나로 다툰 친구들",
+  "date": "2026.09.03",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2796_관계_쿠키_하나로_다툰_친구들_20260903.mp3"
+}
