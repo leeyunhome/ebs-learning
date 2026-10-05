@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260910_090000_e4794511_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 4.0,
+      "text": "Are you guys okay?"
+    },
+    {
+      "start": 4.0,
+      "end": 7.0,
+      "text": "You two look awkward."
+    },
+    {
+      "start": 15.0,
+      "end": 18.0,
+      "text": "We just had a little argument."
+    },
+    {
+      "start": 28.0,
+      "end": 32.0,
+      "text": "Go and clear things up with her."
+    },
+    {
+      "start": 38.0,
+      "end": 42.0,
+      "text": "Yeah, I should make up with her."
+    }
+  ],
+  "episode_num": 2801,
+  "category": "관계",
+  "subtitle": "말다툼 후 어색해진 두 친구",
+  "date": "2026.09.10",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2801_관계_말다툼_후_어색해진_두_친구_20260910.mp3"
+}
