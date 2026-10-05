@@ -1,0 +1,25 @@
+{
+  "audio": "extracted_20260908_090000_979ad29b_mp3.mp3",
+  "script": [
+    {
+      "start": 1.0,
+      "end": 7.0,
+      "text": "You're in a good mood. What's up?"
+    },
+    {
+      "start": 11.0,
+      "end": 17.0,
+      "text": "I found five bucks in my old jacket."
+    },
+    {
+      "start": 22.0,
+      "end": 31.0,
+      "text": "Nice! What are you going to do with it?"
+    }
+  ],
+  "episode_num": 2799,
+  "category": "일상",
+  "subtitle": "기대하지 않은 소소한 행복",
+  "date": "2026.09.08",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2799_일상_기대하지_않은_소소한_행복_20260908.mp3"
+}
