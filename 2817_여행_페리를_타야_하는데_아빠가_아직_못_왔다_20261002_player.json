@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261002_090000_b608b094_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "is this the line for the ferry"
+    },
+    {
+      "start": 7.0,
+      "end": 15.5,
+      "text": "yes it's arriving soon oh here it comes"
+    },
+    {
+      "start": 22.34,
+      "end": 41.28,
+      "text": "oh no my dad's still in the restroom"
+    },
+    {
+      "start": 41.28,
+      "end": 47.3,
+      "text": "he'd better hurry that's the last ferry today"
+    }
+  ],
+  "episode_num": 2817,
+  "category": "여행",
+  "subtitle": "페리를 타야 하는데 아빠가 아직 못 왔다",
+  "date": "2026.10.02",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2817_여행_페리를_타야_하는데_아빠가_아직_못_왔다_20261002.mp3"
+}
