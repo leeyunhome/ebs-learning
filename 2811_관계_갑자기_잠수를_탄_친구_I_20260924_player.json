@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260924_090000_b92cc46d_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 11.6,
+      "text": "where were you all day I was worried"
+    },
+    {
+      "start": 11.6,
+      "end": 21.3,
+      "text": "didn't feel like talking to anyone"
+    },
+    {
+      "start": 21.3,
+      "end": 33.18,
+      "text": "still you can't just ghost me like that"
+    },
+    {
+      "start": 33.18,
+      "end": 44.16,
+      "text": "I had something on my mind"
+    }
+  ],
+  "episode_num": 2811,
+  "category": "관계",
+  "subtitle": "갑자기 잠수를 탄 친구 I",
+  "date": "2026.09.24",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2811_관계_갑자기_잠수를_탄_친구_I_20260924.mp3"
+}
