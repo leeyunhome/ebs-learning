@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260917_090000_f0c03008_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Why didn't you sit with me at lunch?"
+    },
+    {
+      "start": 11.0,
+      "end": 20.0,
+      "text": "Because you only hang out with James."
+    },
+    {
+      "start": 25.0,
+      "end": 29.0,
+      "text": "Well, you're always busy studying."
+    },
+    {
+      "start": 29.0,
+      "end": 39.0,
+      "text": "Then maybe you should study with me."
+    }
+  ],
+  "episode_num": 2806,
+  "category": "관계",
+  "subtitle": "학교 점심시간의 섭섭함 토로하기",
+  "date": "2026.09.17",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2806_관계_학교_점심시간의_섭섭함_토로하기_20260917.mp3"
+}
