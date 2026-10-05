@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260828_090000_38e686af_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 2.48,
+      "text": "How long is the train stopping here?"
+    },
+    {
+      "start": 10.0,
+      "end": 12.8,
+      "text": "It leaves exactly at 10.05."
+    },
+    {
+      "start": 23.92,
+      "end": 26.52,
+      "text": "I want to run and grab some snacks."
+    },
+    {
+      "start": 34.88,
+      "end": 37.46,
+      "text": "You've got about five minutes then."
+    },
+    {
+      "start": 47.2,
+      "end": 48.0,
+      "text": "Nè!"
+    }
+  ],
+  "episode_num": 2792,
+  "category": "여행",
+  "subtitle": "과자 몇 봉지 때문에 열차 놓칠래",
+  "date": "2026.08.28",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2792_여행_과자_몇_봉지_때문에_열차_놓칠래_20260828.mp3"
+}
