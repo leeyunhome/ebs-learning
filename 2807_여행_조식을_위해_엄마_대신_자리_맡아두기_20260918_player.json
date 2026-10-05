@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260918_090000_f96f52a9_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 12.16,
+      "text": "what room are you staying in what room are you staying in room 310 my mom is"
+    },
+    {
+      "start": 12.16,
+      "end": 22.4,
+      "text": "coming in two minutes room 310 my mom is coming in two minutes"
+    },
+    {
+      "start": 22.4,
+      "end": 32.48,
+      "text": "do you have your room key with you"
+    },
+    {
+      "start": 37.12,
+      "end": 46.56,
+      "text": "right here oh here she comes"
+    }
+  ],
+  "episode_num": 2807,
+  "category": "여행",
+  "subtitle": "조식을 위해 엄마 대신 자리 맡아두기",
+  "date": "2026.09.18",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2807_여행_조식을_위해_엄마_대신_자리_맡아두기_20260918.mp3"
+}
