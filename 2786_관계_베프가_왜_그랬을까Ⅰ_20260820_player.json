@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260820_090000_c4157d62_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.5,
+      "text": "And he borrowed my money and never paid me back."
+    },
+    {
+      "start": 16.0,
+      "end": 18.0,
+      "text": "Isn't she one of your best friends?"
+    },
+    {
+      "start": 30.0,
+      "end": 40.0,
+      "text": "She was. I'm really disappointed in her."
+    },
+    {
+      "start": 44.0,
+      "end": 53.0,
+      "text": "Just give her a call and ask."
+    }
+  ],
+  "episode_num": 2786,
+  "category": "관계",
+  "subtitle": "베프가 왜 그랬을까Ⅰ",
+  "date": "2026.08.20",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2786_관계_베프가_왜_그랬을까Ⅰ_20260820.mp3"
+}
