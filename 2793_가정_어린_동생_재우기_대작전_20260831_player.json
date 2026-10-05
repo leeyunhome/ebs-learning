@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20260831_090000_75adc322_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 13.18,
+      "text": "mom my you finally fell asleep mom my you finally fell asleep you'll wake him"
+    },
+    {
+      "start": 13.18,
+      "end": 20.32,
+      "text": "up again you'll wake him up again"
+    },
+    {
+      "start": 20.32,
+      "end": 31.6,
+      "text": "why do babies wake up so easily"
+    },
+    {
+      "start": 31.6,
+      "end": 39.22,
+      "text": "you were like that too when you were a baby"
+    },
+    {
+      "start": 50.32,
+      "end": 51.4,
+      "text": "you"
+    }
+  ],
+  "episode_num": 2793,
+  "category": "가정",
+  "subtitle": "어린 동생 재우기 대작전",
+  "date": "2026.08.31",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2793_가정_어린_동생_재우기_대작전_20260831.mp3"
+}
