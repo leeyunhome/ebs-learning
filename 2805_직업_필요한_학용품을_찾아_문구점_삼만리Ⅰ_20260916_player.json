@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260916_090000_7bd9328c_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "I'm looking for a notebook like this."
+    },
+    {
+      "start": 9.0,
+      "end": 14.0,
+      "text": "We might have a similar one over here."
+    },
+    {
+      "start": 19.0,
+      "end": 29.0,
+      "text": "Does it come in different covered colors?"
+    },
+    {
+      "start": 29.0,
+      "end": 44.0,
+      "text": "It also comes in blue, but it's sold out."
+    }
+  ],
+  "episode_num": 2805,
+  "category": "직업",
+  "subtitle": "필요한 학용품을 찾아 문구점 삼만리Ⅰ",
+  "date": "2026.09.16",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2805_직업_필요한_학용품을_찾아_문구점_삼만리Ⅰ_20260916.mp3"
+}
