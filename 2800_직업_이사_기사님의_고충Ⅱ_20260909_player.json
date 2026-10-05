@@ -1,0 +1,45 @@
+{
+  "audio": "extracted_20260909_090000_f1114d8b_mp3.mp3",
+  "script": [
+    {
+      "start": 1.0,
+      "end": 7.0,
+      "text": "Please be careful with that box."
+    },
+    {
+      "start": 11.0,
+      "end": 18.0,
+      "text": "Are you talking about that black one?"
+    },
+    {
+      "start": 24.0,
+      "end": 28.0,
+      "text": "Yeah, there's something fragile inside."
+    },
+    {
+      "start": 28.0,
+      "end": 41.0,
+      "text": "Oh no, I think I dropped it twice."
+    },
+    {
+      "start": 56.0,
+      "end": 58.0,
+      "text": "Alright,  ."
+    },
+    {
+      "start": 58.0,
+      "end": 60.0,
+      "text": "Be careful with something."
+    },
+    {
+      "start": 72.0,
+      "end": 72.52,
+      "text": "zió,"
+    }
+  ],
+  "episode_num": 2800,
+  "category": "직업",
+  "subtitle": "이사 기사님의 고충Ⅱ",
+  "date": "2026.09.09",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2800_직업_이사_기사님의_고충Ⅱ_20260909.mp3"
+}
