@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260826_090000_14b0b761_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 11.0,
+      "text": "I'm scared to put my head under water."
+    },
+    {
+      "start": 11.0,
+      "end": 25.0,
+      "text": "Don't worry, I'm holding you tight."
+    },
+    {
+      "start": 25.0,
+      "end": 33.0,
+      "text": "What if I swallow some water by mistake?"
+    },
+    {
+      "start": 37.0,
+      "end": 45.0,
+      "text": "Just hold your breath, you'll be fine."
+    }
+  ],
+  "episode_num": 2790,
+  "category": "직업",
+  "subtitle": "수영 선생님만 믿습니다",
+  "date": "2026.08.26",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2790_직업_수영_선생님만_믿습니다_20260826.mp3"
+}
