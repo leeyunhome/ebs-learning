@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260914_090000_456bca5b_mp3.mp3",
+  "script": [
+    {
+      "start": 3.12,
+      "end": 6.24,
+      "text": "Mom, we are running out of toilet paper."
+    },
+    {
+      "start": 13.92,
+      "end": 16.82,
+      "text": "I told you to use less."
+    },
+    {
+      "start": 21.78,
+      "end": 30.46,
+      "text": "One square at a time is enough."
+    },
+    {
+      "start": 41.76,
+      "end": 44.44,
+      "text": "You don't want to see a disaster, do you?"
+    }
+  ],
+  "episode_num": 2803,
+  "category": "가정",
+  "subtitle": "휴지 절약정신이 너무 강한 엄마",
+  "date": "2026.09.14",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2803_가정_휴지_절약정신이_너무_강한_엄마_20260914.mp3"
+}
