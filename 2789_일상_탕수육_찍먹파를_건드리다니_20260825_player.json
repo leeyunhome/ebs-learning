@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260825_090000_02f3c979_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Who pour the sauce on the tangsuyuk?"
+    },
+    {
+      "start": 11.0,
+      "end": 26.0,
+      "text": "I did. It tastes way better that way."
+    },
+    {
+      "start": 26.0,
+      "end": 33.0,
+      "text": "How dare you do that without my permission?"
+    },
+    {
+      "start": 39.0,
+      "end": 48.0,
+      "text": "Just give it a try. You'll love it."
+    }
+  ],
+  "episode_num": 2789,
+  "category": "일상",
+  "subtitle": "탕수육 찍먹파를 건드리다니",
+  "date": "2026.08.25",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2789_일상_탕수육_찍먹파를_건드리다니_20260825.mp3"
+}
