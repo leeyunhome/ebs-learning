@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260930_090000_01d7a106_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "I'm sorry. I forgot to press the stop button."
+    },
+    {
+      "start": 15.0,
+      "end": 23.0,
+      "text": "Could you let me off now?"
+    },
+    {
+      "start": 23.0,
+      "end": 35.0,
+      "text": "I can't stop here. I'll let you off up ahead."
+    },
+    {
+      "start": 42.0,
+      "end": 48.0,
+      "text": "And don't forget to tag your card."
+    }
+  ],
+  "episode_num": 2815,
+  "category": "직업",
+  "subtitle": "버스 하차 벨 누르는 걸 깜빡했을 때",
+  "date": "2026.09.30",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2815_직업_버스_하차_벨_누르는_걸_깜빡했을_때_20260930.mp3"
+}
