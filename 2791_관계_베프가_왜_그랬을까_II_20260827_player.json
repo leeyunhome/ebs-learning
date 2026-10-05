@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20260827_090000_0322cefc_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.0,
+      "text": "Annie, you borrowed my money months ago and…"
+    },
+    {
+      "start": 15.0,
+      "end": 20.0,
+      "text": "Huh? I paid you back the next day."
+    },
+    {
+      "start": 25.0,
+      "end": 32.0,
+      "text": "You didn't check your account, did you?"
+    },
+    {
+      "start": 43.0,
+      "end": 49.0,
+      "text": "Wait. Oh, I'm sorry. I got you all wrong."
+    }
+  ],
+  "episode_num": 2791,
+  "category": "관계",
+  "subtitle": "베프가 왜 그랬을까 II",
+  "date": "2026.08.27",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2791_관계_베프가_왜_그랬을까_II_20260827.mp3"
+}
