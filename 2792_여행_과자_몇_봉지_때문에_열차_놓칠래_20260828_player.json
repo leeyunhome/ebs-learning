@@ -4,27 +4,27 @@
     {
       "start": 0,
       "end": 2.48,
-      "text": "How long is the train stopping here?"
+      "text": "How long is the train stopping here? 기차 여기서 얼마나 정차해요?"
     },
     {
       "start": 10.0,
       "end": 12.8,
-      "text": "It leaves exactly at 10.05."
+      "text": "It leaves exactly at 10.05. 10시 5분에 딱 출발해요."
     },
     {
       "start": 23.92,
       "end": 26.52,
-      "text": "I want to run and grab some snacks."
+      "text": "I want to run and grab some snacks. 얼른 가서 간식 좀 사 오려고요."
     },
     {
       "start": 34.88,
       "end": 37.46,
-      "text": "You've got about five minutes then."
+      "text": "You've got about five minutes then. 그럼 5분 정도 시간 있네요."
     },
     {
       "start": 47.2,
       "end": 48.0,
-      "text": "Nè!"
+      "text": "Nè! 네!"
     }
   ],
   "episode_num": 2792,

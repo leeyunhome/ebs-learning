@@ -4,22 +4,22 @@
     {
       "start": 0,
       "end": 7.0,
-      "text": "I'm sorry. I forgot to press the stop button."
+      "text": "I'm sorry. I forgot to press the stop button. 죄송해요. 하차 벨 누르는 걸 깜빡했어요."
     },
     {
       "start": 15.0,
       "end": 23.0,
-      "text": "Could you let me off now?"
+      "text": "Could you let me off now? 지금 내려주실 수 있나요?"
     },
     {
       "start": 23.0,
       "end": 35.0,
-      "text": "I can't stop here. I'll let you off up ahead."
+      "text": "I can't stop here. I'll let you off up ahead. 여기서는 세워드릴 수 없어요. 저 앞에서 내려드릴게요."
     },
     {
       "start": 42.0,
       "end": 48.0,
-      "text": "And don't forget to tag your card."
+      "text": "And don't forget to tag your card. 그리고 카드 찍는 거 잊지 마세요."
     }
   ],
   "episode_num": 2815,

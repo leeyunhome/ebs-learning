@@ -3,28 +3,23 @@
   "script": [
     {
       "start": 0,
-      "end": 7.5,
-      "text": "what happened to your eye it's all s"
+      "end": 8.56,
+      "text": "What happened to your eye? It's all swollen. 눈이 왜 그래? 퉁퉁 부었네."
     },
     {
-      "start": 7.5,
-      "end": 22.24,
-      "text": "all swollen I had a bad stye on my eyelid I had a bad stye on my eyelid"
+      "start": 8.56,
+      "end": 20.88,
+      "text": "I had a bad sty on my eyelid. 눈꺼풀에 다래끼가 심하게 났어."
     },
     {
-      "start": 22.24,
-      "end": 34.24,
-      "text": "ouch! did you go and see a doctor?"
+      "start": 20.88,
+      "end": 33.46,
+      "text": "Did you go and see a doctor? 병원에는 가봤어?"
     },
     {
-      "start": 38.24,
-      "end": 43.24,
-      "text": "Yeah, when he tried to pop it I almost passed out"
-    },
-    {
-      "start": 49.24,
-      "end": 55.2,
-      "text": "Yeah!"
+      "start": 33.46,
+      "end": 54.98,
+      "text": "Yeah, when he tried to pop it, I almost passed out. 응, 의사 선생님이 짜내려고 할 때 기절할 뻔했어."
     }
   ],
   "episode_num": 2784,

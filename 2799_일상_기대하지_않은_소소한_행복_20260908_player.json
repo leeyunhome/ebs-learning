@@ -4,17 +4,17 @@
     {
       "start": 1.0,
       "end": 7.0,
-      "text": "You're in a good mood. What's up?"
+      "text": "You're in a good mood. What's up? 기분 좋아 보이네. 무슨 일 있어?"
     },
     {
       "start": 11.0,
       "end": 17.0,
-      "text": "I found five bucks in my old jacket."
+      "text": "I found five bucks in my old jacket. 예전 재킷에서 5달러를 찾았거든."
     },
     {
       "start": 22.0,
       "end": 31.0,
-      "text": "Nice! What are you going to do with it?"
+      "text": "Nice! What are you going to do with it? 오, 좋은데! 그걸로 뭐 할 거야?"
     }
   ],
   "episode_num": 2799,

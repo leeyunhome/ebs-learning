@@ -4,32 +4,32 @@
     {
       "start": 0,
       "end": 5.0,
-      "text": "Why is the house so quiet today?"
+      "text": "Why is the house so quiet today? 오늘 집이 왜 이렇게 조용해?"
     },
     {
       "start": 12.0,
       "end": 19.0,
-      "text": "Mom finally took Mayu to the mall."
+      "text": "Mom finally took Mayu to the mall. 엄마가 드디어 마유를 쇼핑몰에 데리고 갔거든."
     },
     {
       "start": 19.0,
       "end": 30.0,
-      "text": "Wait, what time are they coming back?"
+      "text": "Wait, what time are they coming back? 잠깐, 몇 시에 돌아온대?"
     },
     {
       "start": 35.0,
       "end": 42.0,
-      "text": "They're coming back in 10 minutes."
+      "text": "They're coming back in 10 minutes. 10분 뒤에 돌아온대."
     },
     {
       "start": 60.0,
       "end": 64.0,
-      "text": ",   take, , to  ."
+      "text": ",   take, , to  . , 데려가다, , ~로 ."
     },
     {
       "start": 79.0,
       "end": 80.0,
-      "text": "Something like that."
+      "text": "Something like that. 뭐 그런 거지."
     }
   ],
   "episode_num": 2798,

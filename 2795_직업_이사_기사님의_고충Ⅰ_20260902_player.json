@@ -4,27 +4,27 @@
     {
       "start": 0,
       "end": 11.76,
-      "text": "Where should I put this bed?"
+      "text": "Where should I put this bed? 이 침대 어디에 둘까요?"
     },
     {
       "start": 11.76,
       "end": 16.12,
-      "text": "Please put it next to the window."
+      "text": "Please put it next to the window. 창문 옆에 놔주세요."
     },
     {
       "start": 21.18,
       "end": 36.38,
-      "text": "Wow, it's heavier than I thought."
+      "text": "Wow, it's heavier than I thought. 와, 생각보다 무겁네요."
     },
     {
       "start": 36.38,
       "end": 38.16,
-      "text": "I brought you a drink."
+      "text": "I brought you a drink. 마실 것 좀 가져왔어요."
     },
     {
       "start": 38.16,
       "end": 40.96,
-      "text": "Here you go."
+      "text": "Here you go. 여기 있어요."
     }
   ],
   "episode_num": 2795,
