@@ -1,0 +1,40 @@
+{
+  "audio": "extracted_20261005_090000_d5ca1857_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.68,
+      "text": "Don't tell me you washed my hoodie, mom."
+    },
+    {
+      "start": 7.68,
+      "end": 12.94,
+      "text": "I did."
+    },
+    {
+      "start": 12.94,
+      "end": 18.62,
+      "text": "It was stained with ketchup."
+    },
+    {
+      "start": 18.62,
+      "end": 27.94,
+      "text": "It shrank."
+    },
+    {
+      "start": 27.94,
+      "end": 37.3,
+      "text": "It won't fit me now."
+    },
+    {
+      "start": 37.3,
+      "end": 44.06,
+      "text": "I guess it belongs to your brother now."
+    }
+  ],
+  "episode_num": 2818,
+  "category": "가정",
+  "subtitle": "세탁으로 줄어버린 내 후드티",
+  "date": "2026.10.05",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2818_가정_세탁으로_줄어버린_내_후드티_20261005.mp3"
+}
