@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20261006_090000_4f4a5516_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Your MBTI ends in P, right?"
+    },
+    {
+      "start": 11.0,
+      "end": 17.0,
+      "text": "What are you? A psychic? How did you...?"
+    },
+    {
+      "start": 23.0,
+      "end": 32.0,
+      "text": "It's so obvious. You never make a study plan."
+    },
+    {
+      "start": 36.0,
+      "end": 42.0,
+      "text": "You got me. I'm a total P."
+    },
+    {
+      "start": 46.0,
+      "end": 46.26,
+      "text": "Have a great day."
+    }
+  ],
+  "episode_num": 2819,
+  "category": "일상",
+  "subtitle": "내 MBTI를 맞혀버린 친구Ⅰ",
+  "date": "2026.10.06",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2819_일상_내_MBTI를_맞혀버린_친구Ⅰ_20261006.mp3"
+}
