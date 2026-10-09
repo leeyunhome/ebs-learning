@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20261009_090000_be77f1cd_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.0,
+      "text": "Mom, I have dark circles under my eyes. 엄마, 나 눈 밑에 다크서클 생겼어."
+    },
+    {
+      "start": 14.0,
+      "end": 23.0,
+      "text": "Yeah, we walked around for too long. 그래, 우리가 너무 오래 돌아다녔지."
+    },
+    {
+      "start": 23.0,
+      "end": 36.0,
+      "text": "Can we please take a taxi tomorrow? 내일은 제발 택시 타면 안 돼?"
+    },
+    {
+      "start": 36.0,
+      "end": 50.0,
+      "text": "Let's just get around by subway. 그냥 지하철 타고 다니자."
+    },
+    {
+      "start": 50.0,
+      "end": 57.0,
+      "text": "We'll see you next time. 다음 시간에 만나요."
+    }
+  ],
+  "episode_num": 2822,
+  "category": "여행",
+  "subtitle": "걷는 여행은 너무 고문이야",
+  "date": "2026.10.09",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2822_여행_걷는_여행은_너무_고문이야_20261009.mp3"
+}
