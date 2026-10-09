@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261008_090000_9dcd8136_mp3.mp3",
+  "script": [
+    {
+      "start": 0.96,
+      "end": 4.04,
+      "text": "How could you go and see a movie without me? 어떻게 나만 빼고 영화를 보러 갈 수 있어?"
+    },
+    {
+      "start": 12.8,
+      "end": 15.62,
+      "text": "Why not? You said you were busy. 왜 안 돼? 네가 바쁘다고 했잖아."
+    },
+    {
+      "start": 26.36,
+      "end": 28.26,
+      "text": "You could have asked me again. 그래도 한 번 더 물어볼 순 있었잖아."
+    },
+    {
+      "start": 35.38,
+      "end": 38.44,
+      "text": "Fine. Next time, I'll drag you along. 알았어. 다음엔 억지로라도 끌고 갈게."
+    }
+  ],
+  "episode_num": 2821,
+  "category": "관계",
+  "subtitle": "나 없이 영화를 보러 가다니",
+  "date": "2026.10.08",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2821_관계_나_없이_영화를_보러_가다니_20261008.mp3"
+}
