@@ -1,0 +1,45 @@
+{
+  "audio": "extracted_20261013_090000_08a2b6f4_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 3.64,
+      "text": "Can you guess mine, then? 그럼 내 것도 맞춰볼래?"
+    },
+    {
+      "start": 4.2,
+      "end": 6.82,
+      "text": "I bet you're a textbook J. 넌 완전 전형적인 J야."
+    },
+    {
+      "start": 7.54,
+      "end": 10.44,
+      "text": "You never go anywhere without a plan. 계획 없이는 아무 데도 안 가잖아."
+    },
+    {
+      "start": 11.24,
+      "end": 14.12,
+      "text": "Well, I can't argue with that. 뭐, 그건 반박할 수가 없네."
+    },
+    {
+      "start": 33.7,
+      "end": 34.46,
+      "text": "That's true. 그건 그래."
+    },
+    {
+      "start": 34.76,
+      "end": 35.84,
+      "text": "Definitely a J. 확실히 J라니까."
+    },
+    {
+      "start": 35.84,
+      "end": 36.36,
+      "text": "Yeah. 응."
+    }
+  ],
+  "episode_num": 2824,
+  "category": "일상",
+  "subtitle": "내 MBTI를 맞혀버린 친구Ⅱ",
+  "date": "2026.10.13",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2824_일상_내_MBTI를_맞혀버린_친구Ⅱ_20261013.mp3"
+}
