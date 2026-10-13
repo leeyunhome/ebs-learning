@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261012_090000_be8b40e0_mp3.mp3",
+  "script": [
+    {
+      "start": 1.0,
+      "end": 8.0,
+      "text": "Everyone has these shoes but me. 나만 빼고 다 이 신발 있단 말이에요."
+    },
+    {
+      "start": 12.0,
+      "end": 21.0,
+      "text": "I bought you a new pair of shoes last week. 지난주에 새 신발 사줬잖아."
+    },
+    {
+      "start": 21.0,
+      "end": 34.0,
+      "text": "They're so last year, I don't want them. 그건 완전 유행 지났잖아요, 안 신을래요."
+    },
+    {
+      "start": 34.0,
+      "end": 45.84,
+      "text": "Money doesn't grow on trees, lady. 돈이 땅 파서 나오는 줄 아니, 이 아가씨야."
+    }
+  ],
+  "episode_num": 2823,
+  "category": "가정",
+  "subtitle": "새 신발을 사 달라고 조르는 딸",
+  "date": "2026.10.12",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2823_가정_새_신발을_사_달라고_조르는_딸_20261012.mp3"
+}
