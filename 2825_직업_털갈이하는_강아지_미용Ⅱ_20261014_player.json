@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20261014_090000_581d6a00_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "What time should I come back? 몇 시에 다시 올까요?"
+    },
+    {
+      "start": 8.0,
+      "end": 15.0,
+      "text": "I'll call you when he's done. 끝나면 전화드릴게요."
+    },
+    {
+      "start": 20.0,
+      "end": 28.0,
+      "text": "Can you call this number? It's my dad's. 이 번호로 전화해 주시겠어요? 저희 아빠 번호예요."
+    },
+    {
+      "start": 30.0,
+      "end": 36.0,
+      "text": "No problem. I'll give him a call. 문제없습니다. 아버님께 전화드릴게요."
+    },
+    {
+      "start": 45.0,
+      "end": 45.82,
+      "text": "Alright. 알겠습니다."
+    }
+  ],
+  "episode_num": 2825,
+  "category": "직업",
+  "subtitle": "털갈이하는 강아지 미용Ⅱ",
+  "date": "2026.10.14",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2825_직업_털갈이하는_강아지_미용Ⅱ_20261014.mp3"
+}
