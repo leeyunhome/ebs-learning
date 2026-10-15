@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261015_090000_cdd78d88_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "How do you know that guy? 저 사람 어떻게 알아?"
+    },
+    {
+      "start": 8.0,
+      "end": 15.0,
+      "text": "We went to the same elementary school. 우리 같은 초등학교 나왔어."
+    },
+    {
+      "start": 21.0,
+      "end": 28.0,
+      "text": "I think I've seen him around. 오다가다 본 것 같아."
+    },
+    {
+      "start": 28.0,
+      "end": 35.0,
+      "text": "I think you two will get along well. 너희 둘이 잘 맞을 것 같아."
+    }
+  ],
+  "episode_num": 2826,
+  "category": "관계",
+  "subtitle": "친구의 친구가 궁금해",
+  "date": "2026.10.15",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2826_관계_친구의_친구가_궁금해_20261015.mp3"
+}
