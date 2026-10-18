@@ -1,0 +1,20 @@
+{
+  "audio": "extracted_20261016_090000_e689cc80_mp3.mp3",
+  "script": [
+    {
+      "start": 30.0,
+      "end": 40.2,
+      "text": "It's too bad dad couldn't join us. 아빠가 같이 못 오셔서 너무 아쉽다."
+    },
+    {
+      "start": 40.2,
+      "end": 49.6,
+      "text": "I know, let's get him a nice souvenir. 그러게, 멋진 기념품이라도 하나 사다 드리자."
+    }
+  ],
+  "episode_num": 2827,
+  "category": "여행",
+  "subtitle": "엄마와 둘이 떠난 여행",
+  "date": "2026.10.16",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2827_여행_엄마와_둘이_떠난_여행_20261016.mp3"
+}
