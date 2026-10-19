@@ -1,0 +1,20 @@
+{
+  "audio": "extracted_20261019_090000_a0e0e9f6_mp3.mp3",
+  "script": [
+    {
+      "start": 30.0,
+      "end": 41.0,
+      "text": "I'm impressed. It's not perfect, but it looks great. 정말 대단한걸. 완벽하진 않지만 아주 훌륭해."
+    },
+    {
+      "start": 45.0,
+      "end": 54.0,
+      "text": "Thanks Dad, I tried to use idioms. 고마워요 아빠, 관용구를 써보려고 노력했어요."
+    }
+  ],
+  "episode_num": 2828,
+  "category": "가정",
+  "subtitle": "내가 쓴 영어 시에 감동한 아빠",
+  "date": "2026.10.19",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2828_가정_내가_쓴_영어_시에_감동한_아빠_20261019.mp3"
+}
