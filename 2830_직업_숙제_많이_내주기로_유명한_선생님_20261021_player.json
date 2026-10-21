@@ -1,0 +1,40 @@
+{
+  "audio": "extracted_20261021_090000_9744b0ea_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.6,
+      "text": "I hate it when he gives us too much homework. 선생님이 숙제 너무 많이 내주시는 거 진짜 싫어."
+    },
+    {
+      "start": 13.76,
+      "end": 18.92,
+      "text": "There's no way we can finish it today. 오늘 안에 다 끝내는 건 절대 무리야."
+    },
+    {
+      "start": 24.24,
+      "end": 34.08,
+      "text": "Gosh, we're in big trouble. 어휴, 우리 큰일 났다."
+    },
+    {
+      "start": 34.08,
+      "end": 40.32,
+      "text": "Let me ask my mum. 내가 엄마한테 물어볼게."
+    },
+    {
+      "start": 40.32,
+      "end": 47.6,
+      "text": "Maybe she can help. 어쩌면 도와주실지도 몰라."
+    },
+    {
+      "start": 55.6,
+      "end": 55.14,
+      "text": "I love you. 사랑해."
+    }
+  ],
+  "episode_num": 2830,
+  "category": "직업",
+  "subtitle": "숙제 많이 내주기로 유명한 선생님",
+  "date": "2026.10.21",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2830_직업_숙제_많이_내주기로_유명한_선생님_20261021.mp3"
+}
