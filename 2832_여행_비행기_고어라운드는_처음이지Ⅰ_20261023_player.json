@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261023_090000_14a33b51_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Why is the plane going up again? 비행기가 왜 다시 올라가는 거죠?"
+    },
+    {
+      "start": 10.0,
+      "end": 19.0,
+      "text": "I think it's because of the strong winds. 강풍 때문인 것 같아요."
+    },
+    {
+      "start": 24.0,
+      "end": 29.0,
+      "text": "It's called a go-around. Don't worry. 이걸 고어라운드라고 해요. 걱정하지 마세요."
+    },
+    {
+      "start": 29.0,
+      "end": 44.0,
+      "text": "This is scarier than turbulence. 난기류보다 이게 더 무섭네요."
+    }
+  ],
+  "episode_num": 2832,
+  "category": "여행",
+  "subtitle": "비행기 고어라운드는 처음이지Ⅰ",
+  "date": "2026.10.23",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2832_여행_비행기_고어라운드는_처음이지Ⅰ_20261023.mp3"
+}
