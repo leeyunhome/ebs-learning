@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261022_090000_2d87b56c_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.0,
+      "text": "Mayer's family is moving to Paris in November. 마이어네 가족이 11월에 파리로 이사 간대요."
+    },
+    {
+      "start": 14.0,
+      "end": 25.0,
+      "text": "I know. Let's invite them over for dinner soon. 알아요. 조만간 저녁 식사에 초대해요."
+    },
+    {
+      "start": 30.0,
+      "end": 37.0,
+      "text": "That sounds like a good idea. 좋은 생각이네요."
+    },
+    {
+      "start": 39.0,
+      "end": 44.0,
+      "text": "Let's go and buy a gift for them too. 가서 선물도 같이 사요."
+    }
+  ],
+  "episode_num": 2831,
+  "category": "관계",
+  "subtitle": "이민을 가는 이웃 가족",
+  "date": "2026.10.22",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2831_관계_이민을_가는_이웃_가족_20261022.mp3"
+}
