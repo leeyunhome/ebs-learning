@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261026_090000_385ee63f_mp3.mp3",
+  "script": [
+    {
+      "start": 2.0,
+      "end": 6.0,
+      "text": "Look at these pimples on my face, dad. 아빠, 제 얼굴에 난 이 여드름 좀 보세요."
+    },
+    {
+      "start": 14.0,
+      "end": 18.0,
+      "text": "It's natural when you are a teenager. 십 대 때는 다 자연스러운 거란다."
+    },
+    {
+      "start": 22.0,
+      "end": 34.0,
+      "text": "My acne was worse when I was your age. 아빠는 네 나이 때 여드름이 더 심했어."
+    },
+    {
+      "start": 44.0,
+      "end": 48.0,
+      "text": "I'm tired of wearing a mask every day. 매일 마스크 쓰는 것도 정말 지겨워요."
+    }
+  ],
+  "episode_num": 2833,
+  "category": "가정",
+  "subtitle": "여드름으로 속상한 십 대 딸",
+  "date": "2026.10.26",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2833_가정_여드름으로_속상한_십_대_딸_20261026.mp3"
+}
