@@ -1,0 +1,50 @@
+{
+  "audio": "extracted_20261027_090000_f6b49a47_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 6.7,
+      "text": "Let's just eat somewhere else. 그냥 다른 데서 먹자."
+    },
+    {
+      "start": 7.8,
+      "end": 11.04,
+      "text": "No, we must try their signature pasta. 안 돼, 여기 시그니처 파스타는 꼭 먹어봐야 해."
+    },
+    {
+      "start": 12.9,
+      "end": 16.58,
+      "text": "It's just pasta. Let's not waste our time. 그냥 파스타잖아. 시간 낭비하지 말자."
+    },
+    {
+      "start": 17.76,
+      "end": 20.36,
+      "text": "There are only five groups ahead of us. 우리 앞에 다섯 팀밖에 없어."
+    },
+    {
+      "start": 42.92,
+      "end": 43.62,
+      "text": "Fine? 괜찮지?"
+    },
+    {
+      "start": 43.8,
+      "end": 44.82,
+      "text": "Wait, wa 잠깐, 잠"
+    },
+    {
+      "start": 44.88,
+      "end": 46.58,
+      "text": "It's going to take so long. 너무 오래 걸릴 거야."
+    },
+    {
+      "start": 47.08,
+      "end": 48.9,
+      "text": "Almost there, almost. 거의 다 왔어, 거의."
+    }
+  ],
+  "episode_num": 2834,
+  "category": "일상",
+  "subtitle": "줄을 서서 먹는 맛집",
+  "date": "2026.10.27",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2834_일상_줄을_서서_먹는_맛집_20261027.mp3"
+}
