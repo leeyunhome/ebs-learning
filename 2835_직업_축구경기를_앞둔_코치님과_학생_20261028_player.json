@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261028_090000_cfe9ea2d_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 9.0,
+      "text": "Tomorrow is a big day. I'm counting on you. 내일은 중요한 날이에요. 믿을게요."
+    },
+    {
+      "start": 13.0,
+      "end": 20.0,
+      "text": "To be honest, I'm a bit nervous. 솔직히 좀 긴장되네요."
+    },
+    {
+      "start": 26.0,
+      "end": 29.0,
+      "text": "You'll be fine. Believe in yourself. 잘할 거예요. 자신을 믿으세요."
+    },
+    {
+      "start": 36.0,
+      "end": 39.0,
+      "text": "I'll do my best to make you proud. 자랑스러워하실 수 있게 최선을 다할게요."
+    }
+  ],
+  "episode_num": 2835,
+  "category": "직업",
+  "subtitle": "축구경기를 앞둔 코치님과 학생",
+  "date": "2026.10.28",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2835_직업_축구경기를_앞둔_코치님과_학생_20261028.mp3"
+}
