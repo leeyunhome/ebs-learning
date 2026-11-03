@@ -1,0 +1,40 @@
+{
+  "audio": "extracted_20261103_090000_a2225cb2_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 9.0,
+      "text": "Mom, I think I forgot my charger at home. 엄마, 집에 충전기 두고 온 것 같아요."
+    },
+    {
+      "start": 13.0,
+      "end": 21.0,
+      "text": "Yeah, I see it on your desk. 응, 네 책상 위에 있네."
+    },
+    {
+      "start": 21.0,
+      "end": 33.0,
+      "text": "Can you bring it to me later? 이따가 좀 갖다주실 수 있어요?"
+    },
+    {
+      "start": 33.0,
+      "end": 44.0,
+      "text": "I will. You have to remind me, though. 그럴게. 근데 엄마한테 다시 알려줘야 해."
+    },
+    {
+      "start": 44.0,
+      "end": 44.08,
+      "text": "I'm going to do it on your desk. 엄마 책상에다 해둘게요."
+    },
+    {
+      "start": 54.0,
+      "end": 44.08,
+      "text": "I'm not going to do it. 안 할 거예요."
+    }
+  ],
+  "episode_num": 2839,
+  "category": "일상",
+  "subtitle": "집에 두고 온 물건 확인하기",
+  "date": "2026.11.03",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2839_일상_집에_두고_온_물건_확인하기_20261103.mp3"
+}
