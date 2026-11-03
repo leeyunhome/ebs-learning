@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261102_090000_fc5f2509_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 11.7,
+      "text": "I miss grandpa, I wish he were here. 할아버지가 보고 싶어요, 여기 계시면 좋을 텐데."
+    },
+    {
+      "start": 11.7,
+      "end": 16.26,
+      "text": "He loved you with all his heart. 할아버지는 널 진심으로 사랑하셨어."
+    },
+    {
+      "start": 25.28,
+      "end": 42.1,
+      "text": "Don't be so sad, he's still watching over you. 너무 슬퍼하지 마, 지금도 널 지켜보고 계실 거야."
+    },
+    {
+      "start": 42.1,
+      "end": 48.72,
+      "text": "I'll write about him in my diary tonight. 오늘 밤엔 일기장에 할아버지 이야기를 쓸 거예요."
+    }
+  ],
+  "episode_num": 2838,
+  "category": "가정",
+  "subtitle": "갑자기 그리운 나의 할아버지",
+  "date": "2026.11.02",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2838_가정_갑자기_그리운_나의_할아버지_20261102.mp3"
+}
