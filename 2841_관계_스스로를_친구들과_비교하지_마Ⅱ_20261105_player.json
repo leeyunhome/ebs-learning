@@ -1,0 +1,25 @@
+{
+  "audio": "extracted_20261105_090000_71c6ff60_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.0,
+      "text": "Do you really think so? Like what? 정말 그렇게 생각해요? 예를 들면 어떤 거요?"
+    },
+    {
+      "start": 10.0,
+      "end": 26.0,
+      "text": "For example, you are a great singer. 예를 들면, 노래를 정말 잘하시잖아요."
+    },
+    {
+      "start": 26.0,
+      "end": 35.4,
+      "text": "Plus, you're a great listener. 게다가, 다른 사람 이야기도 참 잘 들어주시고요."
+    }
+  ],
+  "episode_num": 2841,
+  "category": "관계",
+  "subtitle": "스스로를 친구들과 비교하지 마Ⅱ",
+  "date": "2026.11.05",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2841_관계_스스로를_친구들과_비교하지_마Ⅱ_20261105.mp3"
+}
