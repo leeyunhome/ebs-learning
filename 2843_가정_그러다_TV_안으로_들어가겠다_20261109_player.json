@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20261109_090000_3917eed9_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 4.5,
+      "text": ",  . TV   .  . ,  . TV   .  ."
+    },
+    {
+      "start": 5.12,
+      "end": 8.22,
+      "text": "Don't sit too close to the TV. Scoot back. TV에 너무 가까이 앉지 마. 뒤로 좀 물러나."
+    },
+    {
+      "start": 12.86,
+      "end": 15.3,
+      "text": "You don't want to wear glasses, do you? 안경 쓰기 싫지, 그렇지?"
+    },
+    {
+      "start": 15.5,
+      "end": 19.98,
+      "text": "Right. ,      .   . 맞아. ,      .   ."
+    },
+    {
+      "start": 55.56,
+      "end": 62.32,
+      "text": "Fine. I'll watch it from the sofa. 알았어. 소파에서 볼게."
+    }
+  ],
+  "episode_num": 2843,
+  "category": "가정",
+  "subtitle": "그러다 TV 안으로 들어가겠다",
+  "date": "2026.11.09",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2843_가정_그러다_TV_안으로_들어가겠다_20261109.mp3"
+}
