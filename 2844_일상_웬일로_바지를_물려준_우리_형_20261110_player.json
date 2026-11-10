@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261110_090000_88de808b_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 8.0,
+      "text": "Nice pants! Where did you get them? 바지 멋지네요! 어디서 났어요?"
+    },
+    {
+      "start": 10.0,
+      "end": 21.0,
+      "text": "My brother gave them to me. They used to be his. 형이 줬어요. 원래 형이 입던 거예요."
+    },
+    {
+      "start": 26.0,
+      "end": 29.0,
+      "text": "He has a great sense of fashion. 패션 감각이 정말 좋으시네요."
+    },
+    {
+      "start": 36.0,
+      "end": 40.0,
+      "text": "Unfortunately, they have holes in both pockets. 안타깝게도 양쪽 주머니에 다 구멍이 났어요."
+    }
+  ],
+  "episode_num": 2844,
+  "category": "일상",
+  "subtitle": "웬일로 바지를 물려준 우리 형",
+  "date": "2026.11.10",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2844_일상_웬일로_바지를_물려준_우리_형_20261110.mp3"
+}
