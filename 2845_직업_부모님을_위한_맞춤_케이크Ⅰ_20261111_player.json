@@ -1,0 +1,25 @@
+{
+  "audio": "extracted_20261111_090000_847e7794_mp3.mp3",
+  "script": [
+    {
+      "start": 31.0,
+      "end": 33.0,
+      "text": "Happy Anniversary, Mom and Dad! 엄마 아빠, 결혼기념일 축하드려요!"
+    },
+    {
+      "start": 37.0,
+      "end": 40.0,
+      "text": "It must be your parents' anniversary. 부모님 결혼기념일인가 봐요."
+    },
+    {
+      "start": 40.0,
+      "end": 41.0,
+      "text": "Huh? 네?"
+    }
+  ],
+  "episode_num": 2845,
+  "category": "직업",
+  "subtitle": "부모님을 위한 맞춤 케이크Ⅰ",
+  "date": "2026.11.11",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2845_직업_부모님을_위한_맞춤_케이크Ⅰ_20261111.mp3"
+}
