@@ -1,0 +1,25 @@
+{
+  "audio": "extracted_20261112_090000_54da1226_mp3.mp3",
+  "script": [
+    {
+      "start": 1.0,
+      "end": 3.0,
+      "text": "Your sister's birthday is coming up. 네 여동생 생일이 다가오고 있어."
+    },
+    {
+      "start": 10.0,
+      "end": 13.0,
+      "text": "I'm thinking of throwing a party for her. 파티를 열어줄까 생각 중이야."
+    },
+    {
+      "start": 19.0,
+      "end": 28.74,
+      "text": "The thing is, she catches on quickly. 문제는 걔가 눈치가 빠르다는 거야."
+    }
+  ],
+  "episode_num": 2846,
+  "category": "관계",
+  "subtitle": "언니의 생일이 다가온다",
+  "date": "2026.11.12",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2846_관계_언니의_생일이_다가온다_20261112.mp3"
+}
