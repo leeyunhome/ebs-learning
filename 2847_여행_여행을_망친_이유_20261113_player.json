@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261113_090000_104461b1_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 9.0,
+      "text": "I heard you went to the ER during your trip. 여행 중에 응급실 갔었다며."
+    },
+    {
+      "start": 9.0,
+      "end": 25.0,
+      "text": "Yeah, I fell and cracked one of my ribs. 응, 넘어져서 갈비뼈에 금이 갔어."
+    },
+    {
+      "start": 25.0,
+      "end": 36.0,
+      "text": "Ouch, that sounds serious. 저런, 꽤 심각한 거 같은데."
+    },
+    {
+      "start": 36.0,
+      "end": 46.0,
+      "text": "I was lucky it wasn't worse. 그나마 더 안 다친 게 다행이야."
+    }
+  ],
+  "episode_num": 2847,
+  "category": "여행",
+  "subtitle": "여행을 망친 이유",
+  "date": "2026.11.13",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2847_여행_여행을_망친_이유_20261113.mp3"
+}
