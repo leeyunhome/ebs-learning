@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261116_090000_9742c2ab_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 5.0,
+      "text": "Mom, were you a popular girl in middle school? 엄마, 중학교 때 인기 많았어요?"
+    },
+    {
+      "start": 13.0,
+      "end": 17.0,
+      "text": "Well, I did have lots of friends. 글쎄, 친구가 많긴 했지."
+    },
+    {
+      "start": 22.0,
+      "end": 32.0,
+      "text": "In fact, I was the class clown. 사실 내가 반에서 분위기 메이커였거든."
+    },
+    {
+      "start": 41.0,
+      "end": 44.0,
+      "text": "No wonder Dad fell for you. 어쩐지 아빠가 엄마한테 반했네요."
+    }
+  ],
+  "episode_num": 2848,
+  "category": "가정",
+  "subtitle": "튀는 중학생이었던 엄마",
+  "date": "2026.11.16",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2848_가정_튀는_중학생이었던_엄마_20261116.mp3"
+}
