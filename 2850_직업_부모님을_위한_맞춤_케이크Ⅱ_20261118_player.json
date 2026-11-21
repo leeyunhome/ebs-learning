@@ -1,0 +1,25 @@
+{
+  "audio": "extracted_20261118_090000_8b82f873_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 8.0,
+      "text": "Please draw a big heart in the middle too. 가운데에 큰 하트도 하나 그려주세요."
+    },
+    {
+      "start": 12.0,
+      "end": 21.0,
+      "text": "Sure, how many candles would you like? 네, 초는 몇 개 드릴까요?"
+    },
+    {
+      "start": 21.0,
+      "end": 32.0,
+      "text": "One big candle and six small ones please. 큰 초 하나랑 작은 초 여섯 개 주세요."
+    }
+  ],
+  "episode_num": 2850,
+  "category": "직업",
+  "subtitle": "부모님을 위한 맞춤 케이크Ⅱ",
+  "date": "2026.11.18",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2850_직업_부모님을_위한_맞춤_케이크Ⅱ_20261118.mp3"
+}
