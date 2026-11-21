@@ -1,0 +1,25 @@
+{
+  "audio": "extracted_20261117_090000_aaa20ad4_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.0,
+      "text": "Did you buy a ticket to Mayu's concert? 마유 콘서트 티켓 샀어?"
+    },
+    {
+      "start": 10.0,
+      "end": 24.0,
+      "text": "It was literally impossible. 말 그대로 불가능했어."
+    },
+    {
+      "start": 24.0,
+      "end": 38.0,
+      "text": "All the seats were gone before I knew it. 눈 깜짝할 사이에 자리가 다 나갔어."
+    }
+  ],
+  "episode_num": 2849,
+  "category": "일상",
+  "subtitle": "온라인 티켓 구매에 실패한 친구",
+  "date": "2026.11.17",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2849_일상_온라인_티켓_구매에_실패한_친구_20261117.mp3"
+}
