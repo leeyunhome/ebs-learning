@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261123_090000_200c4558_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 7.0,
+      "text": "Mom, the dog threw up this morning. 엄마, 오늘 아침에 강아지가 토했어요."
+    },
+    {
+      "start": 11.0,
+      "end": 17.0,
+      "text": "What did you give him? 뭘 준 거니?"
+    },
+    {
+      "start": 22.0,
+      "end": 29.0,
+      "text": "I just gave him leftover onion rings. 그냥 남은 어니언 링을 줬어요."
+    },
+    {
+      "start": 30.0,
+      "end": 37.0,
+      "text": "You can't feed dogs onions. 강아지한테 양파를 먹이면 안 돼."
+    }
+  ],
+  "episode_num": 2853,
+  "category": "가정",
+  "subtitle": "강아지에게 치명적일 수 있는 음식",
+  "date": "2026.11.23",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2853_가정_강아지에게_치명적일_수_있는_음식_20261123.mp3"
+}
