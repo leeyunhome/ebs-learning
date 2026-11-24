@@ -1,0 +1,35 @@
+{
+  "audio": "extracted_20261124_090000_43244aeb_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 10.0,
+      "text": "Can you get the door? It's probably the delivery guy. 문 좀 열어줄래? 배달 기사님인가 봐."
+    },
+    {
+      "start": 14.0,
+      "end": 19.0,
+      "text": "I just got out of the shower, mom. 엄마, 저 방금 씻고 나왔는데요."
+    },
+    {
+      "start": 24.0,
+      "end": 35.0,
+      "text": "Just throw something on and get it. 대충 아무거나 걸치고 나가봐."
+    },
+    {
+      "start": 39.0,
+      "end": 48.0,
+      "text": "Oh, you're in the bathroom too. 아, 엄마도 화장실에 계시구나."
+    },
+    {
+      "start": 48.0,
+      "end": 53.0,
+      "text": "All right. 알겠어요."
+    }
+  ],
+  "episode_num": 2854,
+  "category": "일상",
+  "subtitle": "화장실에 있는데 배달 기사님이 오셨다",
+  "date": "2026.11.24",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2854_일상_화장실에_있는데_배달_기사님이_오셨다_20261124.mp3"
+}
