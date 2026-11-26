@@ -1,0 +1,30 @@
+{
+  "audio": "extracted_20261126_090000_7499f6c9_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 12.0,
+      "text": "Oh, I love Korea. In fact, I love K-pop too. 오, 저 한국 정말 좋아해요. 사실 케이팝도 좋아하거든요."
+    },
+    {
+      "start": 16.0,
+      "end": 25.0,
+      "text": "Awesome! Have you ever been to Korea? 멋지네요! 한국에 가본 적 있어요?"
+    },
+    {
+      "start": 30.0,
+      "end": 35.0,
+      "text": "Not yet. It'll be a dream come true. 아직요. 가게 되면 정말 꿈만 같을 거예요."
+    },
+    {
+      "start": 42.0,
+      "end": 45.74,
+      "text": "Hey, do you want to hang out sometime? 저기, 언제 한번 같이 놀래요?"
+    }
+  ],
+  "episode_num": 2856,
+  "category": "관계",
+  "subtitle": "한국에서 이민 온 중학생Ⅱ",
+  "date": "2026.11.26",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2856_관계_한국에서_이민_온_중학생Ⅱ_20261126.mp3"
+}
