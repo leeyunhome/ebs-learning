@@ -1,0 +1,55 @@
+{
+  "audio": "extracted_20261127_090000_3c31a082_mp3.mp3",
+  "script": [
+    {
+      "start": 0,
+      "end": 9.0,
+      "text": "Oh no! Are you okay? Are you hurt? 아이고! 괜찮으세요? 다치셨어요?"
+    },
+    {
+      "start": 12.0,
+      "end": 21.0,
+      "text": "The side mirror just brushed my hand. 사이드미러에 손을 살짝 스쳤어요."
+    },
+    {
+      "start": 26.0,
+      "end": 29.0,
+      "text": "Do you need to go to the hospital? 병원에 가보셔야 하는 거 아니에요?"
+    },
+    {
+      "start": 35.0,
+      "end": 41.0,
+      "text": "I'm fine, but let me get your number just in case. 전 괜찮은데, 혹시 모르니까 전화번호 좀 알려주세요."
+    },
+    {
+      "start": 59.0,
+      "end": 60.0,
+      "text": "Just. 그냥."
+    },
+    {
+      "start": 60.0,
+      "end": 61.0,
+      "text": ", right? , 맞죠?"
+    },
+    {
+      "start": 67.0,
+      "end": 69.0,
+      "text": "Just do it. 그냥 해."
+    },
+    {
+      "start": 71.0,
+      "end": 73.0,
+      "text": "How about this? 이건 어때요?"
+    },
+    {
+      "start": 75.0,
+      "end": 79.0,
+      "text": "Just, I just want to go home. 그냥, 전 그냥 집에 가고 싶어요."
+    }
+  ],
+  "episode_num": 2857,
+  "category": "여행",
+  "subtitle": "여행 중 가볍게 부딪혔다면",
+  "date": "2026.11.27",
+  "mp3_url": "https://pub-ef5af61fc5564c098e8eef8a73ed3fac.r2.dev/2857_여행_여행_중_가볍게_부딪혔다면_20261127.mp3"
+}
